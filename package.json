@@ -1,0 +1,36 @@
+{
+  "name": "bright-union.distributors",
+  "version": "0.1.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.4.1",
+    "@openzeppelin/contracts-upgradeable": "^3.4.1",
+    "@openzeppelin/test-helpers": "^0.5.10",
+    "@openzeppelin/truffle-upgrades": "^1.5.0",
+    "@truffle/hdwallet-provider": "^1.2.2",
+    "bignumber.js": "^9.0.1",
+    "solc": "^0.7.4",
+    "truffle-flattener": "^1.5.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  },
+  "scripts": {
+    "test": "truffle test",
+    "deploy-kovan": "truffle deploy --network kovan --reset"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/bright-union/contracts.git"
+  },
+  "author": "Bright Union Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/bright-union/contracts/issues"
+  },
+  "homepage": "https://gitlab.com/bright-union/contracts#readme"
+}
