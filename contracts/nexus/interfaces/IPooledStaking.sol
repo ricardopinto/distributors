@@ -2,6 +2,8 @@ pragma solidity ^0.7.4;
 
 interface IPooledStaking {
 
+    event UnstakeRequested(address indexed contractAddress, address indexed staker, uint amount, uint unstakeAt);
+
     function contractStake(address contractAddress) external view returns (uint);
 
     function depositAndStake(uint amount, address[] calldata _contracts, uint[] calldata _stakes) external;
@@ -35,5 +37,9 @@ interface IPooledStaking {
     function withdrawReward(address stakerAddress) external;
 
     function stakerMaxWithdrawable(address stakerAddress) external view returns (uint);
+
+    function UNSTAKE_LOCK_TIME() external view returns (uint);
+
+    function MIN_STAKE() external view returns (uint);
 
 }
