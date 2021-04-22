@@ -1,0 +1,776 @@
+{
+  "contractName": "IPolicyQuote",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_epochsNumber",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_tokens",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "_policyBookAddr",
+          "type": "address"
+        }
+      ],
+      "name": "getQuoteEpochs",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_durationSeconds",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_tokens",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "_policyBookAddr",
+          "type": "address"
+        }
+      ],
+      "name": "getQuote",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "_daiTokens",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.7.4+commit.3f05b770\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_durationSeconds\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"_tokens\",\"type\":\"uint256\"},{\"internalType\":\"address\",\"name\":\"_policyBookAddr\",\"type\":\"address\"}],\"name\":\"getQuote\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"_daiTokens\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_epochsNumber\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"_tokens\",\"type\":\"uint256\"},{\"internalType\":\"address\",\"name\":\"_policyBookAddr\",\"type\":\"address\"}],\"name\":\"getQuoteEpochs\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{\"getQuote(uint256,uint256,address)\":{\"params\":{\"_durationSeconds\":\"is number of seconds to cover\",\"_policyBookAddr\":\"is address of policy book\",\"_tokens\":\"is number of tokens to cover\"},\"returns\":{\"_daiTokens\":\"is amount of DAI policy costs\"}}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"getQuote(uint256,uint256,address)\":{\"notice\":\"Let user to calculate policy cost in DAI, access: ANY\"},\"getQuoteEpochs(uint256,uint256,address)\":{\"notice\":\"Let user to calculate policy cost in DAI, access: ANY\"}},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/kirilivanov/DEV/BrightUnion/distributors/contracts/bridge/interfaces/IPolicyQuote.sol\":\"IPolicyQuote\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":10000},\"remappings\":[]},\"sources\":{\"/Users/kirilivanov/DEV/BrightUnion/distributors/contracts/bridge/interfaces/IPolicyQuote.sol\":{\"keccak256\":\"0xe6614b1316ea707e90e376ad2a8ca932a253c29eb99332253e902c6b1a082419\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://cb1a345c0015b78f2b5ef484db32b3b4704c738d02e15e493002c608e7cc5757\",\"dweb:/ipfs/QmcrtyJVLJiYUhKBb2obQitWw1VbgbSNKozPWc5mYZgxKg\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.7.4;\n\ninterface IPolicyQuote {\n  /// @notice Let user to calculate policy cost in DAI, access: ANY\n  function getQuoteEpochs(\n    uint256 _epochsNumber, \n    uint256 _tokens, \n    address _policyBookAddr\n    ) external view returns (uint256);\n\n  /// @notice Let user to calculate policy cost in DAI, access: ANY\n  /// @param _durationSeconds is number of seconds to cover\n  /// @param _tokens is number of tokens to cover\n  /// @param _policyBookAddr is address of policy book\n  /// @return _daiTokens is amount of DAI policy costs\n  function getQuote(\n    uint256 _durationSeconds,\n    uint256 _tokens,\n    address _policyBookAddr\n  ) external view returns (uint256 _daiTokens);\n}\n",
+  "sourcePath": "/Users/kirilivanov/DEV/BrightUnion/distributors/contracts/bridge/interfaces/IPolicyQuote.sol",
+  "ast": {
+    "absolutePath": "/Users/kirilivanov/DEV/BrightUnion/distributors/contracts/bridge/interfaces/IPolicyQuote.sol",
+    "exportedSymbols": {
+      "IPolicyQuote": [
+        540
+      ]
+    },
+    "id": 541,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 515,
+        "literals": [
+          "solidity",
+          "^",
+          "0.7",
+          ".4"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:23:4"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 540,
+        "linearizedBaseContracts": [
+          540
+        ],
+        "name": "IPolicyQuote",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "documentation": {
+              "id": 516,
+              "nodeType": "StructuredDocumentation",
+              "src": "84:65:4",
+              "text": "@notice Let user to calculate policy cost in DAI, access: ANY"
+            },
+            "functionSelector": "64999ac1",
+            "id": 527,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getQuoteEpochs",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 523,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 518,
+                  "mutability": "mutable",
+                  "name": "_epochsNumber",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 527,
+                  "src": "181:21:4",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 517,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "181:7:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 520,
+                  "mutability": "mutable",
+                  "name": "_tokens",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 527,
+                  "src": "209:15:4",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 519,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "209:7:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 522,
+                  "mutability": "mutable",
+                  "name": "_policyBookAddr",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 527,
+                  "src": "231:23:4",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 521,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "231:7:4",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "175:85:4"
+            },
+            "returnParameters": {
+              "id": 526,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 525,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 527,
+                  "src": "284:7:4",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 524,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "284:7:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "283:9:4"
+            },
+            "scope": 540,
+            "src": "152:141:4",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "documentation": {
+              "id": 528,
+              "nodeType": "StructuredDocumentation",
+              "src": "297:285:4",
+              "text": "@notice Let user to calculate policy cost in DAI, access: ANY\n @param _durationSeconds is number of seconds to cover\n @param _tokens is number of tokens to cover\n @param _policyBookAddr is address of policy book\n @return _daiTokens is amount of DAI policy costs"
+            },
+            "functionSelector": "68a9f541",
+            "id": 539,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getQuote",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 535,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 530,
+                  "mutability": "mutable",
+                  "name": "_durationSeconds",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 539,
+                  "src": "608:24:4",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 529,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "608:7:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 532,
+                  "mutability": "mutable",
+                  "name": "_tokens",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 539,
+                  "src": "638:15:4",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 531,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "638:7:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 534,
+                  "mutability": "mutable",
+                  "name": "_policyBookAddr",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 539,
+                  "src": "659:23:4",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 533,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "659:7:4",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "602:84:4"
+            },
+            "returnParameters": {
+              "id": 538,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 537,
+                  "mutability": "mutable",
+                  "name": "_daiTokens",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 539,
+                  "src": "710:18:4",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 536,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "710:7:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "709:20:4"
+            },
+            "scope": 540,
+            "src": "585:145:4",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 541,
+        "src": "57:675:4"
+      }
+    ],
+    "src": "32:701:4"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "/Users/kirilivanov/DEV/BrightUnion/distributors/contracts/bridge/interfaces/IPolicyQuote.sol",
+      "exportedSymbols": {
+        "IPolicyQuote": [
+          540
+        ]
+      },
+      "license": "MIT"
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.7",
+            ".4"
+          ]
+        },
+        "id": 515,
+        "name": "PragmaDirective",
+        "src": "32:23:4"
+      },
+      {
+        "attributes": {
+          "abstract": false,
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "interface",
+          "fullyImplemented": false,
+          "linearizedBaseContracts": [
+            540
+          ],
+          "name": "IPolicyQuote",
+          "scope": 541
+        },
+        "children": [
+          {
+            "attributes": {
+              "functionSelector": "64999ac1",
+              "implemented": false,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "getQuoteEpochs",
+              "scope": 540,
+              "stateMutability": "view",
+              "virtual": false,
+              "visibility": "external"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "text": "@notice Let user to calculate policy cost in DAI, access: ANY"
+                },
+                "id": 516,
+                "name": "StructuredDocumentation",
+                "src": "84:65:4"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "mutability": "mutable",
+                      "name": "_epochsNumber",
+                      "scope": 527,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint256",
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint256",
+                          "type": "uint256"
+                        },
+                        "id": 517,
+                        "name": "ElementaryTypeName",
+                        "src": "181:7:4"
+                      }
+                    ],
+                    "id": 518,
+                    "name": "VariableDeclaration",
+                    "src": "181:21:4"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "mutability": "mutable",
+                      "name": "_tokens",
+                      "scope": 527,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint256",
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint256",
+                          "type": "uint256"
+                        },
+                        "id": 519,
+                        "name": "ElementaryTypeName",
+                        "src": "209:7:4"
+                      }
+                    ],
+                    "id": 520,
+                    "name": "VariableDeclaration",
+                    "src": "209:15:4"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "mutability": "mutable",
+                      "name": "_policyBookAddr",
+                      "scope": 527,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "address",
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "address",
+                          "stateMutability": "nonpayable",
+                          "type": "address"
+                        },
+                        "id": 521,
+                        "name": "ElementaryTypeName",
+                        "src": "231:7:4"
+                      }
+                    ],
+                    "id": 522,
+                    "name": "VariableDeclaration",
+                    "src": "231:23:4"
+                  }
+                ],
+                "id": 523,
+                "name": "ParameterList",
+                "src": "175:85:4"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "mutability": "mutable",
+                      "name": "",
+                      "scope": 527,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint256",
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint256",
+                          "type": "uint256"
+                        },
+                        "id": 524,
+                        "name": "ElementaryTypeName",
+                        "src": "284:7:4"
+                      }
+                    ],
+                    "id": 525,
+                    "name": "VariableDeclaration",
+                    "src": "284:7:4"
+                  }
+                ],
+                "id": 526,
+                "name": "ParameterList",
+                "src": "283:9:4"
+              }
+            ],
+            "id": 527,
+            "name": "FunctionDefinition",
+            "src": "152:141:4"
+          },
+          {
+            "attributes": {
+              "functionSelector": "68a9f541",
+              "implemented": false,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "getQuote",
+              "scope": 540,
+              "stateMutability": "view",
+              "virtual": false,
+              "visibility": "external"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "text": "@notice Let user to calculate policy cost in DAI, access: ANY\n @param _durationSeconds is number of seconds to cover\n @param _tokens is number of tokens to cover\n @param _policyBookAddr is address of policy book\n @return _daiTokens is amount of DAI policy costs"
+                },
+                "id": 528,
+                "name": "StructuredDocumentation",
+                "src": "297:285:4"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "mutability": "mutable",
+                      "name": "_durationSeconds",
+                      "scope": 539,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint256",
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint256",
+                          "type": "uint256"
+                        },
+                        "id": 529,
+                        "name": "ElementaryTypeName",
+                        "src": "608:7:4"
+                      }
+                    ],
+                    "id": 530,
+                    "name": "VariableDeclaration",
+                    "src": "608:24:4"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "mutability": "mutable",
+                      "name": "_tokens",
+                      "scope": 539,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint256",
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint256",
+                          "type": "uint256"
+                        },
+                        "id": 531,
+                        "name": "ElementaryTypeName",
+                        "src": "638:7:4"
+                      }
+                    ],
+                    "id": 532,
+                    "name": "VariableDeclaration",
+                    "src": "638:15:4"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "mutability": "mutable",
+                      "name": "_policyBookAddr",
+                      "scope": 539,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "address",
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "address",
+                          "stateMutability": "nonpayable",
+                          "type": "address"
+                        },
+                        "id": 533,
+                        "name": "ElementaryTypeName",
+                        "src": "659:7:4"
+                      }
+                    ],
+                    "id": 534,
+                    "name": "VariableDeclaration",
+                    "src": "659:23:4"
+                  }
+                ],
+                "id": 535,
+                "name": "ParameterList",
+                "src": "602:84:4"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "mutability": "mutable",
+                      "name": "_daiTokens",
+                      "scope": 539,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint256",
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint256",
+                          "type": "uint256"
+                        },
+                        "id": 536,
+                        "name": "ElementaryTypeName",
+                        "src": "710:7:4"
+                      }
+                    ],
+                    "id": 537,
+                    "name": "VariableDeclaration",
+                    "src": "710:18:4"
+                  }
+                ],
+                "id": 538,
+                "name": "ParameterList",
+                "src": "709:20:4"
+              }
+            ],
+            "id": 539,
+            "name": "FunctionDefinition",
+            "src": "585:145:4"
+          }
+        ],
+        "id": 540,
+        "name": "ContractDefinition",
+        "src": "57:675:4"
+      }
+    ],
+    "id": 541,
+    "name": "SourceUnit",
+    "src": "32:701:4"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.7.4+commit.3f05b770.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.3.4",
+  "updatedAt": "2021-04-22T13:31:41.917Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {
+      "getQuote(uint256,uint256,address)": {
+        "params": {
+          "_durationSeconds": "is number of seconds to cover",
+          "_policyBookAddr": "is address of policy book",
+          "_tokens": "is number of tokens to cover"
+        },
+        "returns": {
+          "_daiTokens": "is amount of DAI policy costs"
+        }
+      }
+    },
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {
+      "getQuote(uint256,uint256,address)": {
+        "notice": "Let user to calculate policy cost in DAI, access: ANY"
+      },
+      "getQuoteEpochs(uint256,uint256,address)": {
+        "notice": "Let user to calculate policy cost in DAI, access: ANY"
+      }
+    },
+    "version": 1
+  }
+}

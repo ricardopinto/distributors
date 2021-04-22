@@ -1,0 +1,595 @@
+{
+  "contractName": "IPolicyBookFabric",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_contract",
+          "type": "address"
+        },
+        {
+          "internalType": "enum IPolicyBookFabric.ContractType",
+          "name": "_contractType",
+          "type": "uint8"
+        },
+        {
+          "internalType": "string",
+          "name": "_description",
+          "type": "string"
+        },
+        {
+          "internalType": "string",
+          "name": "_projectSymbol",
+          "type": "string"
+        }
+      ],
+      "name": "create",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.7.4+commit.3f05b770\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_contract\",\"type\":\"address\"},{\"internalType\":\"enum IPolicyBookFabric.ContractType\",\"name\":\"_contractType\",\"type\":\"uint8\"},{\"internalType\":\"string\",\"name\":\"_description\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_projectSymbol\",\"type\":\"string\"}],\"name\":\"create\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{\"create(address,uint8,string,string)\":{\"params\":{\"_contract\":\"is Contract to create policy book for\",\"_contractType\":\"is Contract to create policy book for\",\"_description\":\"is bmiDAIx token desription for this policy book\",\"_projectSymbol\":\"replaces x in bmiDAIx token symbol  \"},\"returns\":{\"_0\":\"_policyBook is address of created contract\"}}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"create(address,uint8,string,string)\":{\"notice\":\"Create new Policy Book contract, access: ANY\"}},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/kirilivanov/DEV/BrightUnion/distributors/contracts/bridge/interfaces/IPolicyBookFabric.sol\":\"IPolicyBookFabric\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":10000},\"remappings\":[]},\"sources\":{\"/Users/kirilivanov/DEV/BrightUnion/distributors/contracts/bridge/interfaces/IPolicyBookFabric.sol\":{\"keccak256\":\"0x06f32717cdec1b94ab4854431dcd5bac88420b83f209944f3de2c389a0e33bbc\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://83933f3c51f3d8e6e46cc905385d31390447da2feeb5484be702e42d46fc2956\",\"dweb:/ipfs/QmPiMuKVdVtcdRzG6XwhX3zRo47WSut51yzSmmFxVnF27K\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.7.4;\n\ninterface IPolicyBookFabric {\n  enum ContractType {STABLECOIN, DEFI, CONTRACT, EXCHANGE}\n\n  /// @notice Create new Policy Book contract, access: ANY\n  /// @param _contract is Contract to create policy book for\n  /// @param _contractType is Contract to create policy book for\n  /// @param _description is bmiDAIx token desription for this policy book\n  /// @param _projectSymbol replaces x in bmiDAIx token symbol  \n  /// @return _policyBook is address of created contract\n  function create(\n    address _contract,\n    ContractType _contractType,\n    string calldata _description,\n    string calldata _projectSymbol\n  ) external returns (address);\n}\n",
+  "sourcePath": "/Users/kirilivanov/DEV/BrightUnion/distributors/contracts/bridge/interfaces/IPolicyBookFabric.sol",
+  "ast": {
+    "absolutePath": "/Users/kirilivanov/DEV/BrightUnion/distributors/contracts/bridge/interfaces/IPolicyBookFabric.sol",
+    "exportedSymbols": {
+      "IPolicyBookFabric": [
+        418
+      ]
+    },
+    "id": 419,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 398,
+        "literals": [
+          "solidity",
+          "^",
+          "0.7",
+          ".4"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:23:2"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 418,
+        "linearizedBaseContracts": [
+          418
+        ],
+        "name": "IPolicyBookFabric",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "IPolicyBookFabric.ContractType",
+            "id": 403,
+            "members": [
+              {
+                "id": 399,
+                "name": "STABLECOIN",
+                "nodeType": "EnumValue",
+                "src": "108:10:2"
+              },
+              {
+                "id": 400,
+                "name": "DEFI",
+                "nodeType": "EnumValue",
+                "src": "120:4:2"
+              },
+              {
+                "id": 401,
+                "name": "CONTRACT",
+                "nodeType": "EnumValue",
+                "src": "126:8:2"
+              },
+              {
+                "id": 402,
+                "name": "EXCHANGE",
+                "nodeType": "EnumValue",
+                "src": "136:8:2"
+              }
+            ],
+            "name": "ContractType",
+            "nodeType": "EnumDefinition",
+            "src": "89:56:2"
+          },
+          {
+            "documentation": {
+              "id": 404,
+              "nodeType": "StructuredDocumentation",
+              "src": "149:379:2",
+              "text": "@notice Create new Policy Book contract, access: ANY\n @param _contract is Contract to create policy book for\n @param _contractType is Contract to create policy book for\n @param _description is bmiDAIx token desription for this policy book\n @param _projectSymbol replaces x in bmiDAIx token symbol  \n @return _policyBook is address of created contract"
+            },
+            "functionSelector": "ade30a8a",
+            "id": 417,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "create",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 413,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 406,
+                  "mutability": "mutable",
+                  "name": "_contract",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 417,
+                  "src": "552:17:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 405,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "552:7:2",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 408,
+                  "mutability": "mutable",
+                  "name": "_contractType",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 417,
+                  "src": "575:26:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_enum$_ContractType_$403",
+                    "typeString": "enum IPolicyBookFabric.ContractType"
+                  },
+                  "typeName": {
+                    "id": 407,
+                    "name": "ContractType",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 403,
+                    "src": "575:12:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_enum$_ContractType_$403",
+                      "typeString": "enum IPolicyBookFabric.ContractType"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 410,
+                  "mutability": "mutable",
+                  "name": "_description",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 417,
+                  "src": "607:28:2",
+                  "stateVariable": false,
+                  "storageLocation": "calldata",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_calldata_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 409,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "607:6:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 412,
+                  "mutability": "mutable",
+                  "name": "_projectSymbol",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 417,
+                  "src": "641:30:2",
+                  "stateVariable": false,
+                  "storageLocation": "calldata",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_calldata_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 411,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "641:6:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "546:129:2"
+            },
+            "returnParameters": {
+              "id": 416,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 415,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 417,
+                  "src": "694:7:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 414,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "694:7:2",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "693:9:2"
+            },
+            "scope": 418,
+            "src": "531:172:2",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 419,
+        "src": "57:648:2"
+      }
+    ],
+    "src": "32:674:2"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "/Users/kirilivanov/DEV/BrightUnion/distributors/contracts/bridge/interfaces/IPolicyBookFabric.sol",
+      "exportedSymbols": {
+        "IPolicyBookFabric": [
+          418
+        ]
+      },
+      "license": "MIT"
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.7",
+            ".4"
+          ]
+        },
+        "id": 398,
+        "name": "PragmaDirective",
+        "src": "32:23:2"
+      },
+      {
+        "attributes": {
+          "abstract": false,
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "interface",
+          "fullyImplemented": false,
+          "linearizedBaseContracts": [
+            418
+          ],
+          "name": "IPolicyBookFabric",
+          "scope": 419
+        },
+        "children": [
+          {
+            "attributes": {
+              "canonicalName": "IPolicyBookFabric.ContractType",
+              "name": "ContractType"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "STABLECOIN"
+                },
+                "id": 399,
+                "name": "EnumValue",
+                "src": "108:10:2"
+              },
+              {
+                "attributes": {
+                  "name": "DEFI"
+                },
+                "id": 400,
+                "name": "EnumValue",
+                "src": "120:4:2"
+              },
+              {
+                "attributes": {
+                  "name": "CONTRACT"
+                },
+                "id": 401,
+                "name": "EnumValue",
+                "src": "126:8:2"
+              },
+              {
+                "attributes": {
+                  "name": "EXCHANGE"
+                },
+                "id": 402,
+                "name": "EnumValue",
+                "src": "136:8:2"
+              }
+            ],
+            "id": 403,
+            "name": "EnumDefinition",
+            "src": "89:56:2"
+          },
+          {
+            "attributes": {
+              "functionSelector": "ade30a8a",
+              "implemented": false,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "create",
+              "scope": 418,
+              "stateMutability": "nonpayable",
+              "virtual": false,
+              "visibility": "external"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "text": "@notice Create new Policy Book contract, access: ANY\n @param _contract is Contract to create policy book for\n @param _contractType is Contract to create policy book for\n @param _description is bmiDAIx token desription for this policy book\n @param _projectSymbol replaces x in bmiDAIx token symbol  \n @return _policyBook is address of created contract"
+                },
+                "id": 404,
+                "name": "StructuredDocumentation",
+                "src": "149:379:2"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "mutability": "mutable",
+                      "name": "_contract",
+                      "scope": 417,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "address",
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "address",
+                          "stateMutability": "nonpayable",
+                          "type": "address"
+                        },
+                        "id": 405,
+                        "name": "ElementaryTypeName",
+                        "src": "552:7:2"
+                      }
+                    ],
+                    "id": 406,
+                    "name": "VariableDeclaration",
+                    "src": "552:17:2"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "mutability": "mutable",
+                      "name": "_contractType",
+                      "scope": 417,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "enum IPolicyBookFabric.ContractType",
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "ContractType",
+                          "referencedDeclaration": 403,
+                          "type": "enum IPolicyBookFabric.ContractType"
+                        },
+                        "id": 407,
+                        "name": "UserDefinedTypeName",
+                        "src": "575:12:2"
+                      }
+                    ],
+                    "id": 408,
+                    "name": "VariableDeclaration",
+                    "src": "575:26:2"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "mutability": "mutable",
+                      "name": "_description",
+                      "scope": 417,
+                      "stateVariable": false,
+                      "storageLocation": "calldata",
+                      "type": "string",
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "string",
+                          "type": "string"
+                        },
+                        "id": 409,
+                        "name": "ElementaryTypeName",
+                        "src": "607:6:2"
+                      }
+                    ],
+                    "id": 410,
+                    "name": "VariableDeclaration",
+                    "src": "607:28:2"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "mutability": "mutable",
+                      "name": "_projectSymbol",
+                      "scope": 417,
+                      "stateVariable": false,
+                      "storageLocation": "calldata",
+                      "type": "string",
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "string",
+                          "type": "string"
+                        },
+                        "id": 411,
+                        "name": "ElementaryTypeName",
+                        "src": "641:6:2"
+                      }
+                    ],
+                    "id": 412,
+                    "name": "VariableDeclaration",
+                    "src": "641:30:2"
+                  }
+                ],
+                "id": 413,
+                "name": "ParameterList",
+                "src": "546:129:2"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "mutability": "mutable",
+                      "name": "",
+                      "scope": 417,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "address",
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "address",
+                          "stateMutability": "nonpayable",
+                          "type": "address"
+                        },
+                        "id": 414,
+                        "name": "ElementaryTypeName",
+                        "src": "694:7:2"
+                      }
+                    ],
+                    "id": 415,
+                    "name": "VariableDeclaration",
+                    "src": "694:7:2"
+                  }
+                ],
+                "id": 416,
+                "name": "ParameterList",
+                "src": "693:9:2"
+              }
+            ],
+            "id": 417,
+            "name": "FunctionDefinition",
+            "src": "531:172:2"
+          }
+        ],
+        "id": 418,
+        "name": "ContractDefinition",
+        "src": "57:648:2"
+      }
+    ],
+    "id": 419,
+    "name": "SourceUnit",
+    "src": "32:674:2"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.7.4+commit.3f05b770.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.3.4",
+  "updatedAt": "2021-04-22T13:31:41.915Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {
+      "create(address,uint8,string,string)": {
+        "params": {
+          "_contract": "is Contract to create policy book for",
+          "_contractType": "is Contract to create policy book for",
+          "_description": "is bmiDAIx token desription for this policy book",
+          "_projectSymbol": "replaces x in bmiDAIx token symbol  "
+        },
+        "returns": {
+          "_0": "_policyBook is address of created contract"
+        }
+      }
+    },
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {
+      "create(address,uint8,string,string)": {
+        "notice": "Create new Policy Book contract, access: ANY"
+      }
+    },
+    "version": 1
+  }
+}
