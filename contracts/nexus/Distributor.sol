@@ -158,6 +158,7 @@ contract Distributor is ERC721, Ownable, ReentrancyGuard {
 
     // mint token using the coverId as a tokenId (guaranteed unique)
     _mint(msg.sender, coverId);
+    _setTokenURI(coverId, "https://app.brightunion.io/img/nfts/nexus/cover.png");
 
     emit CoverBought(coverId, msg.sender, contractAddress, feePercentage, coverPrice);
     return coverId;
