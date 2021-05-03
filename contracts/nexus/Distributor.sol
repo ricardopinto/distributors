@@ -30,6 +30,7 @@ contract Distributor is ERC721, Ownable, ReentrancyGuard {
   using SafeERC20 for IERC20;
 
   address public constant ETH = 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE;
+  string public constant DEFAULT_BASE_URI = "https://app.brightunion.io/img/nfts/nexus/cover.png";
 
   event ClaimPayoutRedeemed (
     uint indexed coverId,
@@ -87,6 +88,7 @@ contract Distributor is ERC721, Ownable, ReentrancyGuard {
   ERC721(tokenName, tokenSymbol)
   public
   {
+    _setBaseURI(DEFAULT_BASE_URI);
     feePercentage = _feePercentage;
     treasury = _treasury;
     cover = ICover(coverAddress);
@@ -160,7 +162,6 @@ contract Distributor is ERC721, Ownable, ReentrancyGuard {
 
     // mint token using the coverId as a tokenId (guaranteed unique)
     _mint(msg.sender, coverId);
-    _setTokenURI(coverId, "https://app.brightunion.io/img/nfts/nexus/cover.png");
 
     emit CoverBought(coverId, msg.sender, contractAddress, feePercentage, coverPrice);
     return coverId;
@@ -374,5 +375,14 @@ contract Distributor is ERC721, Ownable, ReentrancyGuard {
   * @dev required to be allow for receiving ETH claim payouts
   */
   receive () payable external {
+  }
+
+  /**
+  * @dev Function to set the base URI for all token IDs. It is
+  * automatically added as a prefix to the value returned in {tokenURI},
+  * or to the token ID if {tokenURI} is empty.
+  */
+  function setBaseURI(string memory baseURI_) public onlyOwner {
+      _setBaseURI(baseURI_);
   }
 }
