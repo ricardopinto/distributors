@@ -140,9 +140,7 @@ contract Distributor is ERC721, Ownable, ReentrancyGuard {
       buyCoverValue = coverPrice;
     } else {
       IERC20 token = IERC20(coverAsset);
-      // assumes 'msg.sender' has approved 'coverPriceWithFee' to this Contract
       token.safeTransferFrom(msg.sender, address(this), coverPriceWithFee);
-      // what if the token already has some approved amount?
       token.approve(address(cover), coverPrice);
     }
 
