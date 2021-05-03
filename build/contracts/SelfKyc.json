@@ -52,9 +52,9 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.7.4+commit.3f05b770\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"contract IMemberRoles\",\"name\":\"_memberRoles\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[{\"internalType\":\"address payable\",\"name\":\"member\",\"type\":\"address\"}],\"name\":\"approveKyc\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address payable\",\"name\":\"member\",\"type\":\"address\"}],\"name\":\"joinMutual\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"memberRoles\",\"outputs\":[{\"internalType\":\"contract IMemberRoles\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/ricardopinto/work/brightunion/distributors/contracts/nexus/utils/SelfKyc.sol\":\"SelfKyc\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":1},\"remappings\":[]},\"sources\":{\"/Users/ricardopinto/work/brightunion/distributors/contracts/nexus/interfaces/IMemberRoles.sol\":{\"keccak256\":\"0x73b2d2d719ccc2778320483758f092184594c8d2d092f8ab4cdb4d33beaf6654\",\"urls\":[\"bzz-raw://eff951fefc3f8df83c2932734300fec03f0517e5aaffa8cc04f24ebc2d0a98a1\",\"dweb:/ipfs/QmUAcvn7q42w7kjuFCDWAVchw7Yz46ZKuX8gx4uqtV1x2b\"]},\"/Users/ricardopinto/work/brightunion/distributors/contracts/nexus/utils/SelfKyc.sol\":{\"keccak256\":\"0xa084eedb7a98cc3a1ae052af15f9d1550fa342a53039d66938f6ce774671af39\",\"urls\":[\"bzz-raw://a6a4d6eebcb1bcb05c29d295425f848f0f0e6efb8721616edefbda445ec65c7d\",\"dweb:/ipfs/QmbxzZkuu84HQoh4KwwRhNNjcMgaFjSRCy2JXzUxdgwvvy\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b506040516102883803806102888339818101604052602081101561003357600080fd5b5051600080546001600160a01b039092166001600160a01b0319909216919091179055610223806100656000396000f3fe6080604052600436106100345760003560e01c80630bd92b3b14610039578063784cb3141461006a5780639a08722a14610092575b600080fd5b34801561004557600080fd5b5061004e6100b8565b604080516001600160a01b039092168252519081900360200190f35b6100906004803603602081101561008057600080fd5b50356001600160a01b03166100c7565b005b610090600480360360208110156100a857600080fd5b50356001600160a01b0316610134565b6000546001600160a01b031681565b6000805460408051636c5908a760e11b81526001600160a01b038581166004830152600160248301529151919092169263d8b2114e926044808201939182900301818387803b15801561011957600080fd5b505af115801561012d573d6000803e3d6000fd5b5050505050565b60008054604080516307569f3960e11b81526001600160a01b03858116600483015291519190921692630ead3e729234926024808301939282900301818588803b15801561018157600080fd5b505af1158015610195573d6000803e3d6000fd5b50506000805460408051636c5908a760e11b81526001600160a01b03888116600483015260016024830152915191909216955063d8b2114e945060448083019450909182900301818387803b15801561011957600080fdfea264697066735822122024afe7a37cea9a56cb2925b20c646446f452d13ab48769f094765cde3bea5cff64736f6c63430007040033",
-  "deployedBytecode": "0x6080604052600436106100345760003560e01c80630bd92b3b14610039578063784cb3141461006a5780639a08722a14610092575b600080fd5b34801561004557600080fd5b5061004e6100b8565b604080516001600160a01b039092168252519081900360200190f35b6100906004803603602081101561008057600080fd5b50356001600160a01b03166100c7565b005b610090600480360360208110156100a857600080fd5b50356001600160a01b0316610134565b6000546001600160a01b031681565b6000805460408051636c5908a760e11b81526001600160a01b038581166004830152600160248301529151919092169263d8b2114e926044808201939182900301818387803b15801561011957600080fd5b505af115801561012d573d6000803e3d6000fd5b5050505050565b60008054604080516307569f3960e11b81526001600160a01b03858116600483015291519190921692630ead3e729234926024808301939282900301818588803b15801561018157600080fd5b505af1158015610195573d6000803e3d6000fd5b50506000805460408051636c5908a760e11b81526001600160a01b03888116600483015260016024830152915191909216955063d8b2114e945060448083019450909182900301818387803b15801561011957600080fdfea264697066735822122024afe7a37cea9a56cb2925b20c646446f452d13ab48769f094765cde3bea5cff64736f6c63430007040033",
+  "metadata": "{\"compiler\":{\"version\":\"0.7.4+commit.3f05b770\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"contract IMemberRoles\",\"name\":\"_memberRoles\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[{\"internalType\":\"address payable\",\"name\":\"member\",\"type\":\"address\"}],\"name\":\"approveKyc\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address payable\",\"name\":\"member\",\"type\":\"address\"}],\"name\":\"joinMutual\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"memberRoles\",\"outputs\":[{\"internalType\":\"contract IMemberRoles\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/ricardopinto/work/brightunion/distributors/contracts/nexus/utils/SelfKyc.sol\":\"SelfKyc\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/ricardopinto/work/brightunion/distributors/contracts/nexus/interfaces/IMemberRoles.sol\":{\"keccak256\":\"0x73b2d2d719ccc2778320483758f092184594c8d2d092f8ab4cdb4d33beaf6654\",\"urls\":[\"bzz-raw://eff951fefc3f8df83c2932734300fec03f0517e5aaffa8cc04f24ebc2d0a98a1\",\"dweb:/ipfs/QmUAcvn7q42w7kjuFCDWAVchw7Yz46ZKuX8gx4uqtV1x2b\"]},\"/Users/ricardopinto/work/brightunion/distributors/contracts/nexus/utils/SelfKyc.sol\":{\"keccak256\":\"0xa084eedb7a98cc3a1ae052af15f9d1550fa342a53039d66938f6ce774671af39\",\"urls\":[\"bzz-raw://a6a4d6eebcb1bcb05c29d295425f848f0f0e6efb8721616edefbda445ec65c7d\",\"dweb:/ipfs/QmbxzZkuu84HQoh4KwwRhNNjcMgaFjSRCy2JXzUxdgwvvy\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b506040516102883803806102888339818101604052602081101561003357600080fd5b5051600080546001600160a01b039092166001600160a01b0319909216919091179055610223806100656000396000f3fe6080604052600436106100345760003560e01c80630bd92b3b14610039578063784cb3141461006a5780639a08722a14610092575b600080fd5b34801561004557600080fd5b5061004e6100b8565b604080516001600160a01b039092168252519081900360200190f35b6100906004803603602081101561008057600080fd5b50356001600160a01b03166100c7565b005b610090600480360360208110156100a857600080fd5b50356001600160a01b0316610134565b6000546001600160a01b031681565b6000805460408051636c5908a760e11b81526001600160a01b038581166004830152600160248301529151919092169263d8b2114e926044808201939182900301818387803b15801561011957600080fd5b505af115801561012d573d6000803e3d6000fd5b5050505050565b60008054604080516307569f3960e11b81526001600160a01b03858116600483015291519190921692630ead3e729234926024808301939282900301818588803b15801561018157600080fd5b505af1158015610195573d6000803e3d6000fd5b50506000805460408051636c5908a760e11b81526001600160a01b03888116600483015260016024830152915191909216955063d8b2114e945060448083019450909182900301818387803b15801561011957600080fdfea2646970667358221220120ca37db646fa2249d4a6b1ca585fd44e73b94e5e2c92ee9b61cf5591a6af2264736f6c63430007040033",
+  "deployedBytecode": "0x6080604052600436106100345760003560e01c80630bd92b3b14610039578063784cb3141461006a5780639a08722a14610092575b600080fd5b34801561004557600080fd5b5061004e6100b8565b604080516001600160a01b039092168252519081900360200190f35b6100906004803603602081101561008057600080fd5b50356001600160a01b03166100c7565b005b610090600480360360208110156100a857600080fd5b50356001600160a01b0316610134565b6000546001600160a01b031681565b6000805460408051636c5908a760e11b81526001600160a01b038581166004830152600160248301529151919092169263d8b2114e926044808201939182900301818387803b15801561011957600080fd5b505af115801561012d573d6000803e3d6000fd5b5050505050565b60008054604080516307569f3960e11b81526001600160a01b03858116600483015291519190921692630ead3e729234926024808301939282900301818588803b15801561018157600080fd5b505af1158015610195573d6000803e3d6000fd5b50506000805460408051636c5908a760e11b81526001600160a01b03888116600483015260016024830152915191909216955063d8b2114e945060448083019450909182900301818387803b15801561011957600080fdfea2646970667358221220120ca37db646fa2249d4a6b1ca585fd44e73b94e5e2c92ee9b61cf5591a6af2264736f6c63430007040033",
   "immutableReferences": {},
   "generatedSources": [],
   "deployedGeneratedSources": [],
@@ -66,17 +66,17 @@
     "absolutePath": "/Users/ricardopinto/work/brightunion/distributors/contracts/nexus/utils/SelfKyc.sol",
     "exportedSymbols": {
       "IMemberRoles": [
-        1861
+        1752
       ],
       "SelfKyc": [
-        2685
+        2576
       ]
     },
-    "id": 2686,
+    "id": 2577,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2636,
+        "id": 2527,
         "literals": [
           "solidity",
           "^",
@@ -89,10 +89,10 @@
       {
         "absolutePath": "/Users/ricardopinto/work/brightunion/distributors/contracts/nexus/interfaces/IMemberRoles.sol",
         "file": "../interfaces/IMemberRoles.sol",
-        "id": 2637,
+        "id": 2528,
         "nodeType": "ImportDirective",
-        "scope": 2686,
-        "sourceUnit": 1862,
+        "scope": 2577,
+        "sourceUnit": 1753,
         "src": "25:40:18",
         "symbolAliases": [],
         "unitAlias": ""
@@ -103,9 +103,9 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 2685,
+        "id": 2576,
         "linearizedBaseContracts": [
-          2685
+          2576
         ],
         "name": "SelfKyc",
         "nodeType": "ContractDefinition",
@@ -113,26 +113,26 @@
           {
             "constant": false,
             "functionSelector": "0bd92b3b",
-            "id": 2639,
+            "id": 2530,
             "mutability": "mutable",
             "name": "memberRoles",
             "nodeType": "VariableDeclaration",
-            "scope": 2685,
+            "scope": 2576,
             "src": "90:31:18",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_IMemberRoles_$1861",
+              "typeIdentifier": "t_contract$_IMemberRoles_$1752",
               "typeString": "contract IMemberRoles"
             },
             "typeName": {
-              "id": 2638,
+              "id": 2529,
               "name": "IMemberRoles",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1861,
+              "referencedDeclaration": 1752,
               "src": "90:12:18",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_IMemberRoles_$1861",
+                "typeIdentifier": "t_contract$_IMemberRoles_$1752",
                 "typeString": "contract IMemberRoles"
               }
             },
@@ -140,87 +140,87 @@
           },
           {
             "body": {
-              "id": 2648,
+              "id": 2539,
               "nodeType": "Block",
               "src": "174:43:18",
               "statements": [
                 {
                   "expression": {
-                    "id": 2646,
+                    "id": 2537,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 2644,
+                      "id": 2535,
                       "name": "memberRoles",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2639,
+                      "referencedDeclaration": 2530,
                       "src": "184:11:18",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_IMemberRoles_$1861",
+                        "typeIdentifier": "t_contract$_IMemberRoles_$1752",
                         "typeString": "contract IMemberRoles"
                       }
                     },
                     "nodeType": "Assignment",
                     "operator": "=",
                     "rightHandSide": {
-                      "id": 2645,
+                      "id": 2536,
                       "name": "_memberRoles",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2641,
+                      "referencedDeclaration": 2532,
                       "src": "198:12:18",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_IMemberRoles_$1861",
+                        "typeIdentifier": "t_contract$_IMemberRoles_$1752",
                         "typeString": "contract IMemberRoles"
                       }
                     },
                     "src": "184:26:18",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IMemberRoles_$1861",
+                      "typeIdentifier": "t_contract$_IMemberRoles_$1752",
                       "typeString": "contract IMemberRoles"
                     }
                   },
-                  "id": 2647,
+                  "id": 2538,
                   "nodeType": "ExpressionStatement",
                   "src": "184:26:18"
                 }
               ]
             },
-            "id": 2649,
+            "id": 2540,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2642,
+              "id": 2533,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2641,
+                  "id": 2532,
                   "mutability": "mutable",
                   "name": "_memberRoles",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2649,
+                  "scope": 2540,
                   "src": "140:25:18",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_IMemberRoles_$1861",
+                    "typeIdentifier": "t_contract$_IMemberRoles_$1752",
                     "typeString": "contract IMemberRoles"
                   },
                   "typeName": {
-                    "id": 2640,
+                    "id": 2531,
                     "name": "IMemberRoles",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 1861,
+                    "referencedDeclaration": 1752,
                     "src": "140:12:18",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IMemberRoles_$1861",
+                      "typeIdentifier": "t_contract$_IMemberRoles_$1752",
                       "typeString": "contract IMemberRoles"
                     }
                   },
@@ -230,12 +230,12 @@
               "src": "139:27:18"
             },
             "returnParameters": {
-              "id": 2643,
+              "id": 2534,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "174:0:18"
             },
-            "scope": 2685,
+            "scope": 2576,
             "src": "128:89:18",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -243,7 +243,7 @@
           },
           {
             "body": {
-              "id": 2670,
+              "id": 2561,
               "nodeType": "Block",
               "src": "284:115:18",
               "statements": [
@@ -251,11 +251,11 @@
                   "expression": {
                     "arguments": [
                       {
-                        "id": 2660,
+                        "id": 2551,
                         "name": "member",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2651,
+                        "referencedDeclaration": 2542,
                         "src": "339:6:18",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address_payable",
@@ -278,32 +278,32 @@
                           }
                         ],
                         "expression": {
-                          "id": 2654,
+                          "id": 2545,
                           "name": "memberRoles",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2639,
+                          "referencedDeclaration": 2530,
                           "src": "294:11:18",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_IMemberRoles_$1861",
+                            "typeIdentifier": "t_contract$_IMemberRoles_$1752",
                             "typeString": "contract IMemberRoles"
                           }
                         },
-                        "id": 2656,
+                        "id": 2547,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "payJoiningFee",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 1848,
+                        "referencedDeclaration": 1739,
                         "src": "294:25:18",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_payable$_t_address_$returns$__$",
                           "typeString": "function (address) payable external"
                         }
                       },
-                      "id": 2659,
+                      "id": 2550,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -315,7 +315,7 @@
                       "options": [
                         {
                           "expression": {
-                            "id": 2657,
+                            "id": 2548,
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
@@ -326,7 +326,7 @@
                               "typeString": "msg"
                             }
                           },
-                          "id": 2658,
+                          "id": 2549,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -346,7 +346,7 @@
                         "typeString": "function (address) payable external"
                       }
                     },
-                    "id": 2661,
+                    "id": 2552,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -361,7 +361,7 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2662,
+                  "id": 2553,
                   "nodeType": "ExpressionStatement",
                   "src": "294:52:18"
                 },
@@ -369,11 +369,11 @@
                   "expression": {
                     "arguments": [
                       {
-                        "id": 2666,
+                        "id": 2557,
                         "name": "member",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2651,
+                        "referencedDeclaration": 2542,
                         "src": "379:6:18",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address_payable",
@@ -382,7 +382,7 @@
                       },
                       {
                         "hexValue": "74727565",
-                        "id": 2667,
+                        "id": 2558,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -409,32 +409,32 @@
                         }
                       ],
                       "expression": {
-                        "id": 2663,
+                        "id": 2554,
                         "name": "memberRoles",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2639,
+                        "referencedDeclaration": 2530,
                         "src": "356:11:18",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_IMemberRoles_$1861",
+                          "typeIdentifier": "t_contract$_IMemberRoles_$1752",
                           "typeString": "contract IMemberRoles"
                         }
                       },
-                      "id": 2665,
+                      "id": 2556,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "kycVerdict",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1860,
+                      "referencedDeclaration": 1751,
                       "src": "356:22:18",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_payable_$_t_bool_$returns$__$",
                         "typeString": "function (address payable,bool) external"
                       }
                     },
-                    "id": 2668,
+                    "id": 2559,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -449,30 +449,30 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2669,
+                  "id": 2560,
                   "nodeType": "ExpressionStatement",
                   "src": "356:36:18"
                 }
               ]
             },
             "functionSelector": "9a08722a",
-            "id": 2671,
+            "id": 2562,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "joinMutual",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2652,
+              "id": 2543,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2651,
+                  "id": 2542,
                   "mutability": "mutable",
                   "name": "member",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2671,
+                  "scope": 2562,
                   "src": "243:22:18",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -481,7 +481,7 @@
                     "typeString": "address payable"
                   },
                   "typeName": {
-                    "id": 2650,
+                    "id": 2541,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "243:15:18",
@@ -497,12 +497,12 @@
               "src": "242:24:18"
             },
             "returnParameters": {
-              "id": 2653,
+              "id": 2544,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "284:0:18"
             },
-            "scope": 2685,
+            "scope": 2576,
             "src": "223:176:18",
             "stateMutability": "payable",
             "virtual": false,
@@ -510,7 +510,7 @@
           },
           {
             "body": {
-              "id": 2683,
+              "id": 2574,
               "nodeType": "Block",
               "src": "466:53:18",
               "statements": [
@@ -518,11 +518,11 @@
                   "expression": {
                     "arguments": [
                       {
-                        "id": 2679,
+                        "id": 2570,
                         "name": "member",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2673,
+                        "referencedDeclaration": 2564,
                         "src": "499:6:18",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address_payable",
@@ -531,7 +531,7 @@
                       },
                       {
                         "hexValue": "74727565",
-                        "id": 2680,
+                        "id": 2571,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -558,32 +558,32 @@
                         }
                       ],
                       "expression": {
-                        "id": 2676,
+                        "id": 2567,
                         "name": "memberRoles",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2639,
+                        "referencedDeclaration": 2530,
                         "src": "476:11:18",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_IMemberRoles_$1861",
+                          "typeIdentifier": "t_contract$_IMemberRoles_$1752",
                           "typeString": "contract IMemberRoles"
                         }
                       },
-                      "id": 2678,
+                      "id": 2569,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "kycVerdict",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1860,
+                      "referencedDeclaration": 1751,
                       "src": "476:22:18",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_payable_$_t_bool_$returns$__$",
                         "typeString": "function (address payable,bool) external"
                       }
                     },
-                    "id": 2681,
+                    "id": 2572,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -598,30 +598,30 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2682,
+                  "id": 2573,
                   "nodeType": "ExpressionStatement",
                   "src": "476:36:18"
                 }
               ]
             },
             "functionSelector": "784cb314",
-            "id": 2684,
+            "id": 2575,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "approveKyc",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2674,
+              "id": 2565,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2673,
+                  "id": 2564,
                   "mutability": "mutable",
                   "name": "member",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2684,
+                  "scope": 2575,
                   "src": "425:22:18",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -630,7 +630,7 @@
                     "typeString": "address payable"
                   },
                   "typeName": {
-                    "id": 2672,
+                    "id": 2563,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "425:15:18",
@@ -646,19 +646,19 @@
               "src": "424:24:18"
             },
             "returnParameters": {
-              "id": 2675,
+              "id": 2566,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "466:0:18"
             },
-            "scope": 2685,
+            "scope": 2576,
             "src": "405:114:18",
             "stateMutability": "payable",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 2686,
+        "scope": 2577,
         "src": "67:454:18"
       }
     ],
@@ -669,10 +669,10 @@
       "absolutePath": "/Users/ricardopinto/work/brightunion/distributors/contracts/nexus/utils/SelfKyc.sol",
       "exportedSymbols": {
         "IMemberRoles": [
-          1861
+          1752
         ],
         "SelfKyc": [
-          2685
+          2576
         ]
       }
     },
@@ -686,22 +686,22 @@
             ".4"
           ]
         },
-        "id": 2636,
+        "id": 2527,
         "name": "PragmaDirective",
         "src": "0:23:18"
       },
       {
         "attributes": {
-          "SourceUnit": 1862,
+          "SourceUnit": 1753,
           "absolutePath": "/Users/ricardopinto/work/brightunion/distributors/contracts/nexus/interfaces/IMemberRoles.sol",
           "file": "../interfaces/IMemberRoles.sol",
-          "scope": 2686,
+          "scope": 2577,
           "symbolAliases": [
             null
           ],
           "unitAlias": ""
         },
-        "id": 2637,
+        "id": 2528,
         "name": "ImportDirective",
         "src": "25:40:18"
       },
@@ -717,10 +717,10 @@
           "contractKind": "contract",
           "fullyImplemented": true,
           "linearizedBaseContracts": [
-            2685
+            2576
           ],
           "name": "SelfKyc",
-          "scope": 2686
+          "scope": 2577
         },
         "children": [
           {
@@ -729,7 +729,7 @@
               "functionSelector": "0bd92b3b",
               "mutability": "mutable",
               "name": "memberRoles",
-              "scope": 2685,
+              "scope": 2576,
               "stateVariable": true,
               "storageLocation": "default",
               "type": "contract IMemberRoles",
@@ -739,15 +739,15 @@
               {
                 "attributes": {
                   "name": "IMemberRoles",
-                  "referencedDeclaration": 1861,
+                  "referencedDeclaration": 1752,
                   "type": "contract IMemberRoles"
                 },
-                "id": 2638,
+                "id": 2529,
                 "name": "UserDefinedTypeName",
                 "src": "90:12:18"
               }
             ],
-            "id": 2639,
+            "id": 2530,
             "name": "VariableDeclaration",
             "src": "90:31:18"
           },
@@ -760,7 +760,7 @@
                 null
               ],
               "name": "",
-              "scope": 2685,
+              "scope": 2576,
               "stateMutability": "nonpayable",
               "virtual": false,
               "visibility": "public"
@@ -773,7 +773,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "_memberRoles",
-                      "scope": 2649,
+                      "scope": 2540,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "contract IMemberRoles",
@@ -783,20 +783,20 @@
                       {
                         "attributes": {
                           "name": "IMemberRoles",
-                          "referencedDeclaration": 1861,
+                          "referencedDeclaration": 1752,
                           "type": "contract IMemberRoles"
                         },
-                        "id": 2640,
+                        "id": 2531,
                         "name": "UserDefinedTypeName",
                         "src": "140:12:18"
                       }
                     ],
-                    "id": 2641,
+                    "id": 2532,
                     "name": "VariableDeclaration",
                     "src": "140:25:18"
                   }
                 ],
-                "id": 2642,
+                "id": 2533,
                 "name": "ParameterList",
                 "src": "139:27:18"
               },
@@ -807,7 +807,7 @@
                   ]
                 },
                 "children": [],
-                "id": 2643,
+                "id": 2534,
                 "name": "ParameterList",
                 "src": "174:0:18"
               },
@@ -830,11 +830,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 2639,
+                              "referencedDeclaration": 2530,
                               "type": "contract IMemberRoles",
                               "value": "memberRoles"
                             },
-                            "id": 2644,
+                            "id": 2535,
                             "name": "Identifier",
                             "src": "184:11:18"
                           },
@@ -843,31 +843,31 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 2641,
+                              "referencedDeclaration": 2532,
                               "type": "contract IMemberRoles",
                               "value": "_memberRoles"
                             },
-                            "id": 2645,
+                            "id": 2536,
                             "name": "Identifier",
                             "src": "198:12:18"
                           }
                         ],
-                        "id": 2646,
+                        "id": 2537,
                         "name": "Assignment",
                         "src": "184:26:18"
                       }
                     ],
-                    "id": 2647,
+                    "id": 2538,
                     "name": "ExpressionStatement",
                     "src": "184:26:18"
                   }
                 ],
-                "id": 2648,
+                "id": 2539,
                 "name": "Block",
                 "src": "174:43:18"
               }
             ],
-            "id": 2649,
+            "id": 2540,
             "name": "FunctionDefinition",
             "src": "128:89:18"
           },
@@ -881,7 +881,7 @@
                 null
               ],
               "name": "joinMutual",
-              "scope": 2685,
+              "scope": 2576,
               "stateMutability": "payable",
               "virtual": false,
               "visibility": "external"
@@ -894,7 +894,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "member",
-                      "scope": 2671,
+                      "scope": 2562,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address payable",
@@ -907,17 +907,17 @@
                           "stateMutability": "payable",
                           "type": "address payable"
                         },
-                        "id": 2650,
+                        "id": 2541,
                         "name": "ElementaryTypeName",
                         "src": "243:15:18"
                       }
                     ],
-                    "id": 2651,
+                    "id": 2542,
                     "name": "VariableDeclaration",
                     "src": "243:22:18"
                   }
                 ],
-                "id": 2652,
+                "id": 2543,
                 "name": "ParameterList",
                 "src": "242:24:18"
               },
@@ -928,7 +928,7 @@
                   ]
                 },
                 "children": [],
-                "id": 2653,
+                "id": 2544,
                 "name": "ParameterList",
                 "src": "284:0:18"
               },
@@ -982,7 +982,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "payJoiningFee",
-                                  "referencedDeclaration": 1848,
+                                  "referencedDeclaration": 1739,
                                   "type": "function (address) payable external"
                                 },
                                 "children": [
@@ -991,16 +991,16 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 2639,
+                                      "referencedDeclaration": 2530,
                                       "type": "contract IMemberRoles",
                                       "value": "memberRoles"
                                     },
-                                    "id": 2654,
+                                    "id": 2545,
                                     "name": "Identifier",
                                     "src": "294:11:18"
                                   }
                                 ],
-                                "id": 2656,
+                                "id": 2547,
                                 "name": "MemberAccess",
                                 "src": "294:25:18"
                               },
@@ -1023,17 +1023,17 @@
                                       "type": "msg",
                                       "value": "msg"
                                     },
-                                    "id": 2657,
+                                    "id": 2548,
                                     "name": "Identifier",
                                     "src": "328:3:18"
                                   }
                                 ],
-                                "id": 2658,
+                                "id": 2549,
                                 "name": "MemberAccess",
                                 "src": "328:9:18"
                               }
                             ],
-                            "id": 2659,
+                            "id": 2550,
                             "name": "FunctionCallOptions",
                             "src": "294:44:18"
                           },
@@ -1042,21 +1042,21 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 2651,
+                              "referencedDeclaration": 2542,
                               "type": "address payable",
                               "value": "member"
                             },
-                            "id": 2660,
+                            "id": 2551,
                             "name": "Identifier",
                             "src": "339:6:18"
                           }
                         ],
-                        "id": 2661,
+                        "id": 2552,
                         "name": "FunctionCall",
                         "src": "294:52:18"
                       }
                     ],
-                    "id": 2662,
+                    "id": 2553,
                     "name": "ExpressionStatement",
                     "src": "294:52:18"
                   },
@@ -1094,7 +1094,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "kycVerdict",
-                              "referencedDeclaration": 1860,
+                              "referencedDeclaration": 1751,
                               "type": "function (address payable,bool) external"
                             },
                             "children": [
@@ -1103,16 +1103,16 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 2639,
+                                  "referencedDeclaration": 2530,
                                   "type": "contract IMemberRoles",
                                   "value": "memberRoles"
                                 },
-                                "id": 2663,
+                                "id": 2554,
                                 "name": "Identifier",
                                 "src": "356:11:18"
                               }
                             ],
-                            "id": 2665,
+                            "id": 2556,
                             "name": "MemberAccess",
                             "src": "356:22:18"
                           },
@@ -1121,11 +1121,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 2651,
+                              "referencedDeclaration": 2542,
                               "type": "address payable",
                               "value": "member"
                             },
-                            "id": 2666,
+                            "id": 2557,
                             "name": "Identifier",
                             "src": "379:6:18"
                           },
@@ -1140,27 +1140,27 @@
                               "type": "bool",
                               "value": "true"
                             },
-                            "id": 2667,
+                            "id": 2558,
                             "name": "Literal",
                             "src": "387:4:18"
                           }
                         ],
-                        "id": 2668,
+                        "id": 2559,
                         "name": "FunctionCall",
                         "src": "356:36:18"
                       }
                     ],
-                    "id": 2669,
+                    "id": 2560,
                     "name": "ExpressionStatement",
                     "src": "356:36:18"
                   }
                 ],
-                "id": 2670,
+                "id": 2561,
                 "name": "Block",
                 "src": "284:115:18"
               }
             ],
-            "id": 2671,
+            "id": 2562,
             "name": "FunctionDefinition",
             "src": "223:176:18"
           },
@@ -1174,7 +1174,7 @@
                 null
               ],
               "name": "approveKyc",
-              "scope": 2685,
+              "scope": 2576,
               "stateMutability": "payable",
               "virtual": false,
               "visibility": "external"
@@ -1187,7 +1187,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "member",
-                      "scope": 2684,
+                      "scope": 2575,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address payable",
@@ -1200,17 +1200,17 @@
                           "stateMutability": "payable",
                           "type": "address payable"
                         },
-                        "id": 2672,
+                        "id": 2563,
                         "name": "ElementaryTypeName",
                         "src": "425:15:18"
                       }
                     ],
-                    "id": 2673,
+                    "id": 2564,
                     "name": "VariableDeclaration",
                     "src": "425:22:18"
                   }
                 ],
-                "id": 2674,
+                "id": 2565,
                 "name": "ParameterList",
                 "src": "424:24:18"
               },
@@ -1221,7 +1221,7 @@
                   ]
                 },
                 "children": [],
-                "id": 2675,
+                "id": 2566,
                 "name": "ParameterList",
                 "src": "466:0:18"
               },
@@ -1261,7 +1261,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "kycVerdict",
-                              "referencedDeclaration": 1860,
+                              "referencedDeclaration": 1751,
                               "type": "function (address payable,bool) external"
                             },
                             "children": [
@@ -1270,16 +1270,16 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 2639,
+                                  "referencedDeclaration": 2530,
                                   "type": "contract IMemberRoles",
                                   "value": "memberRoles"
                                 },
-                                "id": 2676,
+                                "id": 2567,
                                 "name": "Identifier",
                                 "src": "476:11:18"
                               }
                             ],
-                            "id": 2678,
+                            "id": 2569,
                             "name": "MemberAccess",
                             "src": "476:22:18"
                           },
@@ -1288,11 +1288,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 2673,
+                              "referencedDeclaration": 2564,
                               "type": "address payable",
                               "value": "member"
                             },
-                            "id": 2679,
+                            "id": 2570,
                             "name": "Identifier",
                             "src": "499:6:18"
                           },
@@ -1307,37 +1307,37 @@
                               "type": "bool",
                               "value": "true"
                             },
-                            "id": 2680,
+                            "id": 2571,
                             "name": "Literal",
                             "src": "507:4:18"
                           }
                         ],
-                        "id": 2681,
+                        "id": 2572,
                         "name": "FunctionCall",
                         "src": "476:36:18"
                       }
                     ],
-                    "id": 2682,
+                    "id": 2573,
                     "name": "ExpressionStatement",
                     "src": "476:36:18"
                   }
                 ],
-                "id": 2683,
+                "id": 2574,
                 "name": "Block",
                 "src": "466:53:18"
               }
             ],
-            "id": 2684,
+            "id": 2575,
             "name": "FunctionDefinition",
             "src": "405:114:18"
           }
         ],
-        "id": 2685,
+        "id": 2576,
         "name": "ContractDefinition",
         "src": "67:454:18"
       }
     ],
-    "id": 2686,
+    "id": 2577,
     "name": "SourceUnit",
     "src": "0:522:18"
   },
@@ -1347,7 +1347,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.0",
-  "updatedAt": "2021-05-03T15:09:21.304Z",
+  "updatedAt": "2021-05-03T16:01:27.784Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
