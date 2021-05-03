@@ -15,18 +15,18 @@
 
 pragma solidity ^0.7.4;
 
-import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
+import "@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol";
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/SafeERC20.sol";
-import "@openzeppelin/contracts/access/Ownable.sol";
-import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
-import "@openzeppelin/contracts/math/SafeMath.sol";
+import "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
+import "@openzeppelin/contracts-upgradeable/utils/ReentrancyGuardUpgradeable.sol";
+import "@openzeppelin/contracts-upgradeable/math/SafeMathUpgradeable.sol";
 import "./interfaces/ICover.sol";
 import "./interfaces/IPool.sol";
 import "./interfaces/INXMaster.sol";
 
-contract Distributor is ERC721, Ownable, ReentrancyGuard {
-  using SafeMath for uint;
+contract Distributor is ERC721Upgradeable, OwnableUpgradeable, ReentrancyGuardUpgradeable {
+  using SafeMathUpgradeable for uint;
   using SafeERC20 for IERC20;
 
   address public constant ETH = 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE;
@@ -67,16 +67,16 @@ contract Distributor is ERC721, Ownable, ReentrancyGuard {
   /*
     NexusMutual contracts
   */
-  ICover immutable public cover;
-  IERC20 immutable public nxmToken;
-  INXMaster immutable public master;
+  ICover public cover;
+  IERC20 public nxmToken;
+  INXMaster public master;
 
   modifier onlyTokenApprovedOrOwner(uint256 tokenId) {
     require(_isApprovedOrOwner(msg.sender, tokenId), "Distributor: Not approved or owner");
     _;
   }
 
-  constructor(
+  function initialize(
     address coverAddress,
     address nxmTokenAddress,
     address masterAddress,
@@ -85,9 +85,13 @@ contract Distributor is ERC721, Ownable, ReentrancyGuard {
     string memory tokenName,
     string memory tokenSymbol
   )
-  ERC721(tokenName, tokenSymbol)
+  initializer
   public
   {
+    __Ownable_init();
+    __ReentrancyGuard_init();
+    __ERC721_init(tokenName, tokenSymbol);
+
     _setBaseURI(DEFAULT_BASE_URI);
     feePercentage = _feePercentage;
     treasury = _treasury;
