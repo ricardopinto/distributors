@@ -55,9 +55,9 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.7.4+commit.3f05b770\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address payable\",\"name\":\"distributorAddress\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"contractAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"coverAsset\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"sumAssured\",\"type\":\"uint256\"},{\"internalType\":\"uint16\",\"name\":\"coverPeriod\",\"type\":\"uint16\"},{\"internalType\":\"uint8\",\"name\":\"coverType\",\"type\":\"uint8\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"buyCover\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"stateMutability\":\"payable\",\"type\":\"receive\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/ricardopinto/work/brightunion/distributors/contracts/nexus/mocks/CoverBuyer.sol\":\"CoverBuyer\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":10000},\"remappings\":[]},\"sources\":{\"/Users/ricardopinto/work/brightunion/distributors/contracts/nexus/Distributor.sol\":{\"keccak256\":\"0x78f5e3a11a245668ec8f2c00a5e255aa582fd2383bd62e8e0498a7c3973d1667\",\"urls\":[\"bzz-raw://798325d0851c7af4e70b7b0af5adbad695f381db1fcff717e14ed79d432a60ca\",\"dweb:/ipfs/QmXBVCGsMLhbNDZf2b9PDNefZrp1PAjhjMGaGQp242V4Jd\"]},\"/Users/ricardopinto/work/brightunion/distributors/contracts/nexus/interfaces/ICover.sol\":{\"keccak256\":\"0x2ad7c2555166a94f165e902b564c8395a2d7a2f6b777bbc22ffe1be9a3619f0e\",\"urls\":[\"bzz-raw://f115cd8e969803be96e9c6963217222cf2ac86c3bac897a46c78fd53bb3126e5\",\"dweb:/ipfs/QmUfmaWpGHARjBFj7Z6J6N86YASC5VsQgzkESY9UXgUvEn\"]},\"/Users/ricardopinto/work/brightunion/distributors/contracts/nexus/interfaces/INXMaster.sol\":{\"keccak256\":\"0x71edbab16cd1cba5b7a9cd54a2bde60c9bea9fc1f0279e06d74758b6037045b5\",\"urls\":[\"bzz-raw://d4e4470a600f23ae17925ace9ebc1d6425722e68edf90a2df408dd3daadfee72\",\"dweb:/ipfs/QmezPv4WieKengbFPQbZxQ9mchkzpPFjJ5QK8tJAmGWVvj\"]},\"/Users/ricardopinto/work/brightunion/distributors/contracts/nexus/interfaces/IPool.sol\":{\"keccak256\":\"0x738cc8ce18671a72c030c215e4f930eed6a520580d32e3fa7c9b1cd6231e4d44\",\"urls\":[\"bzz-raw://4a30ddfcef3793b53b0feff86d72d5983876e22648a91d8118fc69d4aac3072d\",\"dweb:/ipfs/QmV93sv43Fnj4kwrjpK9Qeerp9BEkGwuEduBJBEpTn9jhE\"]},\"/Users/ricardopinto/work/brightunion/distributors/contracts/nexus/mocks/CoverBuyer.sol\":{\"keccak256\":\"0x06007418612e479781732d96c20e62494f30d012e1f4f312aea9ee83f2e9bacd\",\"urls\":[\"bzz-raw://161df1d81480b161b0840686970b9e96e7d4c1cefe7f861b2d7339a8551a8aa7\",\"dweb:/ipfs/QmNfs27HjYG5ckSyawffEYgNuD1YkTtboLAewqSpzzzdJV\"]},\"@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol\":{\"keccak256\":\"0xb419e68addcb82ecda3ad3974b0d2db76435ce9b08435a04d5b119a0c5d45ea5\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://a85355cc4f2554f4a8d334336d66b48d616abf1d90ec3d6b602e825c6fe63f0c\",\"dweb:/ipfs/QmTJYtsKJjBy3ShAt4kEjvM6nfVS8ZAFQqE29fG16tUP8d\"]},\"@openzeppelin/contracts-upgradeable/introspection/ERC165Upgradeable.sol\":{\"keccak256\":\"0xc6dbbc2f50a7c104377798a37b2acd1a41c1242544b0bb7a9a7c863f0520eb50\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ff3a66f685a49d3750c9b3588770d1ee43ce3cb718e1dc911ac65d8a6d1c1f0d\",\"dweb:/ipfs/QmVK2mdcbZTZ81YQ1rxWWNbYgy3Gpb3yz3L2qtDPTdx9hu\"]},\"@openzeppelin/contracts-upgradeable/introspection/IERC165Upgradeable.sol\":{\"keccak256\":\"0x4784c3f8a520a739dd25d76f514833a653990902d0e21601aed45bda44c87524\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://359411cc44a4499f37d46562ef3f348db443f9a699138c1797264d20b14697b7\",\"dweb:/ipfs/QmUmeQNUwve4MFCc1ace6zMnstqa8S9SZe1nXG9THcpQ5v\"]},\"@openzeppelin/contracts-upgradeable/math/SafeMathUpgradeable.sol\":{\"keccak256\":\"0x0dd1e9b19801e3e7d900fbf4182d81e1afd23ad7be39504e33df6bbcba91d724\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://5e30d594df25d0651c2cd6f85d856e5fc9f3dbae68d017e1da33eb3c7e2f1ecc\",\"dweb:/ipfs/QmPgkV99jZr3Zs9ex8dJ5j22oX4wDuDtMCnXNy67bTwgAB\"]},\"@openzeppelin/contracts-upgradeable/proxy/Initializable.sol\":{\"keccak256\":\"0xd8e4eb08dcc1d1860fb347ba5ffd595242b9a1b66d49a47f2b4cb51c3f35017e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7dbc89479d30592e82442edc38053b380f611037a5e6ceafc7bf57a7aa1f0305\",\"dweb:/ipfs/QmcdYtt56WmjeYvsFjK69FnahnAriw88VzY3XRZwXkQKKN\"]},\"@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol\":{\"keccak256\":\"0x83d830f0835976a5b7bb9c416edf06c865208127eb35445dd6c49b20481d7282\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://2e023290150a3ec557e4f437164cb5240641cf0a7443fb0a07e3ae52fdcc596b\",\"dweb:/ipfs/QmYTCHMdzbpgGsCrNVQ5LmfJA6W32YF29vjppn9zSsCRYe\"]},\"@openzeppelin/contracts-upgradeable/token/ERC721/IERC721EnumerableUpgradeable.sol\":{\"keccak256\":\"0x529f3ab127aace61d7d47f3df7a6a2c42dc79bbb3a0ca459d6a861f33698aee6\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://dcd2091f8d2b7264c5267aaf72b870f27c5de4eb649313e94836e4b677f7dcfb\",\"dweb:/ipfs/QmRTBY7izTxqBmAxQ7Mth2khWJZ1uPebsjwbPPfbUdL4xx\"]},\"@openzeppelin/contracts-upgradeable/token/ERC721/IERC721MetadataUpgradeable.sol\":{\"keccak256\":\"0xa981b1f67f60771c18d39e21bad0a2f0f952e2c3faa90b45b982060fc14ee2bd\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://dcf9db2d0bd009e25874ee428267c45455613c967f29895e94358914fd4c879d\",\"dweb:/ipfs/QmYuwT44WF9imBdokjpuFL27eJVh4jqhmaR8DTdVSG5EhC\"]},\"@openzeppelin/contracts-upgradeable/token/ERC721/IERC721ReceiverUpgradeable.sol\":{\"keccak256\":\"0x53552243cd7de0d57a876cbaee3485d4bdc2b1c7d58ff15447cd623a3ddb5cd0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://795c6d0e2058529f2b9e190207bb6dbe208cf793e70cf99999d5bb39029a3887\",\"dweb:/ipfs/QmTDtUmqY2BwMZjqLPEtz4k1c4DLhEt8p2rSAMN9wNJKQd\"]},\"@openzeppelin/contracts-upgradeable/token/ERC721/IERC721Upgradeable.sol\":{\"keccak256\":\"0x3dab19bb4a63bcbda1ee153ca291694f92f9009fad28626126b15a8503b0e5ff\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ecc8ae8f1f85e11b6f749e147ac298d1d66879f3bfe3d4518b919f7b6151a73b\",\"dweb:/ipfs/QmYXZfcnCd1N1AaxUTfNQjNHJXAAfVGvae6Bte1SfTCKEz\"]},\"@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol\":{\"keccak256\":\"0xfc5ea91fa9ceb1961023b2a6c978b902888c52b90847ac7813fe3b79524165f6\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://a6b81dcc816857a9d981386f6d8de49198420ee41cdc0ecade366ab412174d03\",\"dweb:/ipfs/QmV2vznMT6m9qo3pFMAWi3Nz3UDhwesgwFxeXe6Tod3v8A\"]},\"@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol\":{\"keccak256\":\"0xbbf8a21b9a66c48d45ff771b8563c6df19ba451d63dfb8380a865c1e1f29d1a0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://062688aac76e27ab50157a9d645700cf92e3c0d51d3d860be1d2e1a0c04a87d0\",\"dweb:/ipfs/QmfXxppWAiSTeH8YNn2EtMPDgzrLeJ5rjRq8knEbje88mX\"]},\"@openzeppelin/contracts-upgradeable/utils/EnumerableMapUpgradeable.sol\":{\"keccak256\":\"0x6a8e34d051fc71ce49a8a47d050c5b7e77909008c6be7d6780ee9ed87d2d3797\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://9764cb2c147e132a2c37be98bde62cd1d66011708d0d3077bab6aa58b00b0472\",\"dweb:/ipfs/QmWURB8hvNHKd7J7MoMvCxYHSW9LoZGSSJYFhXNX7o4tow\"]},\"@openzeppelin/contracts-upgradeable/utils/EnumerableSetUpgradeable.sol\":{\"keccak256\":\"0x20714cf126a1a984613579156d3cbc726db8025d8400e1db1d2bb714edaba335\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://8d6e8cc57f51f6c73eccd5b2dbaf3d8486a35148fe0e8bea4b002fbf2a78f381\",\"dweb:/ipfs/QmawvgjwaqMxyfbFnjxfap1FZ1sPwVgGHaEC41whKdP7N4\"]},\"@openzeppelin/contracts-upgradeable/utils/ReentrancyGuardUpgradeable.sol\":{\"keccak256\":\"0x46034cd5cca740f636345c8f7aebae0f78adfd4b70e31e6f888cccbe1086586e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://0b9f36bfde7168be120a14da6c8c54cde5e5df07b79c5239752e07e5fb1ac046\",\"dweb:/ipfs/QmZfEjoDzj3EfBkZB8X9dyBGt81tQ1KmFPuY3cz2yqWQDK\"]},\"@openzeppelin/contracts-upgradeable/utils/StringsUpgradeable.sol\":{\"keccak256\":\"0x8d1ac29b8a8ed3cfebe5d8774b465441ae8931aaca549f84408e0b29a1191964\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://1ddb2fde1fb47d755362333f64099a63ef37c12f2b4b38f80050cb967952058b\",\"dweb:/ipfs/QmYD25vdrQ1WyzD8png1nStRRPJBmnkf6fY8FthNrKfmmb\"]},\"@openzeppelin/contracts/math/SafeMath.sol\":{\"keccak256\":\"0xcc78a17dd88fa5a2edc60c8489e2f405c0913b377216a5b26b35656b2d0dab52\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://526dc85e1f9b9b45830e202568d267d93dde7a4fcccf4ad7798dadcd92304d3c\",\"dweb:/ipfs/QmaoXMB972J3cSDLtBq3xBo4jLwqD2uzXTwujtSPqkYVhR\"]},\"@openzeppelin/contracts/token/ERC20/IERC20.sol\":{\"keccak256\":\"0x5f02220344881ce43204ae4a6281145a67bc52c2bb1290a791857df3d19d78f5\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://24427744bd3e6cb73c17010119af12a318289c0253a4d9acb8576c9fb3797b08\",\"dweb:/ipfs/QmTLDqpKRBuxGxRAmjgXt9AkXyACW3MtKzi7PYjm5iMfGC\"]},\"@openzeppelin/contracts/token/ERC20/SafeERC20.sol\":{\"keccak256\":\"0xf12dfbe97e6276980b83d2830bb0eb75e0cf4f3e626c2471137f82158ae6a0fc\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://b3a849c2d95e85463909e5b5c920b13e7a11216ca14127085e16d22b9379d52a\",\"dweb:/ipfs/QmUg3CZDbCCcQdroEpexBy5ZFd5vD1UWijWQq9qHZjtJNQ\"]},\"@openzeppelin/contracts/utils/Address.sol\":{\"keccak256\":\"0x28911e614500ae7c607a432a709d35da25f3bc5ddc8bd12b278b66358070c0ea\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://256c8c8af5eb072bc473226ab2b2187149b8fc04f5f4a4820db22527f5ce8e3c\",\"dweb:/ipfs/QmRvi5BhnL7Rxf85KrJhwM6RRhukm4tzoctRdgQEheNyiN\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b5060405161031b38038061031b8339818101604052602081101561003357600080fd5b5051600080546001600160a01b039092166001600160a01b03199092169190911790556102b6806100656000396000f3fe6080604052600436106100225760003560e01c806304836c4a146100935761008e565b3661008e57604080517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152600d60248201527f4920686174652065746865722e00000000000000000000000000000000000000604482015290519081900360640190fd5b600080fd5b610143600480360360c08110156100a957600080fd5b73ffffffffffffffffffffffffffffffffffffffff823581169260208101359091169160408201359161ffff6060820135169160ff608083013516919081019060c0810160a082013564010000000081111561010457600080fd5b82018360208201111561011657600080fd5b8035906020019184600183028401116401000000008311171561013857600080fd5b509092509050610145565b005b60008054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663d8a856ee348989898989346002028a8a6040518a63ffffffff1660e01b8152600401808973ffffffffffffffffffffffffffffffffffffffff1681526020018873ffffffffffffffffffffffffffffffffffffffff1681526020018781526020018661ffff1681526020018560ff168152602001848152602001806020018281038252848482818152602001925080828437600081840152601f19601f82011690508083019250505099505050505050505050506020604051808303818588803b15801561024a57600080fd5b505af115801561025e573d6000803e3d6000fd5b50505050506040513d602081101561027557600080fd5b50505050505050505056fea264697066735822122090cc5d99355a2022a211965dacb1e8dcc5b318c674a3855c900c5ba77d66fa6364736f6c63430007040033",
-  "deployedBytecode": "0x6080604052600436106100225760003560e01c806304836c4a146100935761008e565b3661008e57604080517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152600d60248201527f4920686174652065746865722e00000000000000000000000000000000000000604482015290519081900360640190fd5b600080fd5b610143600480360360c08110156100a957600080fd5b73ffffffffffffffffffffffffffffffffffffffff823581169260208101359091169160408201359161ffff6060820135169160ff608083013516919081019060c0810160a082013564010000000081111561010457600080fd5b82018360208201111561011657600080fd5b8035906020019184600183028401116401000000008311171561013857600080fd5b509092509050610145565b005b60008054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663d8a856ee348989898989346002028a8a6040518a63ffffffff1660e01b8152600401808973ffffffffffffffffffffffffffffffffffffffff1681526020018873ffffffffffffffffffffffffffffffffffffffff1681526020018781526020018661ffff1681526020018560ff168152602001848152602001806020018281038252848482818152602001925080828437600081840152601f19601f82011690508083019250505099505050505050505050506020604051808303818588803b15801561024a57600080fd5b505af115801561025e573d6000803e3d6000fd5b50505050506040513d602081101561027557600080fd5b50505050505050505056fea264697066735822122090cc5d99355a2022a211965dacb1e8dcc5b318c674a3855c900c5ba77d66fa6364736f6c63430007040033",
+  "metadata": "{\"compiler\":{\"version\":\"0.7.4+commit.3f05b770\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address payable\",\"name\":\"distributorAddress\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"contractAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"coverAsset\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"sumAssured\",\"type\":\"uint256\"},{\"internalType\":\"uint16\",\"name\":\"coverPeriod\",\"type\":\"uint16\"},{\"internalType\":\"uint8\",\"name\":\"coverType\",\"type\":\"uint8\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"buyCover\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"stateMutability\":\"payable\",\"type\":\"receive\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/ricardopinto/work/brightunion/distributors/contracts/nexus/mocks/CoverBuyer.sol\":\"CoverBuyer\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":10000},\"remappings\":[]},\"sources\":{\"/Users/ricardopinto/work/brightunion/distributors/contracts/nexus/Distributor.sol\":{\"keccak256\":\"0xc74d36933c7ae57461858891f169757f629aeba298b7ae7a1437fbd2a890c2d0\",\"urls\":[\"bzz-raw://334f34b4b0f99087b28d6c618488aa6e7b54720a6ff18a8cfd4917e83ef4df5e\",\"dweb:/ipfs/QmZyRgnTFNG5pgavjrEBnhLuZnRkpDxwFxbbApUjm2BA7X\"]},\"/Users/ricardopinto/work/brightunion/distributors/contracts/nexus/interfaces/ICover.sol\":{\"keccak256\":\"0x2ad7c2555166a94f165e902b564c8395a2d7a2f6b777bbc22ffe1be9a3619f0e\",\"urls\":[\"bzz-raw://f115cd8e969803be96e9c6963217222cf2ac86c3bac897a46c78fd53bb3126e5\",\"dweb:/ipfs/QmUfmaWpGHARjBFj7Z6J6N86YASC5VsQgzkESY9UXgUvEn\"]},\"/Users/ricardopinto/work/brightunion/distributors/contracts/nexus/interfaces/INXMaster.sol\":{\"keccak256\":\"0x71edbab16cd1cba5b7a9cd54a2bde60c9bea9fc1f0279e06d74758b6037045b5\",\"urls\":[\"bzz-raw://d4e4470a600f23ae17925ace9ebc1d6425722e68edf90a2df408dd3daadfee72\",\"dweb:/ipfs/QmezPv4WieKengbFPQbZxQ9mchkzpPFjJ5QK8tJAmGWVvj\"]},\"/Users/ricardopinto/work/brightunion/distributors/contracts/nexus/interfaces/IPool.sol\":{\"keccak256\":\"0x738cc8ce18671a72c030c215e4f930eed6a520580d32e3fa7c9b1cd6231e4d44\",\"urls\":[\"bzz-raw://4a30ddfcef3793b53b0feff86d72d5983876e22648a91d8118fc69d4aac3072d\",\"dweb:/ipfs/QmV93sv43Fnj4kwrjpK9Qeerp9BEkGwuEduBJBEpTn9jhE\"]},\"/Users/ricardopinto/work/brightunion/distributors/contracts/nexus/mocks/CoverBuyer.sol\":{\"keccak256\":\"0x06007418612e479781732d96c20e62494f30d012e1f4f312aea9ee83f2e9bacd\",\"urls\":[\"bzz-raw://161df1d81480b161b0840686970b9e96e7d4c1cefe7f861b2d7339a8551a8aa7\",\"dweb:/ipfs/QmNfs27HjYG5ckSyawffEYgNuD1YkTtboLAewqSpzzzdJV\"]},\"@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol\":{\"keccak256\":\"0xb419e68addcb82ecda3ad3974b0d2db76435ce9b08435a04d5b119a0c5d45ea5\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://a85355cc4f2554f4a8d334336d66b48d616abf1d90ec3d6b602e825c6fe63f0c\",\"dweb:/ipfs/QmTJYtsKJjBy3ShAt4kEjvM6nfVS8ZAFQqE29fG16tUP8d\"]},\"@openzeppelin/contracts-upgradeable/introspection/ERC165Upgradeable.sol\":{\"keccak256\":\"0xc6dbbc2f50a7c104377798a37b2acd1a41c1242544b0bb7a9a7c863f0520eb50\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ff3a66f685a49d3750c9b3588770d1ee43ce3cb718e1dc911ac65d8a6d1c1f0d\",\"dweb:/ipfs/QmVK2mdcbZTZ81YQ1rxWWNbYgy3Gpb3yz3L2qtDPTdx9hu\"]},\"@openzeppelin/contracts-upgradeable/introspection/IERC165Upgradeable.sol\":{\"keccak256\":\"0x4784c3f8a520a739dd25d76f514833a653990902d0e21601aed45bda44c87524\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://359411cc44a4499f37d46562ef3f348db443f9a699138c1797264d20b14697b7\",\"dweb:/ipfs/QmUmeQNUwve4MFCc1ace6zMnstqa8S9SZe1nXG9THcpQ5v\"]},\"@openzeppelin/contracts-upgradeable/math/SafeMathUpgradeable.sol\":{\"keccak256\":\"0x0dd1e9b19801e3e7d900fbf4182d81e1afd23ad7be39504e33df6bbcba91d724\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://5e30d594df25d0651c2cd6f85d856e5fc9f3dbae68d017e1da33eb3c7e2f1ecc\",\"dweb:/ipfs/QmPgkV99jZr3Zs9ex8dJ5j22oX4wDuDtMCnXNy67bTwgAB\"]},\"@openzeppelin/contracts-upgradeable/proxy/Initializable.sol\":{\"keccak256\":\"0xd8e4eb08dcc1d1860fb347ba5ffd595242b9a1b66d49a47f2b4cb51c3f35017e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7dbc89479d30592e82442edc38053b380f611037a5e6ceafc7bf57a7aa1f0305\",\"dweb:/ipfs/QmcdYtt56WmjeYvsFjK69FnahnAriw88VzY3XRZwXkQKKN\"]},\"@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol\":{\"keccak256\":\"0x83d830f0835976a5b7bb9c416edf06c865208127eb35445dd6c49b20481d7282\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://2e023290150a3ec557e4f437164cb5240641cf0a7443fb0a07e3ae52fdcc596b\",\"dweb:/ipfs/QmYTCHMdzbpgGsCrNVQ5LmfJA6W32YF29vjppn9zSsCRYe\"]},\"@openzeppelin/contracts-upgradeable/token/ERC721/IERC721EnumerableUpgradeable.sol\":{\"keccak256\":\"0x529f3ab127aace61d7d47f3df7a6a2c42dc79bbb3a0ca459d6a861f33698aee6\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://dcd2091f8d2b7264c5267aaf72b870f27c5de4eb649313e94836e4b677f7dcfb\",\"dweb:/ipfs/QmRTBY7izTxqBmAxQ7Mth2khWJZ1uPebsjwbPPfbUdL4xx\"]},\"@openzeppelin/contracts-upgradeable/token/ERC721/IERC721MetadataUpgradeable.sol\":{\"keccak256\":\"0xa981b1f67f60771c18d39e21bad0a2f0f952e2c3faa90b45b982060fc14ee2bd\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://dcf9db2d0bd009e25874ee428267c45455613c967f29895e94358914fd4c879d\",\"dweb:/ipfs/QmYuwT44WF9imBdokjpuFL27eJVh4jqhmaR8DTdVSG5EhC\"]},\"@openzeppelin/contracts-upgradeable/token/ERC721/IERC721ReceiverUpgradeable.sol\":{\"keccak256\":\"0x53552243cd7de0d57a876cbaee3485d4bdc2b1c7d58ff15447cd623a3ddb5cd0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://795c6d0e2058529f2b9e190207bb6dbe208cf793e70cf99999d5bb39029a3887\",\"dweb:/ipfs/QmTDtUmqY2BwMZjqLPEtz4k1c4DLhEt8p2rSAMN9wNJKQd\"]},\"@openzeppelin/contracts-upgradeable/token/ERC721/IERC721Upgradeable.sol\":{\"keccak256\":\"0x3dab19bb4a63bcbda1ee153ca291694f92f9009fad28626126b15a8503b0e5ff\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ecc8ae8f1f85e11b6f749e147ac298d1d66879f3bfe3d4518b919f7b6151a73b\",\"dweb:/ipfs/QmYXZfcnCd1N1AaxUTfNQjNHJXAAfVGvae6Bte1SfTCKEz\"]},\"@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol\":{\"keccak256\":\"0xfc5ea91fa9ceb1961023b2a6c978b902888c52b90847ac7813fe3b79524165f6\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://a6b81dcc816857a9d981386f6d8de49198420ee41cdc0ecade366ab412174d03\",\"dweb:/ipfs/QmV2vznMT6m9qo3pFMAWi3Nz3UDhwesgwFxeXe6Tod3v8A\"]},\"@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol\":{\"keccak256\":\"0xbbf8a21b9a66c48d45ff771b8563c6df19ba451d63dfb8380a865c1e1f29d1a0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://062688aac76e27ab50157a9d645700cf92e3c0d51d3d860be1d2e1a0c04a87d0\",\"dweb:/ipfs/QmfXxppWAiSTeH8YNn2EtMPDgzrLeJ5rjRq8knEbje88mX\"]},\"@openzeppelin/contracts-upgradeable/utils/EnumerableMapUpgradeable.sol\":{\"keccak256\":\"0x6a8e34d051fc71ce49a8a47d050c5b7e77909008c6be7d6780ee9ed87d2d3797\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://9764cb2c147e132a2c37be98bde62cd1d66011708d0d3077bab6aa58b00b0472\",\"dweb:/ipfs/QmWURB8hvNHKd7J7MoMvCxYHSW9LoZGSSJYFhXNX7o4tow\"]},\"@openzeppelin/contracts-upgradeable/utils/EnumerableSetUpgradeable.sol\":{\"keccak256\":\"0x20714cf126a1a984613579156d3cbc726db8025d8400e1db1d2bb714edaba335\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://8d6e8cc57f51f6c73eccd5b2dbaf3d8486a35148fe0e8bea4b002fbf2a78f381\",\"dweb:/ipfs/QmawvgjwaqMxyfbFnjxfap1FZ1sPwVgGHaEC41whKdP7N4\"]},\"@openzeppelin/contracts-upgradeable/utils/ReentrancyGuardUpgradeable.sol\":{\"keccak256\":\"0x46034cd5cca740f636345c8f7aebae0f78adfd4b70e31e6f888cccbe1086586e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://0b9f36bfde7168be120a14da6c8c54cde5e5df07b79c5239752e07e5fb1ac046\",\"dweb:/ipfs/QmZfEjoDzj3EfBkZB8X9dyBGt81tQ1KmFPuY3cz2yqWQDK\"]},\"@openzeppelin/contracts-upgradeable/utils/StringsUpgradeable.sol\":{\"keccak256\":\"0x8d1ac29b8a8ed3cfebe5d8774b465441ae8931aaca549f84408e0b29a1191964\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://1ddb2fde1fb47d755362333f64099a63ef37c12f2b4b38f80050cb967952058b\",\"dweb:/ipfs/QmYD25vdrQ1WyzD8png1nStRRPJBmnkf6fY8FthNrKfmmb\"]},\"@openzeppelin/contracts/math/SafeMath.sol\":{\"keccak256\":\"0xcc78a17dd88fa5a2edc60c8489e2f405c0913b377216a5b26b35656b2d0dab52\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://526dc85e1f9b9b45830e202568d267d93dde7a4fcccf4ad7798dadcd92304d3c\",\"dweb:/ipfs/QmaoXMB972J3cSDLtBq3xBo4jLwqD2uzXTwujtSPqkYVhR\"]},\"@openzeppelin/contracts/token/ERC20/IERC20.sol\":{\"keccak256\":\"0x5f02220344881ce43204ae4a6281145a67bc52c2bb1290a791857df3d19d78f5\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://24427744bd3e6cb73c17010119af12a318289c0253a4d9acb8576c9fb3797b08\",\"dweb:/ipfs/QmTLDqpKRBuxGxRAmjgXt9AkXyACW3MtKzi7PYjm5iMfGC\"]},\"@openzeppelin/contracts/token/ERC20/SafeERC20.sol\":{\"keccak256\":\"0xf12dfbe97e6276980b83d2830bb0eb75e0cf4f3e626c2471137f82158ae6a0fc\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://b3a849c2d95e85463909e5b5c920b13e7a11216ca14127085e16d22b9379d52a\",\"dweb:/ipfs/QmUg3CZDbCCcQdroEpexBy5ZFd5vD1UWijWQq9qHZjtJNQ\"]},\"@openzeppelin/contracts/utils/Address.sol\":{\"keccak256\":\"0x28911e614500ae7c607a432a709d35da25f3bc5ddc8bd12b278b66358070c0ea\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://256c8c8af5eb072bc473226ab2b2187149b8fc04f5f4a4820db22527f5ce8e3c\",\"dweb:/ipfs/QmRvi5BhnL7Rxf85KrJhwM6RRhukm4tzoctRdgQEheNyiN\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5060405161031b38038061031b8339818101604052602081101561003357600080fd5b5051600080546001600160a01b039092166001600160a01b03199092169190911790556102b6806100656000396000f3fe6080604052600436106100225760003560e01c806304836c4a146100935761008e565b3661008e57604080517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152600d60248201527f4920686174652065746865722e00000000000000000000000000000000000000604482015290519081900360640190fd5b600080fd5b610143600480360360c08110156100a957600080fd5b73ffffffffffffffffffffffffffffffffffffffff823581169260208101359091169160408201359161ffff6060820135169160ff608083013516919081019060c0810160a082013564010000000081111561010457600080fd5b82018360208201111561011657600080fd5b8035906020019184600183028401116401000000008311171561013857600080fd5b509092509050610145565b005b60008054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663d8a856ee348989898989346002028a8a6040518a63ffffffff1660e01b8152600401808973ffffffffffffffffffffffffffffffffffffffff1681526020018873ffffffffffffffffffffffffffffffffffffffff1681526020018781526020018661ffff1681526020018560ff168152602001848152602001806020018281038252848482818152602001925080828437600081840152601f19601f82011690508083019250505099505050505050505050506020604051808303818588803b15801561024a57600080fd5b505af115801561025e573d6000803e3d6000fd5b50505050506040513d602081101561027557600080fd5b50505050505050505056fea26469706673582212204e10ba7fbd6ab24dd119ffb4acfaa5055b778ac96f0303b0d16b33d45c7cac3964736f6c63430007040033",
+  "deployedBytecode": "0x6080604052600436106100225760003560e01c806304836c4a146100935761008e565b3661008e57604080517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152600d60248201527f4920686174652065746865722e00000000000000000000000000000000000000604482015290519081900360640190fd5b600080fd5b610143600480360360c08110156100a957600080fd5b73ffffffffffffffffffffffffffffffffffffffff823581169260208101359091169160408201359161ffff6060820135169160ff608083013516919081019060c0810160a082013564010000000081111561010457600080fd5b82018360208201111561011657600080fd5b8035906020019184600183028401116401000000008311171561013857600080fd5b509092509050610145565b005b60008054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663d8a856ee348989898989346002028a8a6040518a63ffffffff1660e01b8152600401808973ffffffffffffffffffffffffffffffffffffffff1681526020018873ffffffffffffffffffffffffffffffffffffffff1681526020018781526020018661ffff1681526020018560ff168152602001848152602001806020018281038252848482818152602001925080828437600081840152601f19601f82011690508083019250505099505050505050505050506020604051808303818588803b15801561024a57600080fd5b505af115801561025e573d6000803e3d6000fd5b50505050506040513d602081101561027557600080fd5b50505050505050505056fea26469706673582212204e10ba7fbd6ab24dd119ffb4acfaa5055b778ac96f0303b0d16b33d45c7cac3964736f6c63430007040033",
   "immutableReferences": {},
   "generatedSources": [],
   "deployedGeneratedSources": [],
@@ -69,86 +69,86 @@
     "absolutePath": "/Users/ricardopinto/work/brightunion/distributors/contracts/nexus/mocks/CoverBuyer.sol",
     "exportedSymbols": {
       "Address": [
-        6690
+        6720
       ],
       "AddressUpgradeable": [
-        4506
+        4536
       ],
       "ContextUpgradeable": [
-        4551
+        4581
       ],
       "CoverBuyer": [
-        1995
+        2025
       ],
       "Distributor": [
-        1464
+        1494
       ],
       "ERC165Upgradeable": [
-        2663
+        2693
       ],
       "ERC721Upgradeable": [
-        4070
+        4100
       ],
       "EnumerableMapUpgradeable": [
-        5111
+        5141
       ],
       "EnumerableSetUpgradeable": [
-        5603
+        5633
       ],
       "ICover": [
-        1613
+        1643
       ],
       "IERC165Upgradeable": [
-        2675
+        2705
       ],
       "IERC20": [
-        6181
+        6211
       ],
       "IERC721EnumerableUpgradeable": [
-        4101
+        4131
       ],
       "IERC721MetadataUpgradeable": [
-        4128
+        4158
       ],
       "IERC721ReceiverUpgradeable": [
-        4146
+        4176
       ],
       "IERC721Upgradeable": [
-        4262
+        4292
       ],
       "INXMaster": [
-        1674
+        1704
       ],
       "IPool": [
-        1693
+        1723
       ],
       "Initializable": [
-        3096
+        3126
       ],
       "OwnableUpgradeable": [
-        2588
+        2618
       ],
       "ReentrancyGuardUpgradeable": [
-        5661
+        5691
       ],
       "SafeERC20": [
-        6394
+        6424
       ],
       "SafeMath": [
-        6103
+        6133
       ],
       "SafeMathUpgradeable": [
-        3030
+        3060
       ],
       "StringsUpgradeable": [
-        5748
+        5778
       ]
     },
-    "id": 1996,
+    "id": 2026,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1937,
+        "id": 1967,
         "literals": [
           "solidity",
           "^",
@@ -161,10 +161,10 @@
       {
         "absolutePath": "/Users/ricardopinto/work/brightunion/distributors/contracts/nexus/Distributor.sol",
         "file": "../Distributor.sol",
-        "id": 1938,
+        "id": 1968,
         "nodeType": "ImportDirective",
-        "scope": 1996,
-        "sourceUnit": 1465,
+        "scope": 2026,
+        "sourceUnit": 1495,
         "src": "710:28:15",
         "symbolAliases": [],
         "unitAlias": ""
@@ -175,35 +175,35 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 1995,
+        "id": 2025,
         "linearizedBaseContracts": [
-          1995
+          2025
         ],
         "name": "CoverBuyer",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 1940,
+            "id": 1970,
             "mutability": "mutable",
             "name": "distributor",
             "nodeType": "VariableDeclaration",
-            "scope": 1995,
+            "scope": 2025,
             "src": "767:23:15",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_Distributor_$1464",
+              "typeIdentifier": "t_contract$_Distributor_$1494",
               "typeString": "contract Distributor"
             },
             "typeName": {
-              "id": 1939,
+              "id": 1969,
               "name": "Distributor",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1464,
+              "referencedDeclaration": 1494,
               "src": "767:11:15",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Distributor_$1464",
+                "typeIdentifier": "t_contract$_Distributor_$1494",
                 "typeString": "contract Distributor"
               }
             },
@@ -211,26 +211,26 @@
           },
           {
             "body": {
-              "id": 1951,
+              "id": 1981,
               "nodeType": "Block",
               "src": "852:62:15",
               "statements": [
                 {
                   "expression": {
-                    "id": 1949,
+                    "id": 1979,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 1945,
+                      "id": 1975,
                       "name": "distributor",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1940,
+                      "referencedDeclaration": 1970,
                       "src": "862:11:15",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Distributor_$1464",
+                        "typeIdentifier": "t_contract$_Distributor_$1494",
                         "typeString": "contract Distributor"
                       }
                     },
@@ -239,11 +239,11 @@
                     "rightHandSide": {
                       "arguments": [
                         {
-                          "id": 1947,
+                          "id": 1977,
                           "name": "distributorAddress",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1942,
+                          "referencedDeclaration": 1972,
                           "src": "888:18:15",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address_payable",
@@ -258,18 +258,18 @@
                             "typeString": "address payable"
                           }
                         ],
-                        "id": 1946,
+                        "id": 1976,
                         "name": "Distributor",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1464,
+                        "referencedDeclaration": 1494,
                         "src": "876:11:15",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_Distributor_$1464_$",
+                          "typeIdentifier": "t_type$_t_contract$_Distributor_$1494_$",
                           "typeString": "type(contract Distributor)"
                         }
                       },
-                      "id": 1948,
+                      "id": 1978,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -280,39 +280,39 @@
                       "src": "876:31:15",
                       "tryCall": false,
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Distributor_$1464",
+                        "typeIdentifier": "t_contract$_Distributor_$1494",
                         "typeString": "contract Distributor"
                       }
                     },
                     "src": "862:45:15",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Distributor_$1464",
+                      "typeIdentifier": "t_contract$_Distributor_$1494",
                       "typeString": "contract Distributor"
                     }
                   },
-                  "id": 1950,
+                  "id": 1980,
                   "nodeType": "ExpressionStatement",
                   "src": "862:45:15"
                 }
               ]
             },
-            "id": 1952,
+            "id": 1982,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1943,
+              "id": 1973,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1942,
+                  "id": 1972,
                   "mutability": "mutable",
                   "name": "distributorAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1952,
+                  "scope": 1982,
                   "src": "809:34:15",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -321,7 +321,7 @@
                     "typeString": "address payable"
                   },
                   "typeName": {
-                    "id": 1941,
+                    "id": 1971,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "809:15:15",
@@ -337,12 +337,12 @@
               "src": "808:36:15"
             },
             "returnParameters": {
-              "id": 1944,
+              "id": 1974,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "852:0:15"
             },
-            "scope": 1995,
+            "scope": 2025,
             "src": "797:117:15",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -350,7 +350,7 @@
           },
           {
             "body": {
-              "id": 1985,
+              "id": 2015,
               "nodeType": "Block",
               "src": "1129:142:15",
               "statements": [
@@ -358,11 +358,11 @@
                   "expression": {
                     "arguments": [
                       {
-                        "id": 1973,
+                        "id": 2003,
                         "name": "contractAddress",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1954,
+                        "referencedDeclaration": 1984,
                         "src": "1179:15:15",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -370,11 +370,11 @@
                         }
                       },
                       {
-                        "id": 1974,
+                        "id": 2004,
                         "name": "coverAsset",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1956,
+                        "referencedDeclaration": 1986,
                         "src": "1196:10:15",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -382,11 +382,11 @@
                         }
                       },
                       {
-                        "id": 1975,
+                        "id": 2005,
                         "name": "sumAssured",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1958,
+                        "referencedDeclaration": 1988,
                         "src": "1208:10:15",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -394,11 +394,11 @@
                         }
                       },
                       {
-                        "id": 1976,
+                        "id": 2006,
                         "name": "coverPeriod",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1960,
+                        "referencedDeclaration": 1990,
                         "src": "1220:11:15",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint16",
@@ -406,11 +406,11 @@
                         }
                       },
                       {
-                        "id": 1977,
+                        "id": 2007,
                         "name": "coverType",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1962,
+                        "referencedDeclaration": 1992,
                         "src": "1233:9:15",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint8",
@@ -422,14 +422,14 @@
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
                         },
-                        "id": 1981,
+                        "id": 2011,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "leftExpression": {
                           "hexValue": "32",
-                          "id": 1978,
+                          "id": 2008,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -447,7 +447,7 @@
                         "operator": "*",
                         "rightExpression": {
                           "expression": {
-                            "id": 1979,
+                            "id": 2009,
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
@@ -458,7 +458,7 @@
                               "typeString": "msg"
                             }
                           },
-                          "id": 1980,
+                          "id": 2010,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -478,11 +478,11 @@
                         }
                       },
                       {
-                        "id": 1982,
+                        "id": 2012,
                         "name": "data",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1964,
+                        "referencedDeclaration": 1994,
                         "src": "1259:4:15",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes_calldata_ptr",
@@ -553,32 +553,32 @@
                           }
                         ],
                         "expression": {
-                          "id": 1967,
+                          "id": 1997,
                           "name": "distributor",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1940,
+                          "referencedDeclaration": 1970,
                           "src": "1139:11:15",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_Distributor_$1464",
+                            "typeIdentifier": "t_contract$_Distributor_$1494",
                             "typeString": "contract Distributor"
                           }
                         },
-                        "id": 1969,
+                        "id": 1999,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "buyCover",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 912,
+                        "referencedDeclaration": 942,
                         "src": "1139:20:15",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_payable$_t_address_$_t_address_$_t_uint256_$_t_uint16_$_t_uint8_$_t_uint256_$_t_bytes_memory_ptr_$returns$_t_uint256_$",
                           "typeString": "function (address,address,uint256,uint16,uint8,uint256,bytes memory) payable external returns (uint256)"
                         }
                       },
-                      "id": 1972,
+                      "id": 2002,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -590,7 +590,7 @@
                       "options": [
                         {
                           "expression": {
-                            "id": 1970,
+                            "id": 2000,
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
@@ -601,7 +601,7 @@
                               "typeString": "msg"
                             }
                           },
-                          "id": 1971,
+                          "id": 2001,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -621,7 +621,7 @@
                         "typeString": "function (address,address,uint256,uint16,uint8,uint256,bytes memory) payable external returns (uint256)"
                       }
                     },
-                    "id": 1983,
+                    "id": 2013,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -636,30 +636,30 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 1984,
+                  "id": 2014,
                   "nodeType": "ExpressionStatement",
                   "src": "1139:125:15"
                 }
               ]
             },
             "functionSelector": "04836c4a",
-            "id": 1986,
+            "id": 2016,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "buyCover",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1965,
+              "id": 1995,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1954,
+                  "id": 1984,
                   "mutability": "mutable",
                   "name": "contractAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1986,
+                  "scope": 2016,
                   "src": "947:23:15",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -668,7 +668,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1953,
+                    "id": 1983,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "947:7:15",
@@ -682,11 +682,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 1956,
+                  "id": 1986,
                   "mutability": "mutable",
                   "name": "coverAsset",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1986,
+                  "scope": 2016,
                   "src": "980:18:15",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -695,7 +695,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1955,
+                    "id": 1985,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "980:7:15",
@@ -709,11 +709,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 1958,
+                  "id": 1988,
                   "mutability": "mutable",
                   "name": "sumAssured",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1986,
+                  "scope": 2016,
                   "src": "1008:15:15",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -722,7 +722,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1957,
+                    "id": 1987,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "1008:4:15",
@@ -735,11 +735,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 1960,
+                  "id": 1990,
                   "mutability": "mutable",
                   "name": "coverPeriod",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1986,
+                  "scope": 2016,
                   "src": "1033:18:15",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -748,7 +748,7 @@
                     "typeString": "uint16"
                   },
                   "typeName": {
-                    "id": 1959,
+                    "id": 1989,
                     "name": "uint16",
                     "nodeType": "ElementaryTypeName",
                     "src": "1033:6:15",
@@ -761,11 +761,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 1962,
+                  "id": 1992,
                   "mutability": "mutable",
                   "name": "coverType",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1986,
+                  "scope": 2016,
                   "src": "1061:15:15",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -774,7 +774,7 @@
                     "typeString": "uint8"
                   },
                   "typeName": {
-                    "id": 1961,
+                    "id": 1991,
                     "name": "uint8",
                     "nodeType": "ElementaryTypeName",
                     "src": "1061:5:15",
@@ -787,11 +787,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 1964,
+                  "id": 1994,
                   "mutability": "mutable",
                   "name": "data",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1986,
+                  "scope": 2016,
                   "src": "1086:19:15",
                   "stateVariable": false,
                   "storageLocation": "calldata",
@@ -800,7 +800,7 @@
                     "typeString": "bytes"
                   },
                   "typeName": {
-                    "id": 1963,
+                    "id": 1993,
                     "name": "bytes",
                     "nodeType": "ElementaryTypeName",
                     "src": "1086:5:15",
@@ -815,12 +815,12 @@
               "src": "937:174:15"
             },
             "returnParameters": {
-              "id": 1966,
+              "id": 1996,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1129:0:15"
             },
-            "scope": 1995,
+            "scope": 2025,
             "src": "920:351:15",
             "stateMutability": "payable",
             "virtual": false,
@@ -828,7 +828,7 @@
           },
           {
             "body": {
-              "id": 1993,
+              "id": 2023,
               "nodeType": "Block",
               "src": "1304:40:15",
               "statements": [
@@ -837,7 +837,7 @@
                     "arguments": [
                       {
                         "hexValue": "4920686174652065746865722e",
-                        "id": 1990,
+                        "id": 2020,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -859,7 +859,7 @@
                           "typeString": "literal_string \"I hate ether.\""
                         }
                       ],
-                      "id": 1989,
+                      "id": 2019,
                       "name": "revert",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
@@ -873,7 +873,7 @@
                         "typeString": "function (string memory) pure"
                       }
                     },
-                    "id": 1991,
+                    "id": 2021,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -888,38 +888,38 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1992,
+                  "id": 2022,
                   "nodeType": "ExpressionStatement",
                   "src": "1314:23:15"
                 }
               ]
             },
-            "id": 1994,
+            "id": 2024,
             "implemented": true,
             "kind": "receive",
             "modifiers": [],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1987,
+              "id": 2017,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1284:2:15"
             },
             "returnParameters": {
-              "id": 1988,
+              "id": 2018,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1304:0:15"
             },
-            "scope": 1995,
+            "scope": 2025,
             "src": "1277:67:15",
             "stateMutability": "payable",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 1996,
+        "scope": 2026,
         "src": "740:606:15"
       }
     ],
@@ -930,79 +930,79 @@
       "absolutePath": "/Users/ricardopinto/work/brightunion/distributors/contracts/nexus/mocks/CoverBuyer.sol",
       "exportedSymbols": {
         "Address": [
-          6690
+          6720
         ],
         "AddressUpgradeable": [
-          4506
+          4536
         ],
         "ContextUpgradeable": [
-          4551
+          4581
         ],
         "CoverBuyer": [
-          1995
+          2025
         ],
         "Distributor": [
-          1464
+          1494
         ],
         "ERC165Upgradeable": [
-          2663
+          2693
         ],
         "ERC721Upgradeable": [
-          4070
+          4100
         ],
         "EnumerableMapUpgradeable": [
-          5111
+          5141
         ],
         "EnumerableSetUpgradeable": [
-          5603
+          5633
         ],
         "ICover": [
-          1613
+          1643
         ],
         "IERC165Upgradeable": [
-          2675
+          2705
         ],
         "IERC20": [
-          6181
+          6211
         ],
         "IERC721EnumerableUpgradeable": [
-          4101
+          4131
         ],
         "IERC721MetadataUpgradeable": [
-          4128
+          4158
         ],
         "IERC721ReceiverUpgradeable": [
-          4146
+          4176
         ],
         "IERC721Upgradeable": [
-          4262
+          4292
         ],
         "INXMaster": [
-          1674
+          1704
         ],
         "IPool": [
-          1693
+          1723
         ],
         "Initializable": [
-          3096
+          3126
         ],
         "OwnableUpgradeable": [
-          2588
+          2618
         ],
         "ReentrancyGuardUpgradeable": [
-          5661
+          5691
         ],
         "SafeERC20": [
-          6394
+          6424
         ],
         "SafeMath": [
-          6103
+          6133
         ],
         "SafeMathUpgradeable": [
-          3030
+          3060
         ],
         "StringsUpgradeable": [
-          5748
+          5778
         ]
       }
     },
@@ -1016,22 +1016,22 @@
             ".4"
           ]
         },
-        "id": 1937,
+        "id": 1967,
         "name": "PragmaDirective",
         "src": "685:23:15"
       },
       {
         "attributes": {
-          "SourceUnit": 1465,
+          "SourceUnit": 1495,
           "absolutePath": "/Users/ricardopinto/work/brightunion/distributors/contracts/nexus/Distributor.sol",
           "file": "../Distributor.sol",
-          "scope": 1996,
+          "scope": 2026,
           "symbolAliases": [
             null
           ],
           "unitAlias": ""
         },
-        "id": 1938,
+        "id": 1968,
         "name": "ImportDirective",
         "src": "710:28:15"
       },
@@ -1047,10 +1047,10 @@
           "contractKind": "contract",
           "fullyImplemented": true,
           "linearizedBaseContracts": [
-            1995
+            2025
           ],
           "name": "CoverBuyer",
-          "scope": 1996
+          "scope": 2026
         },
         "children": [
           {
@@ -1058,7 +1058,7 @@
               "constant": false,
               "mutability": "mutable",
               "name": "distributor",
-              "scope": 1995,
+              "scope": 2025,
               "stateVariable": true,
               "storageLocation": "default",
               "type": "contract Distributor",
@@ -1068,15 +1068,15 @@
               {
                 "attributes": {
                   "name": "Distributor",
-                  "referencedDeclaration": 1464,
+                  "referencedDeclaration": 1494,
                   "type": "contract Distributor"
                 },
-                "id": 1939,
+                "id": 1969,
                 "name": "UserDefinedTypeName",
                 "src": "767:11:15"
               }
             ],
-            "id": 1940,
+            "id": 1970,
             "name": "VariableDeclaration",
             "src": "767:23:15"
           },
@@ -1089,7 +1089,7 @@
                 null
               ],
               "name": "",
-              "scope": 1995,
+              "scope": 2025,
               "stateMutability": "nonpayable",
               "virtual": false,
               "visibility": "public"
@@ -1102,7 +1102,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "distributorAddress",
-                      "scope": 1952,
+                      "scope": 1982,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address payable",
@@ -1115,17 +1115,17 @@
                           "stateMutability": "payable",
                           "type": "address payable"
                         },
-                        "id": 1941,
+                        "id": 1971,
                         "name": "ElementaryTypeName",
                         "src": "809:15:15"
                       }
                     ],
-                    "id": 1942,
+                    "id": 1972,
                     "name": "VariableDeclaration",
                     "src": "809:34:15"
                   }
                 ],
-                "id": 1943,
+                "id": 1973,
                 "name": "ParameterList",
                 "src": "808:36:15"
               },
@@ -1136,7 +1136,7 @@
                   ]
                 },
                 "children": [],
-                "id": 1944,
+                "id": 1974,
                 "name": "ParameterList",
                 "src": "852:0:15"
               },
@@ -1159,11 +1159,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 1940,
+                              "referencedDeclaration": 1970,
                               "type": "contract Distributor",
                               "value": "distributor"
                             },
-                            "id": 1945,
+                            "id": 1975,
                             "name": "Identifier",
                             "src": "862:11:15"
                           },
@@ -1193,11 +1193,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 1464,
+                                  "referencedDeclaration": 1494,
                                   "type": "type(contract Distributor)",
                                   "value": "Distributor"
                                 },
-                                "id": 1946,
+                                "id": 1976,
                                 "name": "Identifier",
                                 "src": "876:11:15"
                               },
@@ -1206,36 +1206,36 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 1942,
+                                  "referencedDeclaration": 1972,
                                   "type": "address payable",
                                   "value": "distributorAddress"
                                 },
-                                "id": 1947,
+                                "id": 1977,
                                 "name": "Identifier",
                                 "src": "888:18:15"
                               }
                             ],
-                            "id": 1948,
+                            "id": 1978,
                             "name": "FunctionCall",
                             "src": "876:31:15"
                           }
                         ],
-                        "id": 1949,
+                        "id": 1979,
                         "name": "Assignment",
                         "src": "862:45:15"
                       }
                     ],
-                    "id": 1950,
+                    "id": 1980,
                     "name": "ExpressionStatement",
                     "src": "862:45:15"
                   }
                 ],
-                "id": 1951,
+                "id": 1981,
                 "name": "Block",
                 "src": "852:62:15"
               }
             ],
-            "id": 1952,
+            "id": 1982,
             "name": "FunctionDefinition",
             "src": "797:117:15"
           },
@@ -1249,7 +1249,7 @@
                 null
               ],
               "name": "buyCover",
-              "scope": 1995,
+              "scope": 2025,
               "stateMutability": "payable",
               "virtual": false,
               "visibility": "external"
@@ -1262,7 +1262,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "contractAddress",
-                      "scope": 1986,
+                      "scope": 2016,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -1275,12 +1275,12 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 1953,
+                        "id": 1983,
                         "name": "ElementaryTypeName",
                         "src": "947:7:15"
                       }
                     ],
-                    "id": 1954,
+                    "id": 1984,
                     "name": "VariableDeclaration",
                     "src": "947:23:15"
                   },
@@ -1289,7 +1289,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "coverAsset",
-                      "scope": 1986,
+                      "scope": 2016,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -1302,12 +1302,12 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 1955,
+                        "id": 1985,
                         "name": "ElementaryTypeName",
                         "src": "980:7:15"
                       }
                     ],
-                    "id": 1956,
+                    "id": 1986,
                     "name": "VariableDeclaration",
                     "src": "980:18:15"
                   },
@@ -1316,7 +1316,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "sumAssured",
-                      "scope": 1986,
+                      "scope": 2016,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -1328,12 +1328,12 @@
                           "name": "uint",
                           "type": "uint256"
                         },
-                        "id": 1957,
+                        "id": 1987,
                         "name": "ElementaryTypeName",
                         "src": "1008:4:15"
                       }
                     ],
-                    "id": 1958,
+                    "id": 1988,
                     "name": "VariableDeclaration",
                     "src": "1008:15:15"
                   },
@@ -1342,7 +1342,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "coverPeriod",
-                      "scope": 1986,
+                      "scope": 2016,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint16",
@@ -1354,12 +1354,12 @@
                           "name": "uint16",
                           "type": "uint16"
                         },
-                        "id": 1959,
+                        "id": 1989,
                         "name": "ElementaryTypeName",
                         "src": "1033:6:15"
                       }
                     ],
-                    "id": 1960,
+                    "id": 1990,
                     "name": "VariableDeclaration",
                     "src": "1033:18:15"
                   },
@@ -1368,7 +1368,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "coverType",
-                      "scope": 1986,
+                      "scope": 2016,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint8",
@@ -1380,12 +1380,12 @@
                           "name": "uint8",
                           "type": "uint8"
                         },
-                        "id": 1961,
+                        "id": 1991,
                         "name": "ElementaryTypeName",
                         "src": "1061:5:15"
                       }
                     ],
-                    "id": 1962,
+                    "id": 1992,
                     "name": "VariableDeclaration",
                     "src": "1061:15:15"
                   },
@@ -1394,7 +1394,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "data",
-                      "scope": 1986,
+                      "scope": 2016,
                       "stateVariable": false,
                       "storageLocation": "calldata",
                       "type": "bytes",
@@ -1406,17 +1406,17 @@
                           "name": "bytes",
                           "type": "bytes"
                         },
-                        "id": 1963,
+                        "id": 1993,
                         "name": "ElementaryTypeName",
                         "src": "1086:5:15"
                       }
                     ],
-                    "id": 1964,
+                    "id": 1994,
                     "name": "VariableDeclaration",
                     "src": "1086:19:15"
                   }
                 ],
-                "id": 1965,
+                "id": 1995,
                 "name": "ParameterList",
                 "src": "937:174:15"
               },
@@ -1427,7 +1427,7 @@
                   ]
                 },
                 "children": [],
-                "id": 1966,
+                "id": 1996,
                 "name": "ParameterList",
                 "src": "1129:0:15"
               },
@@ -1529,7 +1529,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "buyCover",
-                                  "referencedDeclaration": 912,
+                                  "referencedDeclaration": 942,
                                   "type": "function (address,address,uint256,uint16,uint8,uint256,bytes memory) payable external returns (uint256)"
                                 },
                                 "children": [
@@ -1538,16 +1538,16 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 1940,
+                                      "referencedDeclaration": 1970,
                                       "type": "contract Distributor",
                                       "value": "distributor"
                                     },
-                                    "id": 1967,
+                                    "id": 1997,
                                     "name": "Identifier",
                                     "src": "1139:11:15"
                                   }
                                 ],
-                                "id": 1969,
+                                "id": 1999,
                                 "name": "MemberAccess",
                                 "src": "1139:20:15"
                               },
@@ -1570,17 +1570,17 @@
                                       "type": "msg",
                                       "value": "msg"
                                     },
-                                    "id": 1970,
+                                    "id": 2000,
                                     "name": "Identifier",
                                     "src": "1168:3:15"
                                   }
                                 ],
-                                "id": 1971,
+                                "id": 2001,
                                 "name": "MemberAccess",
                                 "src": "1168:9:15"
                               }
                             ],
-                            "id": 1972,
+                            "id": 2002,
                             "name": "FunctionCallOptions",
                             "src": "1139:39:15"
                           },
@@ -1589,11 +1589,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 1954,
+                              "referencedDeclaration": 1984,
                               "type": "address",
                               "value": "contractAddress"
                             },
-                            "id": 1973,
+                            "id": 2003,
                             "name": "Identifier",
                             "src": "1179:15:15"
                           },
@@ -1602,11 +1602,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 1956,
+                              "referencedDeclaration": 1986,
                               "type": "address",
                               "value": "coverAsset"
                             },
-                            "id": 1974,
+                            "id": 2004,
                             "name": "Identifier",
                             "src": "1196:10:15"
                           },
@@ -1615,11 +1615,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 1958,
+                              "referencedDeclaration": 1988,
                               "type": "uint256",
                               "value": "sumAssured"
                             },
-                            "id": 1975,
+                            "id": 2005,
                             "name": "Identifier",
                             "src": "1208:10:15"
                           },
@@ -1628,11 +1628,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 1960,
+                              "referencedDeclaration": 1990,
                               "type": "uint16",
                               "value": "coverPeriod"
                             },
-                            "id": 1976,
+                            "id": 2006,
                             "name": "Identifier",
                             "src": "1220:11:15"
                           },
@@ -1641,11 +1641,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 1962,
+                              "referencedDeclaration": 1992,
                               "type": "uint8",
                               "value": "coverType"
                             },
-                            "id": 1977,
+                            "id": 2007,
                             "name": "Identifier",
                             "src": "1233:9:15"
                           },
@@ -1674,7 +1674,7 @@
                                   "type": "int_const 2",
                                   "value": "2"
                                 },
-                                "id": 1978,
+                                "id": 2008,
                                 "name": "Literal",
                                 "src": "1244:1:15"
                               },
@@ -1697,17 +1697,17 @@
                                       "type": "msg",
                                       "value": "msg"
                                     },
-                                    "id": 1979,
+                                    "id": 2009,
                                     "name": "Identifier",
                                     "src": "1248:3:15"
                                   }
                                 ],
-                                "id": 1980,
+                                "id": 2010,
                                 "name": "MemberAccess",
                                 "src": "1248:9:15"
                               }
                             ],
-                            "id": 1981,
+                            "id": 2011,
                             "name": "BinaryOperation",
                             "src": "1244:13:15"
                           },
@@ -1716,31 +1716,31 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 1964,
+                              "referencedDeclaration": 1994,
                               "type": "bytes calldata",
                               "value": "data"
                             },
-                            "id": 1982,
+                            "id": 2012,
                             "name": "Identifier",
                             "src": "1259:4:15"
                           }
                         ],
-                        "id": 1983,
+                        "id": 2013,
                         "name": "FunctionCall",
                         "src": "1139:125:15"
                       }
                     ],
-                    "id": 1984,
+                    "id": 2014,
                     "name": "ExpressionStatement",
                     "src": "1139:125:15"
                   }
                 ],
-                "id": 1985,
+                "id": 2015,
                 "name": "Block",
                 "src": "1129:142:15"
               }
             ],
-            "id": 1986,
+            "id": 2016,
             "name": "FunctionDefinition",
             "src": "920:351:15"
           },
@@ -1753,7 +1753,7 @@
                 null
               ],
               "name": "",
-              "scope": 1995,
+              "scope": 2025,
               "stateMutability": "payable",
               "virtual": false,
               "visibility": "external"
@@ -1766,7 +1766,7 @@
                   ]
                 },
                 "children": [],
-                "id": 1987,
+                "id": 2017,
                 "name": "ParameterList",
                 "src": "1284:2:15"
               },
@@ -1777,7 +1777,7 @@
                   ]
                 },
                 "children": [],
-                "id": 1988,
+                "id": 2018,
                 "name": "ParameterList",
                 "src": "1304:0:15"
               },
@@ -1816,7 +1816,7 @@
                               "type": "function (string memory) pure",
                               "value": "revert"
                             },
-                            "id": 1989,
+                            "id": 2019,
                             "name": "Identifier",
                             "src": "1314:6:15"
                           },
@@ -1831,37 +1831,37 @@
                               "type": "literal_string \"I hate ether.\"",
                               "value": "I hate ether."
                             },
-                            "id": 1990,
+                            "id": 2020,
                             "name": "Literal",
                             "src": "1321:15:15"
                           }
                         ],
-                        "id": 1991,
+                        "id": 2021,
                         "name": "FunctionCall",
                         "src": "1314:23:15"
                       }
                     ],
-                    "id": 1992,
+                    "id": 2022,
                     "name": "ExpressionStatement",
                     "src": "1314:23:15"
                   }
                 ],
-                "id": 1993,
+                "id": 2023,
                 "name": "Block",
                 "src": "1304:40:15"
               }
             ],
-            "id": 1994,
+            "id": 2024,
             "name": "FunctionDefinition",
             "src": "1277:67:15"
           }
         ],
-        "id": 1995,
+        "id": 2025,
         "name": "ContractDefinition",
         "src": "740:606:15"
       }
     ],
-    "id": 1996,
+    "id": 2026,
     "name": "SourceUnit",
     "src": "685:663:15"
   },
@@ -1871,7 +1871,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.0",
-  "updatedAt": "2021-05-06T08:46:13.402Z",
+  "updatedAt": "2021-05-06T08:47:15.660Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

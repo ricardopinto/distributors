@@ -60,10 +60,10 @@
     "absolutePath": "/Users/ricardopinto/work/brightunion/distributors/contracts/nexus/interfaces/IPool.sol",
     "exportedSymbols": {
       "IPool": [
-        1693
+        1723
       ]
     },
-    "id": 1694,
+    "id": 1724,
     "nodeType": "SourceUnit",
     "nodes": [
       {
@@ -72,32 +72,32 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "fullyImplemented": false,
-        "id": 1693,
+        "id": 1723,
         "linearizedBaseContracts": [
-          1693
+          1723
         ],
         "name": "IPool",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "functionSelector": "28dd3773",
-            "id": 1682,
+            "id": 1712,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "sellNXM",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1680,
+              "id": 1710,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1677,
+                  "id": 1707,
                   "mutability": "mutable",
                   "name": "tokenAmount",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1682,
+                  "scope": 1712,
                   "src": "725:16:11",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -106,7 +106,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1676,
+                    "id": 1706,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "725:4:11",
@@ -119,11 +119,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 1679,
+                  "id": 1709,
                   "mutability": "mutable",
                   "name": "minEthOut",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1682,
+                  "scope": 1712,
                   "src": "743:14:11",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -132,7 +132,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1678,
+                    "id": 1708,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "743:4:11",
@@ -147,12 +147,12 @@
               "src": "724:34:11"
             },
             "returnParameters": {
-              "id": 1681,
+              "id": 1711,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "767:0:11"
             },
-            "scope": 1693,
+            "scope": 1723,
             "src": "708:60:11",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -160,23 +160,23 @@
           },
           {
             "functionSelector": "74bd0ace",
-            "id": 1687,
+            "id": 1717,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "sellNXMTokens",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1685,
+              "id": 1715,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1684,
+                  "id": 1714,
                   "mutability": "mutable",
                   "name": "tokenAmount",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1687,
+                  "scope": 1717,
                   "src": "797:16:11",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -185,7 +185,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1683,
+                    "id": 1713,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "797:4:11",
@@ -200,12 +200,12 @@
               "src": "796:18:11"
             },
             "returnParameters": {
-              "id": 1686,
+              "id": 1716,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "823:0:11"
             },
-            "scope": 1693,
+            "scope": 1723,
             "src": "774:50:11",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -213,23 +213,23 @@
           },
           {
             "functionSelector": "963bbc60",
-            "id": 1692,
+            "id": 1722,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "buyNXM",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1690,
+              "id": 1720,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1689,
+                  "id": 1719,
                   "mutability": "mutable",
                   "name": "minTokensOut",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1692,
+                  "scope": 1722,
                   "src": "846:17:11",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -238,7 +238,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1688,
+                    "id": 1718,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "846:4:11",
@@ -253,19 +253,19 @@
               "src": "845:19:11"
             },
             "returnParameters": {
-              "id": 1691,
+              "id": 1721,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "881:0:11"
             },
-            "scope": 1693,
+            "scope": 1723,
             "src": "830:52:11",
             "stateMutability": "payable",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 1694,
+        "scope": 1724,
         "src": "686:198:11"
       }
     ],
@@ -276,7 +276,7 @@
       "absolutePath": "/Users/ricardopinto/work/brightunion/distributors/contracts/nexus/interfaces/IPool.sol",
       "exportedSymbols": {
         "IPool": [
-          1693
+          1723
         ]
       }
     },
@@ -293,10 +293,10 @@
           "contractKind": "interface",
           "fullyImplemented": false,
           "linearizedBaseContracts": [
-            1693
+            1723
           ],
           "name": "IPool",
-          "scope": 1694
+          "scope": 1724
         },
         "children": [
           {
@@ -309,7 +309,7 @@
                 null
               ],
               "name": "sellNXM",
-              "scope": 1693,
+              "scope": 1723,
               "stateMutability": "nonpayable",
               "virtual": false,
               "visibility": "external"
@@ -322,7 +322,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "tokenAmount",
-                      "scope": 1682,
+                      "scope": 1712,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -334,12 +334,12 @@
                           "name": "uint",
                           "type": "uint256"
                         },
-                        "id": 1676,
+                        "id": 1706,
                         "name": "ElementaryTypeName",
                         "src": "725:4:11"
                       }
                     ],
-                    "id": 1677,
+                    "id": 1707,
                     "name": "VariableDeclaration",
                     "src": "725:16:11"
                   },
@@ -348,7 +348,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "minEthOut",
-                      "scope": 1682,
+                      "scope": 1712,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -360,17 +360,17 @@
                           "name": "uint",
                           "type": "uint256"
                         },
-                        "id": 1678,
+                        "id": 1708,
                         "name": "ElementaryTypeName",
                         "src": "743:4:11"
                       }
                     ],
-                    "id": 1679,
+                    "id": 1709,
                     "name": "VariableDeclaration",
                     "src": "743:14:11"
                   }
                 ],
-                "id": 1680,
+                "id": 1710,
                 "name": "ParameterList",
                 "src": "724:34:11"
               },
@@ -381,12 +381,12 @@
                   ]
                 },
                 "children": [],
-                "id": 1681,
+                "id": 1711,
                 "name": "ParameterList",
                 "src": "767:0:11"
               }
             ],
-            "id": 1682,
+            "id": 1712,
             "name": "FunctionDefinition",
             "src": "708:60:11"
           },
@@ -400,7 +400,7 @@
                 null
               ],
               "name": "sellNXMTokens",
-              "scope": 1693,
+              "scope": 1723,
               "stateMutability": "nonpayable",
               "virtual": false,
               "visibility": "external"
@@ -413,7 +413,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "tokenAmount",
-                      "scope": 1687,
+                      "scope": 1717,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -425,17 +425,17 @@
                           "name": "uint",
                           "type": "uint256"
                         },
-                        "id": 1683,
+                        "id": 1713,
                         "name": "ElementaryTypeName",
                         "src": "797:4:11"
                       }
                     ],
-                    "id": 1684,
+                    "id": 1714,
                     "name": "VariableDeclaration",
                     "src": "797:16:11"
                   }
                 ],
-                "id": 1685,
+                "id": 1715,
                 "name": "ParameterList",
                 "src": "796:18:11"
               },
@@ -446,12 +446,12 @@
                   ]
                 },
                 "children": [],
-                "id": 1686,
+                "id": 1716,
                 "name": "ParameterList",
                 "src": "823:0:11"
               }
             ],
-            "id": 1687,
+            "id": 1717,
             "name": "FunctionDefinition",
             "src": "774:50:11"
           },
@@ -465,7 +465,7 @@
                 null
               ],
               "name": "buyNXM",
-              "scope": 1693,
+              "scope": 1723,
               "stateMutability": "payable",
               "virtual": false,
               "visibility": "external"
@@ -478,7 +478,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "minTokensOut",
-                      "scope": 1692,
+                      "scope": 1722,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -490,17 +490,17 @@
                           "name": "uint",
                           "type": "uint256"
                         },
-                        "id": 1688,
+                        "id": 1718,
                         "name": "ElementaryTypeName",
                         "src": "846:4:11"
                       }
                     ],
-                    "id": 1689,
+                    "id": 1719,
                     "name": "VariableDeclaration",
                     "src": "846:17:11"
                   }
                 ],
-                "id": 1690,
+                "id": 1720,
                 "name": "ParameterList",
                 "src": "845:19:11"
               },
@@ -511,22 +511,22 @@
                   ]
                 },
                 "children": [],
-                "id": 1691,
+                "id": 1721,
                 "name": "ParameterList",
                 "src": "881:0:11"
               }
             ],
-            "id": 1692,
+            "id": 1722,
             "name": "FunctionDefinition",
             "src": "830:52:11"
           }
         ],
-        "id": 1693,
+        "id": 1723,
         "name": "ContractDefinition",
         "src": "686:198:11"
       }
     ],
-    "id": 1694,
+    "id": 1724,
     "name": "SourceUnit",
     "src": "686:199:11"
   },
@@ -536,7 +536,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.0",
-  "updatedAt": "2021-05-06T08:46:13.399Z",
+  "updatedAt": "2021-05-06T08:47:15.656Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
