@@ -314,7 +314,7 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.7.4+commit.3f05b770\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"getBMIContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getBMIDAIStakingContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getBMIStakingContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getClaimVotingContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getClaimingRegistryContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getDAIContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getLiquidityMiningContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getLiquidityMiningNFTContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getLiquidityMiningStakingContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getPolicyBookAdminContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getPolicyBookFabricContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getPolicyBookImplementation\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getPolicyBookRegistryContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getPolicyQuoteContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getPolicyRegistryContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getPriceFeedContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getReinsurancePoolContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getReputationSystemContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getRewardsGeneratorContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getSTKBMIContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getUniswapBMIToETHPairContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getUniswapRouterContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getVBMIContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getWETHContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/kirilivanov/DEV/BrightUnion/distributors/contracts/bridge/interfaces/IContractsRegistry.sol\":\"IContractsRegistry\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":10000},\"remappings\":[]},\"sources\":{\"/Users/kirilivanov/DEV/BrightUnion/distributors/contracts/bridge/interfaces/IContractsRegistry.sol\":{\"keccak256\":\"0x3962ef088c21c97ef012a6db0ee2a58b3eb7ae68e36b74200b7b3046c9f28625\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://37659276042b070761a0fb8dc9c4b80a9000c94090916da78a5d584d4d1f7f1c\",\"dweb:/ipfs/QmUssemitn3SQHGSwJwgovFLxfQZcHp8LA5P24NzgXguxt\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.7.4+commit.3f05b770\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"getBMIContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getBMIDAIStakingContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getBMIStakingContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getClaimVotingContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getClaimingRegistryContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getDAIContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getLiquidityMiningContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getLiquidityMiningNFTContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getLiquidityMiningStakingContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getPolicyBookAdminContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getPolicyBookFabricContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getPolicyBookImplementation\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getPolicyBookRegistryContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getPolicyQuoteContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getPolicyRegistryContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getPriceFeedContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getReinsurancePoolContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getReputationSystemContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getRewardsGeneratorContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getSTKBMIContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getUniswapBMIToETHPairContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getUniswapRouterContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getVBMIContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getWETHContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/ricardopinto/work/brightunion/distributors/contracts/bridge/interfaces/IContractsRegistry.sol\":\"IContractsRegistry\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":10000},\"remappings\":[]},\"sources\":{\"/Users/ricardopinto/work/brightunion/distributors/contracts/bridge/interfaces/IContractsRegistry.sol\":{\"keccak256\":\"0x3962ef088c21c97ef012a6db0ee2a58b3eb7ae68e36b74200b7b3046c9f28625\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://37659276042b070761a0fb8dc9c4b80a9000c94090916da78a5d584d4d1f7f1c\",\"dweb:/ipfs/QmUssemitn3SQHGSwJwgovFLxfQZcHp8LA5P24NzgXguxt\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "immutableReferences": {},
@@ -323,20 +323,20 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.7.4;\npragma experimental ABIEncoderV2;\n\ninterface IContractsRegistry {    \n    function getUniswapRouterContract() external view returns (address);\n\n    function getUniswapBMIToETHPairContract() external view returns (address);\n\n    function getWETHContract() external view returns (address);\n\n    function getDAIContract() external view returns (address);\n\n    function getBMIContract() external view returns (address);\n\n    function getPriceFeedContract() external view returns (address);\n\n    function getPolicyBookRegistryContract() external view returns (address);\n\n    function getPolicyBookFabricContract() external view returns (address);\n\n    function getBMIDAIStakingContract() external view returns (address);\n\n    function getRewardsGeneratorContract() external view returns (address);\n\n    function getLiquidityMiningNFTContract() external view returns (address);\n\n    function getLiquidityMiningContract() external view returns (address);\n\n    function getClaimingRegistryContract() external view returns (address);\n\n    function getPolicyRegistryContract() external view returns (address);    \n\n    function getClaimVotingContract() external view returns (address);\n\n    function getReinsurancePoolContract() external view returns (address);\n\n    function getPolicyBookImplementation() external view returns (address);\n\n    function getPolicyBookAdminContract() external view returns (address);\n\n    function getPolicyQuoteContract() external view returns (address);\n\n    function getBMIStakingContract() external view returns (address);\n\n    function getSTKBMIContract() external view returns (address);\n\n    function getVBMIContract() external view returns (address);\n\n    function getLiquidityMiningStakingContract() external view returns (address);\n\n    function getReputationSystemContract() external view returns (address);  \n}",
-  "sourcePath": "/Users/kirilivanov/DEV/BrightUnion/distributors/contracts/bridge/interfaces/IContractsRegistry.sol",
+  "sourcePath": "/Users/ricardopinto/work/brightunion/distributors/contracts/bridge/interfaces/IContractsRegistry.sol",
   "ast": {
-    "absolutePath": "/Users/kirilivanov/DEV/BrightUnion/distributors/contracts/bridge/interfaces/IContractsRegistry.sol",
+    "absolutePath": "/Users/ricardopinto/work/brightunion/distributors/contracts/bridge/interfaces/IContractsRegistry.sol",
     "exportedSymbols": {
       "IContractsRegistry": [
-        123
+        156
       ]
     },
-    "id": 124,
+    "id": 157,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1,
+        "id": 34,
         "literals": [
           "solidity",
           "^",
@@ -344,16 +344,16 @@
           ".4"
         ],
         "nodeType": "PragmaDirective",
-        "src": "32:23:0"
+        "src": "32:23:1"
       },
       {
-        "id": 2,
+        "id": 35,
         "literals": [
           "experimental",
           "ABIEncoderV2"
         ],
         "nodeType": "PragmaDirective",
-        "src": "56:33:0"
+        "src": "56:33:1"
       },
       {
         "abstract": false,
@@ -361,39 +361,39 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "fullyImplemented": false,
-        "id": 123,
+        "id": 156,
         "linearizedBaseContracts": [
-          123
+          156
         ],
         "name": "IContractsRegistry",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "functionSelector": "dfd71781",
-            "id": 7,
+            "id": 40,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "getUniswapRouterContract",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 3,
+              "id": 36,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "163:2:0"
+              "src": "163:2:1"
             },
             "returnParameters": {
-              "id": 6,
+              "id": 39,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5,
+                  "id": 38,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 7,
-                  "src": "189:7:0",
+                  "scope": 40,
+                  "src": "189:7:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -401,10 +401,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 4,
+                    "id": 37,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "189:7:0",
+                    "src": "189:7:1",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -414,40 +414,40 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "188:9:0"
+              "src": "188:9:1"
             },
-            "scope": 123,
-            "src": "130:68:0",
+            "scope": 156,
+            "src": "130:68:1",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           },
           {
             "functionSelector": "1298fcd2",
-            "id": 12,
+            "id": 45,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "getUniswapBMIToETHPairContract",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 8,
+              "id": 41,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "243:2:0"
+              "src": "243:2:1"
             },
             "returnParameters": {
-              "id": 11,
+              "id": 44,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 10,
+                  "id": 43,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 12,
-                  "src": "269:7:0",
+                  "scope": 45,
+                  "src": "269:7:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -455,10 +455,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 9,
+                    "id": 42,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "269:7:0",
+                    "src": "269:7:1",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -468,40 +468,40 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "268:9:0"
+              "src": "268:9:1"
             },
-            "scope": 123,
-            "src": "204:74:0",
+            "scope": 156,
+            "src": "204:74:1",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           },
           {
             "functionSelector": "467834bb",
-            "id": 17,
+            "id": 50,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "getWETHContract",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 13,
+              "id": 46,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "308:2:0"
+              "src": "308:2:1"
             },
             "returnParameters": {
-              "id": 16,
+              "id": 49,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 15,
+                  "id": 48,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 17,
-                  "src": "334:7:0",
+                  "scope": 50,
+                  "src": "334:7:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -509,10 +509,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 14,
+                    "id": 47,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "334:7:0",
+                    "src": "334:7:1",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -522,40 +522,40 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "333:9:0"
+              "src": "333:9:1"
             },
-            "scope": 123,
-            "src": "284:59:0",
+            "scope": 156,
+            "src": "284:59:1",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           },
           {
             "functionSelector": "8a22246c",
-            "id": 22,
+            "id": 55,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "getDAIContract",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 18,
+              "id": 51,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "372:2:0"
+              "src": "372:2:1"
             },
             "returnParameters": {
-              "id": 21,
+              "id": 54,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 20,
+                  "id": 53,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 22,
-                  "src": "398:7:0",
+                  "scope": 55,
+                  "src": "398:7:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -563,10 +563,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 19,
+                    "id": 52,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "398:7:0",
+                    "src": "398:7:1",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -576,40 +576,40 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "397:9:0"
+              "src": "397:9:1"
             },
-            "scope": 123,
-            "src": "349:58:0",
+            "scope": 156,
+            "src": "349:58:1",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           },
           {
             "functionSelector": "2fe83b02",
-            "id": 27,
+            "id": 60,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "getBMIContract",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 23,
+              "id": 56,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "436:2:0"
+              "src": "436:2:1"
             },
             "returnParameters": {
-              "id": 26,
+              "id": 59,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 25,
+                  "id": 58,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 27,
-                  "src": "462:7:0",
+                  "scope": 60,
+                  "src": "462:7:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -617,10 +617,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 24,
+                    "id": 57,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "462:7:0",
+                    "src": "462:7:1",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -630,40 +630,40 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "461:9:0"
+              "src": "461:9:1"
             },
-            "scope": 123,
-            "src": "413:58:0",
+            "scope": 156,
+            "src": "413:58:1",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           },
           {
             "functionSelector": "9bc0c5d2",
-            "id": 32,
+            "id": 65,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "getPriceFeedContract",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 28,
+              "id": 61,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "506:2:0"
+              "src": "506:2:1"
             },
             "returnParameters": {
-              "id": 31,
+              "id": 64,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 30,
+                  "id": 63,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 32,
-                  "src": "532:7:0",
+                  "scope": 65,
+                  "src": "532:7:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -671,10 +671,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 29,
+                    "id": 62,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "532:7:0",
+                    "src": "532:7:1",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -684,40 +684,40 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "531:9:0"
+              "src": "531:9:1"
             },
-            "scope": 123,
-            "src": "477:64:0",
+            "scope": 156,
+            "src": "477:64:1",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           },
           {
             "functionSelector": "dc9c563f",
-            "id": 37,
+            "id": 70,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "getPolicyBookRegistryContract",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 33,
+              "id": 66,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "585:2:0"
+              "src": "585:2:1"
             },
             "returnParameters": {
-              "id": 36,
+              "id": 69,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 35,
+                  "id": 68,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 37,
-                  "src": "611:7:0",
+                  "scope": 70,
+                  "src": "611:7:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -725,10 +725,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 34,
+                    "id": 67,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "611:7:0",
+                    "src": "611:7:1",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -738,40 +738,40 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "610:9:0"
+              "src": "610:9:1"
             },
-            "scope": 123,
-            "src": "547:73:0",
+            "scope": 156,
+            "src": "547:73:1",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           },
           {
             "functionSelector": "2bf0f853",
-            "id": 42,
+            "id": 75,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "getPolicyBookFabricContract",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 38,
+              "id": 71,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "662:2:0"
+              "src": "662:2:1"
             },
             "returnParameters": {
-              "id": 41,
+              "id": 74,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 40,
+                  "id": 73,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 42,
-                  "src": "688:7:0",
+                  "scope": 75,
+                  "src": "688:7:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -779,10 +779,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 39,
+                    "id": 72,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "688:7:0",
+                    "src": "688:7:1",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -792,40 +792,40 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "687:9:0"
+              "src": "687:9:1"
             },
-            "scope": 123,
-            "src": "626:71:0",
+            "scope": 156,
+            "src": "626:71:1",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           },
           {
             "functionSelector": "bb405caf",
-            "id": 47,
+            "id": 80,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "getBMIDAIStakingContract",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 43,
+              "id": 76,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "736:2:0"
+              "src": "736:2:1"
             },
             "returnParameters": {
-              "id": 46,
+              "id": 79,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 45,
+                  "id": 78,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 47,
-                  "src": "762:7:0",
+                  "scope": 80,
+                  "src": "762:7:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -833,10 +833,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 44,
+                    "id": 77,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "762:7:0",
+                    "src": "762:7:1",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -846,40 +846,40 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "761:9:0"
+              "src": "761:9:1"
             },
-            "scope": 123,
-            "src": "703:68:0",
+            "scope": 156,
+            "src": "703:68:1",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           },
           {
             "functionSelector": "fb6db8a8",
-            "id": 52,
+            "id": 85,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "getRewardsGeneratorContract",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 48,
+              "id": 81,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "813:2:0"
+              "src": "813:2:1"
             },
             "returnParameters": {
-              "id": 51,
+              "id": 84,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 50,
+                  "id": 83,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 52,
-                  "src": "839:7:0",
+                  "scope": 85,
+                  "src": "839:7:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -887,10 +887,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 49,
+                    "id": 82,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "839:7:0",
+                    "src": "839:7:1",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -900,40 +900,40 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "838:9:0"
+              "src": "838:9:1"
             },
-            "scope": 123,
-            "src": "777:71:0",
+            "scope": 156,
+            "src": "777:71:1",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           },
           {
             "functionSelector": "38443382",
-            "id": 57,
+            "id": 90,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "getLiquidityMiningNFTContract",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 53,
+              "id": 86,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "892:2:0"
+              "src": "892:2:1"
             },
             "returnParameters": {
-              "id": 56,
+              "id": 89,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 55,
+                  "id": 88,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 57,
-                  "src": "918:7:0",
+                  "scope": 90,
+                  "src": "918:7:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -941,10 +941,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 54,
+                    "id": 87,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "918:7:0",
+                    "src": "918:7:1",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -954,40 +954,40 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "917:9:0"
+              "src": "917:9:1"
             },
-            "scope": 123,
-            "src": "854:73:0",
+            "scope": 156,
+            "src": "854:73:1",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           },
           {
             "functionSelector": "fae7baef",
-            "id": 62,
+            "id": 95,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "getLiquidityMiningContract",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 58,
+              "id": 91,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "968:2:0"
+              "src": "968:2:1"
             },
             "returnParameters": {
-              "id": 61,
+              "id": 94,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 60,
+                  "id": 93,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 62,
-                  "src": "994:7:0",
+                  "scope": 95,
+                  "src": "994:7:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -995,10 +995,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 59,
+                    "id": 92,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "994:7:0",
+                    "src": "994:7:1",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1008,40 +1008,40 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "993:9:0"
+              "src": "993:9:1"
             },
-            "scope": 123,
-            "src": "933:70:0",
+            "scope": 156,
+            "src": "933:70:1",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           },
           {
             "functionSelector": "39f9615f",
-            "id": 67,
+            "id": 100,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "getClaimingRegistryContract",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 63,
+              "id": 96,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1045:2:0"
+              "src": "1045:2:1"
             },
             "returnParameters": {
-              "id": 66,
+              "id": 99,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 65,
+                  "id": 98,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 67,
-                  "src": "1071:7:0",
+                  "scope": 100,
+                  "src": "1071:7:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1049,10 +1049,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 64,
+                    "id": 97,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1071:7:0",
+                    "src": "1071:7:1",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1062,40 +1062,40 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1070:9:0"
+              "src": "1070:9:1"
             },
-            "scope": 123,
-            "src": "1009:71:0",
+            "scope": 156,
+            "src": "1009:71:1",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           },
           {
             "functionSelector": "0bc3f29d",
-            "id": 72,
+            "id": 105,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "getPolicyRegistryContract",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 68,
+              "id": 101,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1120:2:0"
+              "src": "1120:2:1"
             },
             "returnParameters": {
-              "id": 71,
+              "id": 104,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 70,
+                  "id": 103,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 72,
-                  "src": "1146:7:0",
+                  "scope": 105,
+                  "src": "1146:7:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1103,10 +1103,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 69,
+                    "id": 102,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1146:7:0",
+                    "src": "1146:7:1",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1116,40 +1116,40 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1145:9:0"
+              "src": "1145:9:1"
             },
-            "scope": 123,
-            "src": "1086:69:0",
+            "scope": 156,
+            "src": "1086:69:1",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           },
           {
             "functionSelector": "ae0a0f86",
-            "id": 77,
+            "id": 110,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "getClaimVotingContract",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 73,
+              "id": 106,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1196:2:0"
+              "src": "1196:2:1"
             },
             "returnParameters": {
-              "id": 76,
+              "id": 109,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 75,
+                  "id": 108,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 77,
-                  "src": "1222:7:0",
+                  "scope": 110,
+                  "src": "1222:7:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1157,10 +1157,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 74,
+                    "id": 107,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1222:7:0",
+                    "src": "1222:7:1",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1170,40 +1170,40 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1221:9:0"
+              "src": "1221:9:1"
             },
-            "scope": 123,
-            "src": "1165:66:0",
+            "scope": 156,
+            "src": "1165:66:1",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           },
           {
             "functionSelector": "34dd1054",
-            "id": 82,
+            "id": 115,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "getReinsurancePoolContract",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 78,
+              "id": 111,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1272:2:0"
+              "src": "1272:2:1"
             },
             "returnParameters": {
-              "id": 81,
+              "id": 114,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 80,
+                  "id": 113,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 82,
-                  "src": "1298:7:0",
+                  "scope": 115,
+                  "src": "1298:7:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1211,10 +1211,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 79,
+                    "id": 112,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1298:7:0",
+                    "src": "1298:7:1",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1224,40 +1224,40 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1297:9:0"
+              "src": "1297:9:1"
             },
-            "scope": 123,
-            "src": "1237:70:0",
+            "scope": 156,
+            "src": "1237:70:1",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           },
           {
             "functionSelector": "8da3650f",
-            "id": 87,
+            "id": 120,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "getPolicyBookImplementation",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 83,
+              "id": 116,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1349:2:0"
+              "src": "1349:2:1"
             },
             "returnParameters": {
-              "id": 86,
+              "id": 119,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 85,
+                  "id": 118,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 87,
-                  "src": "1375:7:0",
+                  "scope": 120,
+                  "src": "1375:7:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1265,10 +1265,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 84,
+                    "id": 117,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1375:7:0",
+                    "src": "1375:7:1",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1278,40 +1278,40 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1374:9:0"
+              "src": "1374:9:1"
             },
-            "scope": 123,
-            "src": "1313:71:0",
+            "scope": 156,
+            "src": "1313:71:1",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           },
           {
             "functionSelector": "1ef35fc9",
-            "id": 92,
+            "id": 125,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "getPolicyBookAdminContract",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 88,
+              "id": 121,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1425:2:0"
+              "src": "1425:2:1"
             },
             "returnParameters": {
-              "id": 91,
+              "id": 124,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 90,
+                  "id": 123,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 92,
-                  "src": "1451:7:0",
+                  "scope": 125,
+                  "src": "1451:7:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1319,10 +1319,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 89,
+                    "id": 122,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1451:7:0",
+                    "src": "1451:7:1",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1332,40 +1332,40 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1450:9:0"
+              "src": "1450:9:1"
             },
-            "scope": 123,
-            "src": "1390:70:0",
+            "scope": 156,
+            "src": "1390:70:1",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           },
           {
             "functionSelector": "db43ccb5",
-            "id": 97,
+            "id": 130,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "getPolicyQuoteContract",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 93,
+              "id": 126,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1497:2:0"
+              "src": "1497:2:1"
             },
             "returnParameters": {
-              "id": 96,
+              "id": 129,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 95,
+                  "id": 128,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 97,
-                  "src": "1523:7:0",
+                  "scope": 130,
+                  "src": "1523:7:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1373,10 +1373,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 94,
+                    "id": 127,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1523:7:0",
+                    "src": "1523:7:1",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1386,40 +1386,40 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1522:9:0"
+              "src": "1522:9:1"
             },
-            "scope": 123,
-            "src": "1466:66:0",
+            "scope": 156,
+            "src": "1466:66:1",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           },
           {
             "functionSelector": "2463efd6",
-            "id": 102,
+            "id": 135,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "getBMIStakingContract",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 98,
+              "id": 131,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1568:2:0"
+              "src": "1568:2:1"
             },
             "returnParameters": {
-              "id": 101,
+              "id": 134,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 100,
+                  "id": 133,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 102,
-                  "src": "1594:7:0",
+                  "scope": 135,
+                  "src": "1594:7:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1427,10 +1427,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 99,
+                    "id": 132,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1594:7:0",
+                    "src": "1594:7:1",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1440,40 +1440,40 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1593:9:0"
+              "src": "1593:9:1"
             },
-            "scope": 123,
-            "src": "1538:65:0",
+            "scope": 156,
+            "src": "1538:65:1",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           },
           {
             "functionSelector": "53c6d6f1",
-            "id": 107,
+            "id": 140,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "getSTKBMIContract",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 103,
+              "id": 136,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1635:2:0"
+              "src": "1635:2:1"
             },
             "returnParameters": {
-              "id": 106,
+              "id": 139,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 105,
+                  "id": 138,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 107,
-                  "src": "1661:7:0",
+                  "scope": 140,
+                  "src": "1661:7:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1481,10 +1481,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 104,
+                    "id": 137,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1661:7:0",
+                    "src": "1661:7:1",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1494,40 +1494,40 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1660:9:0"
+              "src": "1660:9:1"
             },
-            "scope": 123,
-            "src": "1609:61:0",
+            "scope": 156,
+            "src": "1609:61:1",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           },
           {
             "functionSelector": "7ce9ad4d",
-            "id": 112,
+            "id": 145,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "getVBMIContract",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 108,
+              "id": 141,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1700:2:0"
+              "src": "1700:2:1"
             },
             "returnParameters": {
-              "id": 111,
+              "id": 144,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 110,
+                  "id": 143,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 112,
-                  "src": "1726:7:0",
+                  "scope": 145,
+                  "src": "1726:7:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1535,10 +1535,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 109,
+                    "id": 142,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1726:7:0",
+                    "src": "1726:7:1",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1548,40 +1548,40 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1725:9:0"
+              "src": "1725:9:1"
             },
-            "scope": 123,
-            "src": "1676:59:0",
+            "scope": 156,
+            "src": "1676:59:1",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           },
           {
             "functionSelector": "a9b45bf2",
-            "id": 117,
+            "id": 150,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "getLiquidityMiningStakingContract",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 113,
+              "id": 146,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1783:2:0"
+              "src": "1783:2:1"
             },
             "returnParameters": {
-              "id": 116,
+              "id": 149,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 115,
+                  "id": 148,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 117,
-                  "src": "1809:7:0",
+                  "scope": 150,
+                  "src": "1809:7:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1589,10 +1589,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 114,
+                    "id": 147,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1809:7:0",
+                    "src": "1809:7:1",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1602,40 +1602,40 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1808:9:0"
+              "src": "1808:9:1"
             },
-            "scope": 123,
-            "src": "1741:77:0",
+            "scope": 156,
+            "src": "1741:77:1",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           },
           {
             "functionSelector": "7d57b152",
-            "id": 122,
+            "id": 155,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "getReputationSystemContract",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 118,
+              "id": 151,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1860:2:0"
+              "src": "1860:2:1"
             },
             "returnParameters": {
-              "id": 121,
+              "id": 154,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 120,
+                  "id": 153,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 122,
-                  "src": "1886:7:0",
+                  "scope": 155,
+                  "src": "1886:7:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1643,10 +1643,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 119,
+                    "id": 152,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1886:7:0",
+                    "src": "1886:7:1",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1656,27 +1656,27 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1885:9:0"
+              "src": "1885:9:1"
             },
-            "scope": 123,
-            "src": "1824:71:0",
+            "scope": 156,
+            "src": "1824:71:1",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 124,
-        "src": "91:1808:0"
+        "scope": 157,
+        "src": "91:1808:1"
       }
     ],
-    "src": "32:1867:0"
+    "src": "32:1867:1"
   },
   "legacyAST": {
     "attributes": {
-      "absolutePath": "/Users/kirilivanov/DEV/BrightUnion/distributors/contracts/bridge/interfaces/IContractsRegistry.sol",
+      "absolutePath": "/Users/ricardopinto/work/brightunion/distributors/contracts/bridge/interfaces/IContractsRegistry.sol",
       "exportedSymbols": {
         "IContractsRegistry": [
-          123
+          156
         ]
       },
       "license": "MIT"
@@ -1691,9 +1691,9 @@
             ".4"
           ]
         },
-        "id": 1,
+        "id": 34,
         "name": "PragmaDirective",
-        "src": "32:23:0"
+        "src": "32:23:1"
       },
       {
         "attributes": {
@@ -1702,9 +1702,9 @@
             "ABIEncoderV2"
           ]
         },
-        "id": 2,
+        "id": 35,
         "name": "PragmaDirective",
-        "src": "56:33:0"
+        "src": "56:33:1"
       },
       {
         "attributes": {
@@ -1718,10 +1718,10 @@
           "contractKind": "interface",
           "fullyImplemented": false,
           "linearizedBaseContracts": [
-            123
+            156
           ],
           "name": "IContractsRegistry",
-          "scope": 124
+          "scope": 157
         },
         "children": [
           {
@@ -1734,7 +1734,7 @@
                 null
               ],
               "name": "getUniswapRouterContract",
-              "scope": 123,
+              "scope": 156,
               "stateMutability": "view",
               "virtual": false,
               "visibility": "external"
@@ -1747,9 +1747,9 @@
                   ]
                 },
                 "children": [],
-                "id": 3,
+                "id": 36,
                 "name": "ParameterList",
-                "src": "163:2:0"
+                "src": "163:2:1"
               },
               {
                 "children": [
@@ -1758,7 +1758,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "",
-                      "scope": 7,
+                      "scope": 40,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -1771,24 +1771,24 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 4,
+                        "id": 37,
                         "name": "ElementaryTypeName",
-                        "src": "189:7:0"
+                        "src": "189:7:1"
                       }
                     ],
-                    "id": 5,
+                    "id": 38,
                     "name": "VariableDeclaration",
-                    "src": "189:7:0"
+                    "src": "189:7:1"
                   }
                 ],
-                "id": 6,
+                "id": 39,
                 "name": "ParameterList",
-                "src": "188:9:0"
+                "src": "188:9:1"
               }
             ],
-            "id": 7,
+            "id": 40,
             "name": "FunctionDefinition",
-            "src": "130:68:0"
+            "src": "130:68:1"
           },
           {
             "attributes": {
@@ -1800,7 +1800,7 @@
                 null
               ],
               "name": "getUniswapBMIToETHPairContract",
-              "scope": 123,
+              "scope": 156,
               "stateMutability": "view",
               "virtual": false,
               "visibility": "external"
@@ -1813,9 +1813,9 @@
                   ]
                 },
                 "children": [],
-                "id": 8,
+                "id": 41,
                 "name": "ParameterList",
-                "src": "243:2:0"
+                "src": "243:2:1"
               },
               {
                 "children": [
@@ -1824,7 +1824,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "",
-                      "scope": 12,
+                      "scope": 45,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -1837,24 +1837,24 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 9,
+                        "id": 42,
                         "name": "ElementaryTypeName",
-                        "src": "269:7:0"
+                        "src": "269:7:1"
                       }
                     ],
-                    "id": 10,
+                    "id": 43,
                     "name": "VariableDeclaration",
-                    "src": "269:7:0"
+                    "src": "269:7:1"
                   }
                 ],
-                "id": 11,
+                "id": 44,
                 "name": "ParameterList",
-                "src": "268:9:0"
+                "src": "268:9:1"
               }
             ],
-            "id": 12,
+            "id": 45,
             "name": "FunctionDefinition",
-            "src": "204:74:0"
+            "src": "204:74:1"
           },
           {
             "attributes": {
@@ -1866,7 +1866,7 @@
                 null
               ],
               "name": "getWETHContract",
-              "scope": 123,
+              "scope": 156,
               "stateMutability": "view",
               "virtual": false,
               "visibility": "external"
@@ -1879,9 +1879,9 @@
                   ]
                 },
                 "children": [],
-                "id": 13,
+                "id": 46,
                 "name": "ParameterList",
-                "src": "308:2:0"
+                "src": "308:2:1"
               },
               {
                 "children": [
@@ -1890,7 +1890,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "",
-                      "scope": 17,
+                      "scope": 50,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -1903,24 +1903,24 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 14,
+                        "id": 47,
                         "name": "ElementaryTypeName",
-                        "src": "334:7:0"
+                        "src": "334:7:1"
                       }
                     ],
-                    "id": 15,
+                    "id": 48,
                     "name": "VariableDeclaration",
-                    "src": "334:7:0"
+                    "src": "334:7:1"
                   }
                 ],
-                "id": 16,
+                "id": 49,
                 "name": "ParameterList",
-                "src": "333:9:0"
+                "src": "333:9:1"
               }
             ],
-            "id": 17,
+            "id": 50,
             "name": "FunctionDefinition",
-            "src": "284:59:0"
+            "src": "284:59:1"
           },
           {
             "attributes": {
@@ -1932,7 +1932,7 @@
                 null
               ],
               "name": "getDAIContract",
-              "scope": 123,
+              "scope": 156,
               "stateMutability": "view",
               "virtual": false,
               "visibility": "external"
@@ -1945,9 +1945,9 @@
                   ]
                 },
                 "children": [],
-                "id": 18,
+                "id": 51,
                 "name": "ParameterList",
-                "src": "372:2:0"
+                "src": "372:2:1"
               },
               {
                 "children": [
@@ -1956,7 +1956,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "",
-                      "scope": 22,
+                      "scope": 55,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -1969,24 +1969,24 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 19,
+                        "id": 52,
                         "name": "ElementaryTypeName",
-                        "src": "398:7:0"
+                        "src": "398:7:1"
                       }
                     ],
-                    "id": 20,
+                    "id": 53,
                     "name": "VariableDeclaration",
-                    "src": "398:7:0"
+                    "src": "398:7:1"
                   }
                 ],
-                "id": 21,
+                "id": 54,
                 "name": "ParameterList",
-                "src": "397:9:0"
+                "src": "397:9:1"
               }
             ],
-            "id": 22,
+            "id": 55,
             "name": "FunctionDefinition",
-            "src": "349:58:0"
+            "src": "349:58:1"
           },
           {
             "attributes": {
@@ -1998,7 +1998,7 @@
                 null
               ],
               "name": "getBMIContract",
-              "scope": 123,
+              "scope": 156,
               "stateMutability": "view",
               "virtual": false,
               "visibility": "external"
@@ -2011,9 +2011,9 @@
                   ]
                 },
                 "children": [],
-                "id": 23,
+                "id": 56,
                 "name": "ParameterList",
-                "src": "436:2:0"
+                "src": "436:2:1"
               },
               {
                 "children": [
@@ -2022,7 +2022,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "",
-                      "scope": 27,
+                      "scope": 60,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -2035,24 +2035,24 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 24,
+                        "id": 57,
                         "name": "ElementaryTypeName",
-                        "src": "462:7:0"
+                        "src": "462:7:1"
                       }
                     ],
-                    "id": 25,
+                    "id": 58,
                     "name": "VariableDeclaration",
-                    "src": "462:7:0"
+                    "src": "462:7:1"
                   }
                 ],
-                "id": 26,
+                "id": 59,
                 "name": "ParameterList",
-                "src": "461:9:0"
+                "src": "461:9:1"
               }
             ],
-            "id": 27,
+            "id": 60,
             "name": "FunctionDefinition",
-            "src": "413:58:0"
+            "src": "413:58:1"
           },
           {
             "attributes": {
@@ -2064,7 +2064,7 @@
                 null
               ],
               "name": "getPriceFeedContract",
-              "scope": 123,
+              "scope": 156,
               "stateMutability": "view",
               "virtual": false,
               "visibility": "external"
@@ -2077,9 +2077,9 @@
                   ]
                 },
                 "children": [],
-                "id": 28,
+                "id": 61,
                 "name": "ParameterList",
-                "src": "506:2:0"
+                "src": "506:2:1"
               },
               {
                 "children": [
@@ -2088,7 +2088,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "",
-                      "scope": 32,
+                      "scope": 65,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -2101,24 +2101,24 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 29,
+                        "id": 62,
                         "name": "ElementaryTypeName",
-                        "src": "532:7:0"
+                        "src": "532:7:1"
                       }
                     ],
-                    "id": 30,
+                    "id": 63,
                     "name": "VariableDeclaration",
-                    "src": "532:7:0"
+                    "src": "532:7:1"
                   }
                 ],
-                "id": 31,
+                "id": 64,
                 "name": "ParameterList",
-                "src": "531:9:0"
+                "src": "531:9:1"
               }
             ],
-            "id": 32,
+            "id": 65,
             "name": "FunctionDefinition",
-            "src": "477:64:0"
+            "src": "477:64:1"
           },
           {
             "attributes": {
@@ -2130,7 +2130,7 @@
                 null
               ],
               "name": "getPolicyBookRegistryContract",
-              "scope": 123,
+              "scope": 156,
               "stateMutability": "view",
               "virtual": false,
               "visibility": "external"
@@ -2143,9 +2143,9 @@
                   ]
                 },
                 "children": [],
-                "id": 33,
+                "id": 66,
                 "name": "ParameterList",
-                "src": "585:2:0"
+                "src": "585:2:1"
               },
               {
                 "children": [
@@ -2154,7 +2154,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "",
-                      "scope": 37,
+                      "scope": 70,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -2167,24 +2167,24 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 34,
+                        "id": 67,
                         "name": "ElementaryTypeName",
-                        "src": "611:7:0"
+                        "src": "611:7:1"
                       }
                     ],
-                    "id": 35,
+                    "id": 68,
                     "name": "VariableDeclaration",
-                    "src": "611:7:0"
+                    "src": "611:7:1"
                   }
                 ],
-                "id": 36,
+                "id": 69,
                 "name": "ParameterList",
-                "src": "610:9:0"
+                "src": "610:9:1"
               }
             ],
-            "id": 37,
+            "id": 70,
             "name": "FunctionDefinition",
-            "src": "547:73:0"
+            "src": "547:73:1"
           },
           {
             "attributes": {
@@ -2196,7 +2196,7 @@
                 null
               ],
               "name": "getPolicyBookFabricContract",
-              "scope": 123,
+              "scope": 156,
               "stateMutability": "view",
               "virtual": false,
               "visibility": "external"
@@ -2209,9 +2209,9 @@
                   ]
                 },
                 "children": [],
-                "id": 38,
+                "id": 71,
                 "name": "ParameterList",
-                "src": "662:2:0"
+                "src": "662:2:1"
               },
               {
                 "children": [
@@ -2220,7 +2220,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "",
-                      "scope": 42,
+                      "scope": 75,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -2233,24 +2233,24 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 39,
+                        "id": 72,
                         "name": "ElementaryTypeName",
-                        "src": "688:7:0"
+                        "src": "688:7:1"
                       }
                     ],
-                    "id": 40,
+                    "id": 73,
                     "name": "VariableDeclaration",
-                    "src": "688:7:0"
+                    "src": "688:7:1"
                   }
                 ],
-                "id": 41,
+                "id": 74,
                 "name": "ParameterList",
-                "src": "687:9:0"
+                "src": "687:9:1"
               }
             ],
-            "id": 42,
+            "id": 75,
             "name": "FunctionDefinition",
-            "src": "626:71:0"
+            "src": "626:71:1"
           },
           {
             "attributes": {
@@ -2262,7 +2262,7 @@
                 null
               ],
               "name": "getBMIDAIStakingContract",
-              "scope": 123,
+              "scope": 156,
               "stateMutability": "view",
               "virtual": false,
               "visibility": "external"
@@ -2275,9 +2275,9 @@
                   ]
                 },
                 "children": [],
-                "id": 43,
+                "id": 76,
                 "name": "ParameterList",
-                "src": "736:2:0"
+                "src": "736:2:1"
               },
               {
                 "children": [
@@ -2286,7 +2286,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "",
-                      "scope": 47,
+                      "scope": 80,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -2299,24 +2299,24 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 44,
+                        "id": 77,
                         "name": "ElementaryTypeName",
-                        "src": "762:7:0"
+                        "src": "762:7:1"
                       }
                     ],
-                    "id": 45,
+                    "id": 78,
                     "name": "VariableDeclaration",
-                    "src": "762:7:0"
+                    "src": "762:7:1"
                   }
                 ],
-                "id": 46,
+                "id": 79,
                 "name": "ParameterList",
-                "src": "761:9:0"
+                "src": "761:9:1"
               }
             ],
-            "id": 47,
+            "id": 80,
             "name": "FunctionDefinition",
-            "src": "703:68:0"
+            "src": "703:68:1"
           },
           {
             "attributes": {
@@ -2328,7 +2328,7 @@
                 null
               ],
               "name": "getRewardsGeneratorContract",
-              "scope": 123,
+              "scope": 156,
               "stateMutability": "view",
               "virtual": false,
               "visibility": "external"
@@ -2341,9 +2341,9 @@
                   ]
                 },
                 "children": [],
-                "id": 48,
+                "id": 81,
                 "name": "ParameterList",
-                "src": "813:2:0"
+                "src": "813:2:1"
               },
               {
                 "children": [
@@ -2352,7 +2352,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "",
-                      "scope": 52,
+                      "scope": 85,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -2365,24 +2365,24 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 49,
+                        "id": 82,
                         "name": "ElementaryTypeName",
-                        "src": "839:7:0"
+                        "src": "839:7:1"
                       }
                     ],
-                    "id": 50,
+                    "id": 83,
                     "name": "VariableDeclaration",
-                    "src": "839:7:0"
+                    "src": "839:7:1"
                   }
                 ],
-                "id": 51,
+                "id": 84,
                 "name": "ParameterList",
-                "src": "838:9:0"
+                "src": "838:9:1"
               }
             ],
-            "id": 52,
+            "id": 85,
             "name": "FunctionDefinition",
-            "src": "777:71:0"
+            "src": "777:71:1"
           },
           {
             "attributes": {
@@ -2394,7 +2394,7 @@
                 null
               ],
               "name": "getLiquidityMiningNFTContract",
-              "scope": 123,
+              "scope": 156,
               "stateMutability": "view",
               "virtual": false,
               "visibility": "external"
@@ -2407,9 +2407,9 @@
                   ]
                 },
                 "children": [],
-                "id": 53,
+                "id": 86,
                 "name": "ParameterList",
-                "src": "892:2:0"
+                "src": "892:2:1"
               },
               {
                 "children": [
@@ -2418,7 +2418,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "",
-                      "scope": 57,
+                      "scope": 90,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -2431,24 +2431,24 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 54,
+                        "id": 87,
                         "name": "ElementaryTypeName",
-                        "src": "918:7:0"
+                        "src": "918:7:1"
                       }
                     ],
-                    "id": 55,
+                    "id": 88,
                     "name": "VariableDeclaration",
-                    "src": "918:7:0"
+                    "src": "918:7:1"
                   }
                 ],
-                "id": 56,
+                "id": 89,
                 "name": "ParameterList",
-                "src": "917:9:0"
+                "src": "917:9:1"
               }
             ],
-            "id": 57,
+            "id": 90,
             "name": "FunctionDefinition",
-            "src": "854:73:0"
+            "src": "854:73:1"
           },
           {
             "attributes": {
@@ -2460,7 +2460,7 @@
                 null
               ],
               "name": "getLiquidityMiningContract",
-              "scope": 123,
+              "scope": 156,
               "stateMutability": "view",
               "virtual": false,
               "visibility": "external"
@@ -2473,9 +2473,9 @@
                   ]
                 },
                 "children": [],
-                "id": 58,
+                "id": 91,
                 "name": "ParameterList",
-                "src": "968:2:0"
+                "src": "968:2:1"
               },
               {
                 "children": [
@@ -2484,7 +2484,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "",
-                      "scope": 62,
+                      "scope": 95,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -2497,24 +2497,24 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 59,
+                        "id": 92,
                         "name": "ElementaryTypeName",
-                        "src": "994:7:0"
+                        "src": "994:7:1"
                       }
                     ],
-                    "id": 60,
+                    "id": 93,
                     "name": "VariableDeclaration",
-                    "src": "994:7:0"
+                    "src": "994:7:1"
                   }
                 ],
-                "id": 61,
+                "id": 94,
                 "name": "ParameterList",
-                "src": "993:9:0"
+                "src": "993:9:1"
               }
             ],
-            "id": 62,
+            "id": 95,
             "name": "FunctionDefinition",
-            "src": "933:70:0"
+            "src": "933:70:1"
           },
           {
             "attributes": {
@@ -2526,7 +2526,7 @@
                 null
               ],
               "name": "getClaimingRegistryContract",
-              "scope": 123,
+              "scope": 156,
               "stateMutability": "view",
               "virtual": false,
               "visibility": "external"
@@ -2539,9 +2539,9 @@
                   ]
                 },
                 "children": [],
-                "id": 63,
+                "id": 96,
                 "name": "ParameterList",
-                "src": "1045:2:0"
+                "src": "1045:2:1"
               },
               {
                 "children": [
@@ -2550,7 +2550,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "",
-                      "scope": 67,
+                      "scope": 100,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -2563,24 +2563,24 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 64,
+                        "id": 97,
                         "name": "ElementaryTypeName",
-                        "src": "1071:7:0"
+                        "src": "1071:7:1"
                       }
                     ],
-                    "id": 65,
+                    "id": 98,
                     "name": "VariableDeclaration",
-                    "src": "1071:7:0"
+                    "src": "1071:7:1"
                   }
                 ],
-                "id": 66,
+                "id": 99,
                 "name": "ParameterList",
-                "src": "1070:9:0"
+                "src": "1070:9:1"
               }
             ],
-            "id": 67,
+            "id": 100,
             "name": "FunctionDefinition",
-            "src": "1009:71:0"
+            "src": "1009:71:1"
           },
           {
             "attributes": {
@@ -2592,7 +2592,7 @@
                 null
               ],
               "name": "getPolicyRegistryContract",
-              "scope": 123,
+              "scope": 156,
               "stateMutability": "view",
               "virtual": false,
               "visibility": "external"
@@ -2605,9 +2605,9 @@
                   ]
                 },
                 "children": [],
-                "id": 68,
+                "id": 101,
                 "name": "ParameterList",
-                "src": "1120:2:0"
+                "src": "1120:2:1"
               },
               {
                 "children": [
@@ -2616,7 +2616,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "",
-                      "scope": 72,
+                      "scope": 105,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -2629,24 +2629,24 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 69,
+                        "id": 102,
                         "name": "ElementaryTypeName",
-                        "src": "1146:7:0"
+                        "src": "1146:7:1"
                       }
                     ],
-                    "id": 70,
+                    "id": 103,
                     "name": "VariableDeclaration",
-                    "src": "1146:7:0"
+                    "src": "1146:7:1"
                   }
                 ],
-                "id": 71,
+                "id": 104,
                 "name": "ParameterList",
-                "src": "1145:9:0"
+                "src": "1145:9:1"
               }
             ],
-            "id": 72,
+            "id": 105,
             "name": "FunctionDefinition",
-            "src": "1086:69:0"
+            "src": "1086:69:1"
           },
           {
             "attributes": {
@@ -2658,7 +2658,7 @@
                 null
               ],
               "name": "getClaimVotingContract",
-              "scope": 123,
+              "scope": 156,
               "stateMutability": "view",
               "virtual": false,
               "visibility": "external"
@@ -2671,9 +2671,9 @@
                   ]
                 },
                 "children": [],
-                "id": 73,
+                "id": 106,
                 "name": "ParameterList",
-                "src": "1196:2:0"
+                "src": "1196:2:1"
               },
               {
                 "children": [
@@ -2682,7 +2682,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "",
-                      "scope": 77,
+                      "scope": 110,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -2695,24 +2695,24 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 74,
+                        "id": 107,
                         "name": "ElementaryTypeName",
-                        "src": "1222:7:0"
+                        "src": "1222:7:1"
                       }
                     ],
-                    "id": 75,
+                    "id": 108,
                     "name": "VariableDeclaration",
-                    "src": "1222:7:0"
+                    "src": "1222:7:1"
                   }
                 ],
-                "id": 76,
+                "id": 109,
                 "name": "ParameterList",
-                "src": "1221:9:0"
+                "src": "1221:9:1"
               }
             ],
-            "id": 77,
+            "id": 110,
             "name": "FunctionDefinition",
-            "src": "1165:66:0"
+            "src": "1165:66:1"
           },
           {
             "attributes": {
@@ -2724,7 +2724,7 @@
                 null
               ],
               "name": "getReinsurancePoolContract",
-              "scope": 123,
+              "scope": 156,
               "stateMutability": "view",
               "virtual": false,
               "visibility": "external"
@@ -2737,9 +2737,9 @@
                   ]
                 },
                 "children": [],
-                "id": 78,
+                "id": 111,
                 "name": "ParameterList",
-                "src": "1272:2:0"
+                "src": "1272:2:1"
               },
               {
                 "children": [
@@ -2748,7 +2748,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "",
-                      "scope": 82,
+                      "scope": 115,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -2761,24 +2761,24 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 79,
+                        "id": 112,
                         "name": "ElementaryTypeName",
-                        "src": "1298:7:0"
+                        "src": "1298:7:1"
                       }
                     ],
-                    "id": 80,
+                    "id": 113,
                     "name": "VariableDeclaration",
-                    "src": "1298:7:0"
+                    "src": "1298:7:1"
                   }
                 ],
-                "id": 81,
+                "id": 114,
                 "name": "ParameterList",
-                "src": "1297:9:0"
+                "src": "1297:9:1"
               }
             ],
-            "id": 82,
+            "id": 115,
             "name": "FunctionDefinition",
-            "src": "1237:70:0"
+            "src": "1237:70:1"
           },
           {
             "attributes": {
@@ -2790,7 +2790,7 @@
                 null
               ],
               "name": "getPolicyBookImplementation",
-              "scope": 123,
+              "scope": 156,
               "stateMutability": "view",
               "virtual": false,
               "visibility": "external"
@@ -2803,9 +2803,9 @@
                   ]
                 },
                 "children": [],
-                "id": 83,
+                "id": 116,
                 "name": "ParameterList",
-                "src": "1349:2:0"
+                "src": "1349:2:1"
               },
               {
                 "children": [
@@ -2814,7 +2814,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "",
-                      "scope": 87,
+                      "scope": 120,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -2827,24 +2827,24 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 84,
+                        "id": 117,
                         "name": "ElementaryTypeName",
-                        "src": "1375:7:0"
+                        "src": "1375:7:1"
                       }
                     ],
-                    "id": 85,
+                    "id": 118,
                     "name": "VariableDeclaration",
-                    "src": "1375:7:0"
+                    "src": "1375:7:1"
                   }
                 ],
-                "id": 86,
+                "id": 119,
                 "name": "ParameterList",
-                "src": "1374:9:0"
+                "src": "1374:9:1"
               }
             ],
-            "id": 87,
+            "id": 120,
             "name": "FunctionDefinition",
-            "src": "1313:71:0"
+            "src": "1313:71:1"
           },
           {
             "attributes": {
@@ -2856,7 +2856,7 @@
                 null
               ],
               "name": "getPolicyBookAdminContract",
-              "scope": 123,
+              "scope": 156,
               "stateMutability": "view",
               "virtual": false,
               "visibility": "external"
@@ -2869,9 +2869,9 @@
                   ]
                 },
                 "children": [],
-                "id": 88,
+                "id": 121,
                 "name": "ParameterList",
-                "src": "1425:2:0"
+                "src": "1425:2:1"
               },
               {
                 "children": [
@@ -2880,7 +2880,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "",
-                      "scope": 92,
+                      "scope": 125,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -2893,24 +2893,24 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 89,
+                        "id": 122,
                         "name": "ElementaryTypeName",
-                        "src": "1451:7:0"
+                        "src": "1451:7:1"
                       }
                     ],
-                    "id": 90,
+                    "id": 123,
                     "name": "VariableDeclaration",
-                    "src": "1451:7:0"
+                    "src": "1451:7:1"
                   }
                 ],
-                "id": 91,
+                "id": 124,
                 "name": "ParameterList",
-                "src": "1450:9:0"
+                "src": "1450:9:1"
               }
             ],
-            "id": 92,
+            "id": 125,
             "name": "FunctionDefinition",
-            "src": "1390:70:0"
+            "src": "1390:70:1"
           },
           {
             "attributes": {
@@ -2922,7 +2922,7 @@
                 null
               ],
               "name": "getPolicyQuoteContract",
-              "scope": 123,
+              "scope": 156,
               "stateMutability": "view",
               "virtual": false,
               "visibility": "external"
@@ -2935,9 +2935,9 @@
                   ]
                 },
                 "children": [],
-                "id": 93,
+                "id": 126,
                 "name": "ParameterList",
-                "src": "1497:2:0"
+                "src": "1497:2:1"
               },
               {
                 "children": [
@@ -2946,7 +2946,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "",
-                      "scope": 97,
+                      "scope": 130,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -2959,24 +2959,24 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 94,
+                        "id": 127,
                         "name": "ElementaryTypeName",
-                        "src": "1523:7:0"
+                        "src": "1523:7:1"
                       }
                     ],
-                    "id": 95,
+                    "id": 128,
                     "name": "VariableDeclaration",
-                    "src": "1523:7:0"
+                    "src": "1523:7:1"
                   }
                 ],
-                "id": 96,
+                "id": 129,
                 "name": "ParameterList",
-                "src": "1522:9:0"
+                "src": "1522:9:1"
               }
             ],
-            "id": 97,
+            "id": 130,
             "name": "FunctionDefinition",
-            "src": "1466:66:0"
+            "src": "1466:66:1"
           },
           {
             "attributes": {
@@ -2988,7 +2988,7 @@
                 null
               ],
               "name": "getBMIStakingContract",
-              "scope": 123,
+              "scope": 156,
               "stateMutability": "view",
               "virtual": false,
               "visibility": "external"
@@ -3001,9 +3001,9 @@
                   ]
                 },
                 "children": [],
-                "id": 98,
+                "id": 131,
                 "name": "ParameterList",
-                "src": "1568:2:0"
+                "src": "1568:2:1"
               },
               {
                 "children": [
@@ -3012,7 +3012,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "",
-                      "scope": 102,
+                      "scope": 135,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -3025,24 +3025,24 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 99,
+                        "id": 132,
                         "name": "ElementaryTypeName",
-                        "src": "1594:7:0"
+                        "src": "1594:7:1"
                       }
                     ],
-                    "id": 100,
+                    "id": 133,
                     "name": "VariableDeclaration",
-                    "src": "1594:7:0"
+                    "src": "1594:7:1"
                   }
                 ],
-                "id": 101,
+                "id": 134,
                 "name": "ParameterList",
-                "src": "1593:9:0"
+                "src": "1593:9:1"
               }
             ],
-            "id": 102,
+            "id": 135,
             "name": "FunctionDefinition",
-            "src": "1538:65:0"
+            "src": "1538:65:1"
           },
           {
             "attributes": {
@@ -3054,7 +3054,7 @@
                 null
               ],
               "name": "getSTKBMIContract",
-              "scope": 123,
+              "scope": 156,
               "stateMutability": "view",
               "virtual": false,
               "visibility": "external"
@@ -3067,9 +3067,9 @@
                   ]
                 },
                 "children": [],
-                "id": 103,
+                "id": 136,
                 "name": "ParameterList",
-                "src": "1635:2:0"
+                "src": "1635:2:1"
               },
               {
                 "children": [
@@ -3078,7 +3078,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "",
-                      "scope": 107,
+                      "scope": 140,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -3091,24 +3091,24 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 104,
+                        "id": 137,
                         "name": "ElementaryTypeName",
-                        "src": "1661:7:0"
+                        "src": "1661:7:1"
                       }
                     ],
-                    "id": 105,
+                    "id": 138,
                     "name": "VariableDeclaration",
-                    "src": "1661:7:0"
+                    "src": "1661:7:1"
                   }
                 ],
-                "id": 106,
+                "id": 139,
                 "name": "ParameterList",
-                "src": "1660:9:0"
+                "src": "1660:9:1"
               }
             ],
-            "id": 107,
+            "id": 140,
             "name": "FunctionDefinition",
-            "src": "1609:61:0"
+            "src": "1609:61:1"
           },
           {
             "attributes": {
@@ -3120,7 +3120,7 @@
                 null
               ],
               "name": "getVBMIContract",
-              "scope": 123,
+              "scope": 156,
               "stateMutability": "view",
               "virtual": false,
               "visibility": "external"
@@ -3133,9 +3133,9 @@
                   ]
                 },
                 "children": [],
-                "id": 108,
+                "id": 141,
                 "name": "ParameterList",
-                "src": "1700:2:0"
+                "src": "1700:2:1"
               },
               {
                 "children": [
@@ -3144,7 +3144,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "",
-                      "scope": 112,
+                      "scope": 145,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -3157,24 +3157,24 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 109,
+                        "id": 142,
                         "name": "ElementaryTypeName",
-                        "src": "1726:7:0"
+                        "src": "1726:7:1"
                       }
                     ],
-                    "id": 110,
+                    "id": 143,
                     "name": "VariableDeclaration",
-                    "src": "1726:7:0"
+                    "src": "1726:7:1"
                   }
                 ],
-                "id": 111,
+                "id": 144,
                 "name": "ParameterList",
-                "src": "1725:9:0"
+                "src": "1725:9:1"
               }
             ],
-            "id": 112,
+            "id": 145,
             "name": "FunctionDefinition",
-            "src": "1676:59:0"
+            "src": "1676:59:1"
           },
           {
             "attributes": {
@@ -3186,7 +3186,7 @@
                 null
               ],
               "name": "getLiquidityMiningStakingContract",
-              "scope": 123,
+              "scope": 156,
               "stateMutability": "view",
               "virtual": false,
               "visibility": "external"
@@ -3199,9 +3199,9 @@
                   ]
                 },
                 "children": [],
-                "id": 113,
+                "id": 146,
                 "name": "ParameterList",
-                "src": "1783:2:0"
+                "src": "1783:2:1"
               },
               {
                 "children": [
@@ -3210,7 +3210,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "",
-                      "scope": 117,
+                      "scope": 150,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -3223,24 +3223,24 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 114,
+                        "id": 147,
                         "name": "ElementaryTypeName",
-                        "src": "1809:7:0"
+                        "src": "1809:7:1"
                       }
                     ],
-                    "id": 115,
+                    "id": 148,
                     "name": "VariableDeclaration",
-                    "src": "1809:7:0"
+                    "src": "1809:7:1"
                   }
                 ],
-                "id": 116,
+                "id": 149,
                 "name": "ParameterList",
-                "src": "1808:9:0"
+                "src": "1808:9:1"
               }
             ],
-            "id": 117,
+            "id": 150,
             "name": "FunctionDefinition",
-            "src": "1741:77:0"
+            "src": "1741:77:1"
           },
           {
             "attributes": {
@@ -3252,7 +3252,7 @@
                 null
               ],
               "name": "getReputationSystemContract",
-              "scope": 123,
+              "scope": 156,
               "stateMutability": "view",
               "virtual": false,
               "visibility": "external"
@@ -3265,9 +3265,9 @@
                   ]
                 },
                 "children": [],
-                "id": 118,
+                "id": 151,
                 "name": "ParameterList",
-                "src": "1860:2:0"
+                "src": "1860:2:1"
               },
               {
                 "children": [
@@ -3276,7 +3276,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "",
-                      "scope": 122,
+                      "scope": 155,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -3289,42 +3289,42 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 119,
+                        "id": 152,
                         "name": "ElementaryTypeName",
-                        "src": "1886:7:0"
+                        "src": "1886:7:1"
                       }
                     ],
-                    "id": 120,
+                    "id": 153,
                     "name": "VariableDeclaration",
-                    "src": "1886:7:0"
+                    "src": "1886:7:1"
                   }
                 ],
-                "id": 121,
+                "id": 154,
                 "name": "ParameterList",
-                "src": "1885:9:0"
+                "src": "1885:9:1"
               }
             ],
-            "id": 122,
+            "id": 155,
             "name": "FunctionDefinition",
-            "src": "1824:71:0"
+            "src": "1824:71:1"
           }
         ],
-        "id": 123,
+        "id": 156,
         "name": "ContractDefinition",
-        "src": "91:1808:0"
+        "src": "91:1808:1"
       }
     ],
-    "id": 124,
+    "id": 157,
     "name": "SourceUnit",
-    "src": "32:1867:0"
+    "src": "32:1867:1"
   },
   "compiler": {
     "name": "solc",
     "version": "0.7.4+commit.3f05b770.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.3.4",
-  "updatedAt": "2021-04-22T13:31:41.908Z",
+  "schemaVersion": "3.4.0",
+  "updatedAt": "2021-05-03T09:39:24.971Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

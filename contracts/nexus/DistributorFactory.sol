@@ -26,7 +26,8 @@ contract DistributorFactory {
     ) public payable returns (address) {
 
         IMemberRoles memberRoles = IMemberRoles(master.getLatestAddress("MR"));
-        Distributor d = new Distributor(
+        Distributor d = new Distributor();
+        d.initialize(
             master.getLatestAddress("CO"),
             master.tokenAddress(),
             address(master),
