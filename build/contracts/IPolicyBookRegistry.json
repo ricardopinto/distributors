@@ -273,7 +273,7 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.7.4+commit.3f05b770\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_insuredContract\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_policyBook\",\"type\":\"address\"}],\"name\":\"add\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"count\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_contract\",\"type\":\"address\"}],\"name\":\"isPolicyBook\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_offset\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"_limit\",\"type\":\"uint256\"}],\"name\":\"list\",\"outputs\":[{\"internalType\":\"address[]\",\"name\":\"_policyBooks\",\"type\":\"address[]\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_offset\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"_limit\",\"type\":\"uint256\"}],\"name\":\"listWithStats\",\"outputs\":[{\"internalType\":\"address[]\",\"name\":\"_policyBooks\",\"type\":\"address[]\"},{\"components\":[{\"internalType\":\"string\",\"name\":\"name\",\"type\":\"string\"},{\"internalType\":\"address\",\"name\":\"insuredContract\",\"type\":\"address\"},{\"internalType\":\"enum IPolicyBookFabric.ContractType\",\"name\":\"contractType\",\"type\":\"uint8\"},{\"internalType\":\"uint256\",\"name\":\"maxCapacity\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"totalDaiLiquidity\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"APY\",\"type\":\"uint256\"},{\"internalType\":\"bool\",\"name\":\"whitelisted\",\"type\":\"bool\"}],\"internalType\":\"struct IPolicyBookRegistry.PolicyBookStats[]\",\"name\":\"_stats\",\"type\":\"tuple[]\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_contract\",\"type\":\"address\"}],\"name\":\"policyBookFor\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address[]\",\"name\":\"_policyBooks\",\"type\":\"address[]\"}],\"name\":\"stats\",\"outputs\":[{\"components\":[{\"internalType\":\"string\",\"name\":\"name\",\"type\":\"string\"},{\"internalType\":\"address\",\"name\":\"insuredContract\",\"type\":\"address\"},{\"internalType\":\"enum IPolicyBookFabric.ContractType\",\"name\":\"contractType\",\"type\":\"uint8\"},{\"internalType\":\"uint256\",\"name\":\"maxCapacity\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"totalDaiLiquidity\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"APY\",\"type\":\"uint256\"},{\"internalType\":\"bool\",\"name\":\"whitelisted\",\"type\":\"bool\"}],\"internalType\":\"struct IPolicyBookRegistry.PolicyBookStats[]\",\"name\":\"_stats\",\"type\":\"tuple[]\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address[]\",\"name\":\"_insuredContracts\",\"type\":\"address[]\"}],\"name\":\"statsByInsuredContracts\",\"outputs\":[{\"components\":[{\"internalType\":\"string\",\"name\":\"name\",\"type\":\"string\"},{\"internalType\":\"address\",\"name\":\"insuredContract\",\"type\":\"address\"},{\"internalType\":\"enum IPolicyBookFabric.ContractType\",\"name\":\"contractType\",\"type\":\"uint8\"},{\"internalType\":\"uint256\",\"name\":\"maxCapacity\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"totalDaiLiquidity\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"APY\",\"type\":\"uint256\"},{\"internalType\":\"bool\",\"name\":\"whitelisted\",\"type\":\"bool\"}],\"internalType\":\"struct IPolicyBookRegistry.PolicyBookStats[]\",\"name\":\"_stats\",\"type\":\"tuple[]\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{\"list(uint256,uint256)\":{\"returns\":{\"_policyBooks\":\"is array of registered PolicyBook addresses\"}},\"policyBookFor(address)\":{\"params\":{\"_contract\":\"is contract address to lookup for created IPolicyBook\"}},\"stats(address[])\":{\"params\":{\"_policyBooks\":\"is list of PolicyBooks addresses\"}},\"statsByInsuredContracts(address[])\":{\"params\":{\"_insuredContracts\":\"is list of insuredContracts in registry\"}}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"add(address,address)\":{\"notice\":\"Adds PolicyBook to registry, access: PolicyFabric\"},\"count()\":{\"notice\":\"Returns number of registered PolicyBooks, access: ANY\"},\"isPolicyBook(address)\":{\"notice\":\"Checks if provided address is a PolicyBook\"},\"list(uint256,uint256)\":{\"notice\":\"Listing registered PolicyBooks, access: ANY\"},\"listWithStats(uint256,uint256)\":{\"notice\":\"Listing registered PolicyBooks, access: ANY\"},\"policyBookFor(address)\":{\"notice\":\"Return existing Policy Book contract, access: ANY\"},\"stats(address[])\":{\"notice\":\"Getting stats from policy books, access: ANY\"},\"statsByInsuredContracts(address[])\":{\"notice\":\"Getting stats from policy books, access: ANY\"}},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/kirilivanov/DEV/BrightUnion/distributors/contracts/bridge/interfaces/IPolicyBookRegistry.sol\":\"IPolicyBookRegistry\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":10000},\"remappings\":[]},\"sources\":{\"/Users/kirilivanov/DEV/BrightUnion/distributors/contracts/bridge/interfaces/IPolicyBookFabric.sol\":{\"keccak256\":\"0x06f32717cdec1b94ab4854431dcd5bac88420b83f209944f3de2c389a0e33bbc\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://83933f3c51f3d8e6e46cc905385d31390447da2feeb5484be702e42d46fc2956\",\"dweb:/ipfs/QmPiMuKVdVtcdRzG6XwhX3zRo47WSut51yzSmmFxVnF27K\"]},\"/Users/kirilivanov/DEV/BrightUnion/distributors/contracts/bridge/interfaces/IPolicyBookRegistry.sol\":{\"keccak256\":\"0x592cd6c93c09d403fd5e27458ec345ee7bae0b9253353342830d3660be45430c\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ff37cda5f3fb94446588d382583cb982a16f739b7779e02d7aa7c37dae57d104\",\"dweb:/ipfs/QmWiVjaxWpFSXuQwqRpQ8C2rQPVcHYd5rPzALMLKBiGT5j\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.7.4+commit.3f05b770\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_insuredContract\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_policyBook\",\"type\":\"address\"}],\"name\":\"add\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"count\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_contract\",\"type\":\"address\"}],\"name\":\"isPolicyBook\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_offset\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"_limit\",\"type\":\"uint256\"}],\"name\":\"list\",\"outputs\":[{\"internalType\":\"address[]\",\"name\":\"_policyBooks\",\"type\":\"address[]\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_offset\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"_limit\",\"type\":\"uint256\"}],\"name\":\"listWithStats\",\"outputs\":[{\"internalType\":\"address[]\",\"name\":\"_policyBooks\",\"type\":\"address[]\"},{\"components\":[{\"internalType\":\"string\",\"name\":\"name\",\"type\":\"string\"},{\"internalType\":\"address\",\"name\":\"insuredContract\",\"type\":\"address\"},{\"internalType\":\"enum IPolicyBookFabric.ContractType\",\"name\":\"contractType\",\"type\":\"uint8\"},{\"internalType\":\"uint256\",\"name\":\"maxCapacity\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"totalDaiLiquidity\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"APY\",\"type\":\"uint256\"},{\"internalType\":\"bool\",\"name\":\"whitelisted\",\"type\":\"bool\"}],\"internalType\":\"struct IPolicyBookRegistry.PolicyBookStats[]\",\"name\":\"_stats\",\"type\":\"tuple[]\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_contract\",\"type\":\"address\"}],\"name\":\"policyBookFor\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address[]\",\"name\":\"_policyBooks\",\"type\":\"address[]\"}],\"name\":\"stats\",\"outputs\":[{\"components\":[{\"internalType\":\"string\",\"name\":\"name\",\"type\":\"string\"},{\"internalType\":\"address\",\"name\":\"insuredContract\",\"type\":\"address\"},{\"internalType\":\"enum IPolicyBookFabric.ContractType\",\"name\":\"contractType\",\"type\":\"uint8\"},{\"internalType\":\"uint256\",\"name\":\"maxCapacity\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"totalDaiLiquidity\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"APY\",\"type\":\"uint256\"},{\"internalType\":\"bool\",\"name\":\"whitelisted\",\"type\":\"bool\"}],\"internalType\":\"struct IPolicyBookRegistry.PolicyBookStats[]\",\"name\":\"_stats\",\"type\":\"tuple[]\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address[]\",\"name\":\"_insuredContracts\",\"type\":\"address[]\"}],\"name\":\"statsByInsuredContracts\",\"outputs\":[{\"components\":[{\"internalType\":\"string\",\"name\":\"name\",\"type\":\"string\"},{\"internalType\":\"address\",\"name\":\"insuredContract\",\"type\":\"address\"},{\"internalType\":\"enum IPolicyBookFabric.ContractType\",\"name\":\"contractType\",\"type\":\"uint8\"},{\"internalType\":\"uint256\",\"name\":\"maxCapacity\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"totalDaiLiquidity\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"APY\",\"type\":\"uint256\"},{\"internalType\":\"bool\",\"name\":\"whitelisted\",\"type\":\"bool\"}],\"internalType\":\"struct IPolicyBookRegistry.PolicyBookStats[]\",\"name\":\"_stats\",\"type\":\"tuple[]\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{\"list(uint256,uint256)\":{\"returns\":{\"_policyBooks\":\"is array of registered PolicyBook addresses\"}},\"policyBookFor(address)\":{\"params\":{\"_contract\":\"is contract address to lookup for created IPolicyBook\"}},\"stats(address[])\":{\"params\":{\"_policyBooks\":\"is list of PolicyBooks addresses\"}},\"statsByInsuredContracts(address[])\":{\"params\":{\"_insuredContracts\":\"is list of insuredContracts in registry\"}}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"add(address,address)\":{\"notice\":\"Adds PolicyBook to registry, access: PolicyFabric\"},\"count()\":{\"notice\":\"Returns number of registered PolicyBooks, access: ANY\"},\"isPolicyBook(address)\":{\"notice\":\"Checks if provided address is a PolicyBook\"},\"list(uint256,uint256)\":{\"notice\":\"Listing registered PolicyBooks, access: ANY\"},\"listWithStats(uint256,uint256)\":{\"notice\":\"Listing registered PolicyBooks, access: ANY\"},\"policyBookFor(address)\":{\"notice\":\"Return existing Policy Book contract, access: ANY\"},\"stats(address[])\":{\"notice\":\"Getting stats from policy books, access: ANY\"},\"statsByInsuredContracts(address[])\":{\"notice\":\"Getting stats from policy books, access: ANY\"}},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/ricardopinto/work/brightunion/distributors/contracts/bridge/interfaces/IPolicyBookRegistry.sol\":\"IPolicyBookRegistry\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":10000},\"remappings\":[]},\"sources\":{\"/Users/ricardopinto/work/brightunion/distributors/contracts/bridge/interfaces/IPolicyBookFabric.sol\":{\"keccak256\":\"0x06f32717cdec1b94ab4854431dcd5bac88420b83f209944f3de2c389a0e33bbc\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://83933f3c51f3d8e6e46cc905385d31390447da2feeb5484be702e42d46fc2956\",\"dweb:/ipfs/QmPiMuKVdVtcdRzG6XwhX3zRo47WSut51yzSmmFxVnF27K\"]},\"/Users/ricardopinto/work/brightunion/distributors/contracts/bridge/interfaces/IPolicyBookRegistry.sol\":{\"keccak256\":\"0x592cd6c93c09d403fd5e27458ec345ee7bae0b9253353342830d3660be45430c\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ff37cda5f3fb94446588d382583cb982a16f739b7779e02d7aa7c37dae57d104\",\"dweb:/ipfs/QmWiVjaxWpFSXuQwqRpQ8C2rQPVcHYd5rPzALMLKBiGT5j\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "immutableReferences": {},
@@ -282,23 +282,23 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.7.4;\n\nimport \"./IPolicyBookFabric.sol\";\npragma experimental ABIEncoderV2;\n\ninterface IPolicyBookRegistry {\n  struct PolicyBookStats {\n    string name;\n    address insuredContract;\n    IPolicyBookFabric.ContractType contractType;\n    uint256 maxCapacity;\n    uint256 totalDaiLiquidity;\n    uint256 APY;\n    bool whitelisted;\n  }\n\n  /// @notice Adds PolicyBook to registry, access: PolicyFabric\n  function add(address _insuredContract, address _policyBook) external;\n\n  /// @notice Checks if provided address is a PolicyBook\n  function isPolicyBook(address _contract) external view returns (bool);\n\n  /// @notice Returns number of registered PolicyBooks, access: ANY\n  function count() external view returns (uint256);\n\n  /// @notice Listing registered PolicyBooks, access: ANY\n  /// @return _policyBooks is array of registered PolicyBook addresses\n  function list(uint256 _offset, uint256 _limit)\n    external\n    view\n    returns (\n      address[] memory _policyBooks\n    );\n\n  /// @notice Listing registered PolicyBooks, access: ANY\n  function listWithStats(uint256 _offset, uint256 _limit)\n    external\n    view\n    returns (\n      address[] memory _policyBooks,\n      PolicyBookStats[] memory _stats\n    );\n\n  /// @notice Return existing Policy Book contract, access: ANY\n  /// @param _contract is contract address to lookup for created IPolicyBook\n  function policyBookFor(address _contract) external view returns (address);\n\n  /// @notice Getting stats from policy books, access: ANY\n  /// @param _policyBooks is list of PolicyBooks addresses\n  function stats(address[] calldata _policyBooks)\n    external\n    view\n    returns (\n      PolicyBookStats[] memory _stats\n    );\n\n  /// @notice Getting stats from policy books, access: ANY\n  /// @param _insuredContracts is list of insuredContracts in registry\n  function statsByInsuredContracts(address[] calldata _insuredContracts)\n    external\n    view\n    returns (\n      PolicyBookStats[] memory _stats\n    );\n}\n",
-  "sourcePath": "/Users/kirilivanov/DEV/BrightUnion/distributors/contracts/bridge/interfaces/IPolicyBookRegistry.sol",
+  "sourcePath": "/Users/ricardopinto/work/brightunion/distributors/contracts/bridge/interfaces/IPolicyBookRegistry.sol",
   "ast": {
-    "absolutePath": "/Users/kirilivanov/DEV/BrightUnion/distributors/contracts/bridge/interfaces/IPolicyBookRegistry.sol",
+    "absolutePath": "/Users/ricardopinto/work/brightunion/distributors/contracts/bridge/interfaces/IPolicyBookRegistry.sol",
     "exportedSymbols": {
       "IPolicyBookFabric": [
-        418
+        451
       ],
       "IPolicyBookRegistry": [
-        513
+        546
       ]
     },
-    "id": 514,
+    "id": 547,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 420,
+        "id": 453,
         "literals": [
           "solidity",
           "^",
@@ -306,27 +306,27 @@
           ".4"
         ],
         "nodeType": "PragmaDirective",
-        "src": "32:23:3"
+        "src": "32:23:4"
       },
       {
-        "absolutePath": "/Users/kirilivanov/DEV/BrightUnion/distributors/contracts/bridge/interfaces/IPolicyBookFabric.sol",
+        "absolutePath": "/Users/ricardopinto/work/brightunion/distributors/contracts/bridge/interfaces/IPolicyBookFabric.sol",
         "file": "./IPolicyBookFabric.sol",
-        "id": 421,
+        "id": 454,
         "nodeType": "ImportDirective",
-        "scope": 514,
-        "sourceUnit": 419,
-        "src": "57:33:3",
+        "scope": 547,
+        "sourceUnit": 452,
+        "src": "57:33:4",
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
-        "id": 422,
+        "id": 455,
         "literals": [
           "experimental",
           "ABIEncoderV2"
         ],
         "nodeType": "PragmaDirective",
-        "src": "91:33:3"
+        "src": "91:33:4"
       },
       {
         "abstract": false,
@@ -334,25 +334,25 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "fullyImplemented": false,
-        "id": 513,
+        "id": 546,
         "linearizedBaseContracts": [
-          513
+          546
         ],
         "name": "IPolicyBookRegistry",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "canonicalName": "IPolicyBookRegistry.PolicyBookStats",
-            "id": 437,
+            "id": 470,
             "members": [
               {
                 "constant": false,
-                "id": 424,
+                "id": 457,
                 "mutability": "mutable",
                 "name": "name",
                 "nodeType": "VariableDeclaration",
-                "scope": 437,
-                "src": "189:11:3",
+                "scope": 470,
+                "src": "189:11:4",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -360,10 +360,10 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 423,
+                  "id": 456,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
-                  "src": "189:6:3",
+                  "src": "189:6:4",
                   "typeDescriptions": {
                     "typeIdentifier": "t_string_storage_ptr",
                     "typeString": "string"
@@ -373,12 +373,12 @@
               },
               {
                 "constant": false,
-                "id": 426,
+                "id": 459,
                 "mutability": "mutable",
                 "name": "insuredContract",
                 "nodeType": "VariableDeclaration",
-                "scope": 437,
-                "src": "206:23:3",
+                "scope": 470,
+                "src": "206:23:4",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -386,10 +386,10 @@
                   "typeString": "address"
                 },
                 "typeName": {
-                  "id": 425,
+                  "id": 458,
                   "name": "address",
                   "nodeType": "ElementaryTypeName",
-                  "src": "206:7:3",
+                  "src": "206:7:4",
                   "stateMutability": "nonpayable",
                   "typeDescriptions": {
                     "typeIdentifier": "t_address",
@@ -400,26 +400,26 @@
               },
               {
                 "constant": false,
-                "id": 428,
+                "id": 461,
                 "mutability": "mutable",
                 "name": "contractType",
                 "nodeType": "VariableDeclaration",
-                "scope": 437,
-                "src": "235:43:3",
+                "scope": 470,
+                "src": "235:43:4",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_enum$_ContractType_$403",
+                  "typeIdentifier": "t_enum$_ContractType_$436",
                   "typeString": "enum IPolicyBookFabric.ContractType"
                 },
                 "typeName": {
-                  "id": 427,
+                  "id": 460,
                   "name": "IPolicyBookFabric.ContractType",
                   "nodeType": "UserDefinedTypeName",
-                  "referencedDeclaration": 403,
-                  "src": "235:30:3",
+                  "referencedDeclaration": 436,
+                  "src": "235:30:4",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_enum$_ContractType_$403",
+                    "typeIdentifier": "t_enum$_ContractType_$436",
                     "typeString": "enum IPolicyBookFabric.ContractType"
                   }
                 },
@@ -427,12 +427,12 @@
               },
               {
                 "constant": false,
-                "id": 430,
+                "id": 463,
                 "mutability": "mutable",
                 "name": "maxCapacity",
                 "nodeType": "VariableDeclaration",
-                "scope": 437,
-                "src": "284:19:3",
+                "scope": 470,
+                "src": "284:19:4",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -440,10 +440,10 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 429,
+                  "id": 462,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
-                  "src": "284:7:3",
+                  "src": "284:7:4",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -453,12 +453,12 @@
               },
               {
                 "constant": false,
-                "id": 432,
+                "id": 465,
                 "mutability": "mutable",
                 "name": "totalDaiLiquidity",
                 "nodeType": "VariableDeclaration",
-                "scope": 437,
-                "src": "309:25:3",
+                "scope": 470,
+                "src": "309:25:4",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -466,10 +466,10 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 431,
+                  "id": 464,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
-                  "src": "309:7:3",
+                  "src": "309:7:4",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -479,12 +479,12 @@
               },
               {
                 "constant": false,
-                "id": 434,
+                "id": 467,
                 "mutability": "mutable",
                 "name": "APY",
                 "nodeType": "VariableDeclaration",
-                "scope": 437,
-                "src": "340:11:3",
+                "scope": 470,
+                "src": "340:11:4",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -492,10 +492,10 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 433,
+                  "id": 466,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
-                  "src": "340:7:3",
+                  "src": "340:7:4",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -505,12 +505,12 @@
               },
               {
                 "constant": false,
-                "id": 436,
+                "id": 469,
                 "mutability": "mutable",
                 "name": "whitelisted",
                 "nodeType": "VariableDeclaration",
-                "scope": 437,
-                "src": "357:16:3",
+                "scope": 470,
+                "src": "357:16:4",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -518,10 +518,10 @@
                   "typeString": "bool"
                 },
                 "typeName": {
-                  "id": 435,
+                  "id": 468,
                   "name": "bool",
                   "nodeType": "ElementaryTypeName",
-                  "src": "357:4:3",
+                  "src": "357:4:4",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bool",
                     "typeString": "bool"
@@ -532,378 +532,23 @@
             ],
             "name": "PolicyBookStats",
             "nodeType": "StructDefinition",
-            "scope": 513,
-            "src": "160:218:3",
+            "scope": 546,
+            "src": "160:218:4",
             "visibility": "public"
-          },
-          {
-            "documentation": {
-              "id": 438,
-              "nodeType": "StructuredDocumentation",
-              "src": "382:61:3",
-              "text": "@notice Adds PolicyBook to registry, access: PolicyFabric"
-            },
-            "functionSelector": "52c28fab",
-            "id": 445,
-            "implemented": false,
-            "kind": "function",
-            "modifiers": [],
-            "name": "add",
-            "nodeType": "FunctionDefinition",
-            "parameters": {
-              "id": 443,
-              "nodeType": "ParameterList",
-              "parameters": [
-                {
-                  "constant": false,
-                  "id": 440,
-                  "mutability": "mutable",
-                  "name": "_insuredContract",
-                  "nodeType": "VariableDeclaration",
-                  "scope": 445,
-                  "src": "459:24:3",
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_address",
-                    "typeString": "address"
-                  },
-                  "typeName": {
-                    "id": 439,
-                    "name": "address",
-                    "nodeType": "ElementaryTypeName",
-                    "src": "459:7:3",
-                    "stateMutability": "nonpayable",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_address",
-                      "typeString": "address"
-                    }
-                  },
-                  "visibility": "internal"
-                },
-                {
-                  "constant": false,
-                  "id": 442,
-                  "mutability": "mutable",
-                  "name": "_policyBook",
-                  "nodeType": "VariableDeclaration",
-                  "scope": 445,
-                  "src": "485:19:3",
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_address",
-                    "typeString": "address"
-                  },
-                  "typeName": {
-                    "id": 441,
-                    "name": "address",
-                    "nodeType": "ElementaryTypeName",
-                    "src": "485:7:3",
-                    "stateMutability": "nonpayable",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_address",
-                      "typeString": "address"
-                    }
-                  },
-                  "visibility": "internal"
-                }
-              ],
-              "src": "458:47:3"
-            },
-            "returnParameters": {
-              "id": 444,
-              "nodeType": "ParameterList",
-              "parameters": [],
-              "src": "514:0:3"
-            },
-            "scope": 513,
-            "src": "446:69:3",
-            "stateMutability": "nonpayable",
-            "virtual": false,
-            "visibility": "external"
-          },
-          {
-            "documentation": {
-              "id": 446,
-              "nodeType": "StructuredDocumentation",
-              "src": "519:54:3",
-              "text": "@notice Checks if provided address is a PolicyBook"
-            },
-            "functionSelector": "4c3b9f19",
-            "id": 453,
-            "implemented": false,
-            "kind": "function",
-            "modifiers": [],
-            "name": "isPolicyBook",
-            "nodeType": "FunctionDefinition",
-            "parameters": {
-              "id": 449,
-              "nodeType": "ParameterList",
-              "parameters": [
-                {
-                  "constant": false,
-                  "id": 448,
-                  "mutability": "mutable",
-                  "name": "_contract",
-                  "nodeType": "VariableDeclaration",
-                  "scope": 453,
-                  "src": "598:17:3",
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_address",
-                    "typeString": "address"
-                  },
-                  "typeName": {
-                    "id": 447,
-                    "name": "address",
-                    "nodeType": "ElementaryTypeName",
-                    "src": "598:7:3",
-                    "stateMutability": "nonpayable",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_address",
-                      "typeString": "address"
-                    }
-                  },
-                  "visibility": "internal"
-                }
-              ],
-              "src": "597:19:3"
-            },
-            "returnParameters": {
-              "id": 452,
-              "nodeType": "ParameterList",
-              "parameters": [
-                {
-                  "constant": false,
-                  "id": 451,
-                  "mutability": "mutable",
-                  "name": "",
-                  "nodeType": "VariableDeclaration",
-                  "scope": 453,
-                  "src": "640:4:3",
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_bool",
-                    "typeString": "bool"
-                  },
-                  "typeName": {
-                    "id": 450,
-                    "name": "bool",
-                    "nodeType": "ElementaryTypeName",
-                    "src": "640:4:3",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_bool",
-                      "typeString": "bool"
-                    }
-                  },
-                  "visibility": "internal"
-                }
-              ],
-              "src": "639:6:3"
-            },
-            "scope": 513,
-            "src": "576:70:3",
-            "stateMutability": "view",
-            "virtual": false,
-            "visibility": "external"
-          },
-          {
-            "documentation": {
-              "id": 454,
-              "nodeType": "StructuredDocumentation",
-              "src": "650:65:3",
-              "text": "@notice Returns number of registered PolicyBooks, access: ANY"
-            },
-            "functionSelector": "06661abd",
-            "id": 459,
-            "implemented": false,
-            "kind": "function",
-            "modifiers": [],
-            "name": "count",
-            "nodeType": "FunctionDefinition",
-            "parameters": {
-              "id": 455,
-              "nodeType": "ParameterList",
-              "parameters": [],
-              "src": "732:2:3"
-            },
-            "returnParameters": {
-              "id": 458,
-              "nodeType": "ParameterList",
-              "parameters": [
-                {
-                  "constant": false,
-                  "id": 457,
-                  "mutability": "mutable",
-                  "name": "",
-                  "nodeType": "VariableDeclaration",
-                  "scope": 459,
-                  "src": "758:7:3",
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_uint256",
-                    "typeString": "uint256"
-                  },
-                  "typeName": {
-                    "id": 456,
-                    "name": "uint256",
-                    "nodeType": "ElementaryTypeName",
-                    "src": "758:7:3",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_uint256",
-                      "typeString": "uint256"
-                    }
-                  },
-                  "visibility": "internal"
-                }
-              ],
-              "src": "757:9:3"
-            },
-            "scope": 513,
-            "src": "718:49:3",
-            "stateMutability": "view",
-            "virtual": false,
-            "visibility": "external"
-          },
-          {
-            "documentation": {
-              "id": 460,
-              "nodeType": "StructuredDocumentation",
-              "src": "771:126:3",
-              "text": "@notice Listing registered PolicyBooks, access: ANY\n @return _policyBooks is array of registered PolicyBook addresses"
-            },
-            "functionSelector": "50fd7367",
-            "id": 470,
-            "implemented": false,
-            "kind": "function",
-            "modifiers": [],
-            "name": "list",
-            "nodeType": "FunctionDefinition",
-            "parameters": {
-              "id": 465,
-              "nodeType": "ParameterList",
-              "parameters": [
-                {
-                  "constant": false,
-                  "id": 462,
-                  "mutability": "mutable",
-                  "name": "_offset",
-                  "nodeType": "VariableDeclaration",
-                  "scope": 470,
-                  "src": "914:15:3",
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_uint256",
-                    "typeString": "uint256"
-                  },
-                  "typeName": {
-                    "id": 461,
-                    "name": "uint256",
-                    "nodeType": "ElementaryTypeName",
-                    "src": "914:7:3",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_uint256",
-                      "typeString": "uint256"
-                    }
-                  },
-                  "visibility": "internal"
-                },
-                {
-                  "constant": false,
-                  "id": 464,
-                  "mutability": "mutable",
-                  "name": "_limit",
-                  "nodeType": "VariableDeclaration",
-                  "scope": 470,
-                  "src": "931:14:3",
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_uint256",
-                    "typeString": "uint256"
-                  },
-                  "typeName": {
-                    "id": 463,
-                    "name": "uint256",
-                    "nodeType": "ElementaryTypeName",
-                    "src": "931:7:3",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_uint256",
-                      "typeString": "uint256"
-                    }
-                  },
-                  "visibility": "internal"
-                }
-              ],
-              "src": "913:33:3"
-            },
-            "returnParameters": {
-              "id": 469,
-              "nodeType": "ParameterList",
-              "parameters": [
-                {
-                  "constant": false,
-                  "id": 468,
-                  "mutability": "mutable",
-                  "name": "_policyBooks",
-                  "nodeType": "VariableDeclaration",
-                  "scope": 470,
-                  "src": "989:29:3",
-                  "stateVariable": false,
-                  "storageLocation": "memory",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_array$_t_address_$dyn_memory_ptr",
-                    "typeString": "address[]"
-                  },
-                  "typeName": {
-                    "baseType": {
-                      "id": 466,
-                      "name": "address",
-                      "nodeType": "ElementaryTypeName",
-                      "src": "989:7:3",
-                      "stateMutability": "nonpayable",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_address",
-                        "typeString": "address"
-                      }
-                    },
-                    "id": 467,
-                    "nodeType": "ArrayTypeName",
-                    "src": "989:9:3",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_array$_t_address_$dyn_storage_ptr",
-                      "typeString": "address[]"
-                    }
-                  },
-                  "visibility": "internal"
-                }
-              ],
-              "src": "981:43:3"
-            },
-            "scope": 513,
-            "src": "900:125:3",
-            "stateMutability": "view",
-            "virtual": false,
-            "visibility": "external"
           },
           {
             "documentation": {
               "id": 471,
               "nodeType": "StructuredDocumentation",
-              "src": "1029:55:3",
-              "text": "@notice Listing registered PolicyBooks, access: ANY"
+              "src": "382:61:4",
+              "text": "@notice Adds PolicyBook to registry, access: PolicyFabric"
             },
-            "functionSelector": "c85b4e14",
-            "id": 484,
+            "functionSelector": "52c28fab",
+            "id": 478,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
-            "name": "listWithStats",
+            "name": "add",
             "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 476,
@@ -913,24 +558,25 @@
                   "constant": false,
                   "id": 473,
                   "mutability": "mutable",
-                  "name": "_offset",
+                  "name": "_insuredContract",
                   "nodeType": "VariableDeclaration",
-                  "scope": 484,
-                  "src": "1110:15:3",
+                  "scope": 478,
+                  "src": "459:24:4",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_uint256",
-                    "typeString": "uint256"
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
                   },
                   "typeName": {
                     "id": 472,
-                    "name": "uint256",
+                    "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1110:7:3",
+                    "src": "459:7:4",
+                    "stateMutability": "nonpayable",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_uint256",
-                      "typeString": "uint256"
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
                     }
                   },
                   "visibility": "internal"
@@ -939,142 +585,10 @@
                   "constant": false,
                   "id": 475,
                   "mutability": "mutable",
-                  "name": "_limit",
+                  "name": "_policyBook",
                   "nodeType": "VariableDeclaration",
-                  "scope": 484,
-                  "src": "1127:14:3",
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_uint256",
-                    "typeString": "uint256"
-                  },
-                  "typeName": {
-                    "id": 474,
-                    "name": "uint256",
-                    "nodeType": "ElementaryTypeName",
-                    "src": "1127:7:3",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_uint256",
-                      "typeString": "uint256"
-                    }
-                  },
-                  "visibility": "internal"
-                }
-              ],
-              "src": "1109:33:3"
-            },
-            "returnParameters": {
-              "id": 483,
-              "nodeType": "ParameterList",
-              "parameters": [
-                {
-                  "constant": false,
-                  "id": 479,
-                  "mutability": "mutable",
-                  "name": "_policyBooks",
-                  "nodeType": "VariableDeclaration",
-                  "scope": 484,
-                  "src": "1185:29:3",
-                  "stateVariable": false,
-                  "storageLocation": "memory",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_array$_t_address_$dyn_memory_ptr",
-                    "typeString": "address[]"
-                  },
-                  "typeName": {
-                    "baseType": {
-                      "id": 477,
-                      "name": "address",
-                      "nodeType": "ElementaryTypeName",
-                      "src": "1185:7:3",
-                      "stateMutability": "nonpayable",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_address",
-                        "typeString": "address"
-                      }
-                    },
-                    "id": 478,
-                    "nodeType": "ArrayTypeName",
-                    "src": "1185:9:3",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_array$_t_address_$dyn_storage_ptr",
-                      "typeString": "address[]"
-                    }
-                  },
-                  "visibility": "internal"
-                },
-                {
-                  "constant": false,
-                  "id": 482,
-                  "mutability": "mutable",
-                  "name": "_stats",
-                  "nodeType": "VariableDeclaration",
-                  "scope": 484,
-                  "src": "1222:31:3",
-                  "stateVariable": false,
-                  "storageLocation": "memory",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_array$_t_struct$_PolicyBookStats_$437_memory_ptr_$dyn_memory_ptr",
-                    "typeString": "struct IPolicyBookRegistry.PolicyBookStats[]"
-                  },
-                  "typeName": {
-                    "baseType": {
-                      "id": 480,
-                      "name": "PolicyBookStats",
-                      "nodeType": "UserDefinedTypeName",
-                      "referencedDeclaration": 437,
-                      "src": "1222:15:3",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_PolicyBookStats_$437_storage_ptr",
-                        "typeString": "struct IPolicyBookRegistry.PolicyBookStats"
-                      }
-                    },
-                    "id": 481,
-                    "nodeType": "ArrayTypeName",
-                    "src": "1222:17:3",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_array$_t_struct$_PolicyBookStats_$437_storage_$dyn_storage_ptr",
-                      "typeString": "struct IPolicyBookRegistry.PolicyBookStats[]"
-                    }
-                  },
-                  "visibility": "internal"
-                }
-              ],
-              "src": "1177:82:3"
-            },
-            "scope": 513,
-            "src": "1087:173:3",
-            "stateMutability": "view",
-            "virtual": false,
-            "visibility": "external"
-          },
-          {
-            "documentation": {
-              "id": 485,
-              "nodeType": "StructuredDocumentation",
-              "src": "1264:138:3",
-              "text": "@notice Return existing Policy Book contract, access: ANY\n @param _contract is contract address to lookup for created IPolicyBook"
-            },
-            "functionSelector": "217c1552",
-            "id": 492,
-            "implemented": false,
-            "kind": "function",
-            "modifiers": [],
-            "name": "policyBookFor",
-            "nodeType": "FunctionDefinition",
-            "parameters": {
-              "id": 488,
-              "nodeType": "ParameterList",
-              "parameters": [
-                {
-                  "constant": false,
-                  "id": 487,
-                  "mutability": "mutable",
-                  "name": "_contract",
-                  "nodeType": "VariableDeclaration",
-                  "scope": 492,
-                  "src": "1428:17:3",
+                  "scope": 478,
+                  "src": "485:19:4",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1082,10 +596,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 486,
+                    "id": 474,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1428:7:3",
+                    "src": "485:7:4",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1095,7 +609,126 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1427:19:3"
+              "src": "458:47:4"
+            },
+            "returnParameters": {
+              "id": 477,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "514:0:4"
+            },
+            "scope": 546,
+            "src": "446:69:4",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "documentation": {
+              "id": 479,
+              "nodeType": "StructuredDocumentation",
+              "src": "519:54:4",
+              "text": "@notice Checks if provided address is a PolicyBook"
+            },
+            "functionSelector": "4c3b9f19",
+            "id": 486,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "isPolicyBook",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 482,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 481,
+                  "mutability": "mutable",
+                  "name": "_contract",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 486,
+                  "src": "598:17:4",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 480,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "598:7:4",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "597:19:4"
+            },
+            "returnParameters": {
+              "id": 485,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 484,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 486,
+                  "src": "640:4:4",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 483,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "640:4:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "639:6:4"
+            },
+            "scope": 546,
+            "src": "576:70:4",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "documentation": {
+              "id": 487,
+              "nodeType": "StructuredDocumentation",
+              "src": "650:65:4",
+              "text": "@notice Returns number of registered PolicyBooks, access: ANY"
+            },
+            "functionSelector": "06661abd",
+            "id": 492,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "count",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 488,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "732:2:4"
             },
             "returnParameters": {
               "id": 491,
@@ -1108,7 +741,340 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "scope": 492,
-                  "src": "1470:7:3",
+                  "src": "758:7:4",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 489,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "758:7:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "757:9:4"
+            },
+            "scope": 546,
+            "src": "718:49:4",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "documentation": {
+              "id": 493,
+              "nodeType": "StructuredDocumentation",
+              "src": "771:126:4",
+              "text": "@notice Listing registered PolicyBooks, access: ANY\n @return _policyBooks is array of registered PolicyBook addresses"
+            },
+            "functionSelector": "50fd7367",
+            "id": 503,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "list",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 498,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 495,
+                  "mutability": "mutable",
+                  "name": "_offset",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 503,
+                  "src": "914:15:4",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 494,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "914:7:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 497,
+                  "mutability": "mutable",
+                  "name": "_limit",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 503,
+                  "src": "931:14:4",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 496,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "931:7:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "913:33:4"
+            },
+            "returnParameters": {
+              "id": 502,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 501,
+                  "mutability": "mutable",
+                  "name": "_policyBooks",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 503,
+                  "src": "989:29:4",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_address_$dyn_memory_ptr",
+                    "typeString": "address[]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "id": 499,
+                      "name": "address",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "989:7:4",
+                      "stateMutability": "nonpayable",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "id": 500,
+                    "nodeType": "ArrayTypeName",
+                    "src": "989:9:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_address_$dyn_storage_ptr",
+                      "typeString": "address[]"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "981:43:4"
+            },
+            "scope": 546,
+            "src": "900:125:4",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "documentation": {
+              "id": 504,
+              "nodeType": "StructuredDocumentation",
+              "src": "1029:55:4",
+              "text": "@notice Listing registered PolicyBooks, access: ANY"
+            },
+            "functionSelector": "c85b4e14",
+            "id": 517,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "listWithStats",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 509,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 506,
+                  "mutability": "mutable",
+                  "name": "_offset",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 517,
+                  "src": "1110:15:4",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 505,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1110:7:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 508,
+                  "mutability": "mutable",
+                  "name": "_limit",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 517,
+                  "src": "1127:14:4",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 507,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1127:7:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1109:33:4"
+            },
+            "returnParameters": {
+              "id": 516,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 512,
+                  "mutability": "mutable",
+                  "name": "_policyBooks",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 517,
+                  "src": "1185:29:4",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_address_$dyn_memory_ptr",
+                    "typeString": "address[]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "id": 510,
+                      "name": "address",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "1185:7:4",
+                      "stateMutability": "nonpayable",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "id": 511,
+                    "nodeType": "ArrayTypeName",
+                    "src": "1185:9:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_address_$dyn_storage_ptr",
+                      "typeString": "address[]"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 515,
+                  "mutability": "mutable",
+                  "name": "_stats",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 517,
+                  "src": "1222:31:4",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_struct$_PolicyBookStats_$470_memory_ptr_$dyn_memory_ptr",
+                    "typeString": "struct IPolicyBookRegistry.PolicyBookStats[]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "id": 513,
+                      "name": "PolicyBookStats",
+                      "nodeType": "UserDefinedTypeName",
+                      "referencedDeclaration": 470,
+                      "src": "1222:15:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_PolicyBookStats_$470_storage_ptr",
+                        "typeString": "struct IPolicyBookRegistry.PolicyBookStats"
+                      }
+                    },
+                    "id": 514,
+                    "nodeType": "ArrayTypeName",
+                    "src": "1222:17:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_struct$_PolicyBookStats_$470_storage_$dyn_storage_ptr",
+                      "typeString": "struct IPolicyBookRegistry.PolicyBookStats[]"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1177:82:4"
+            },
+            "scope": 546,
+            "src": "1087:173:4",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "documentation": {
+              "id": 518,
+              "nodeType": "StructuredDocumentation",
+              "src": "1264:138:4",
+              "text": "@notice Return existing Policy Book contract, access: ANY\n @param _contract is contract address to lookup for created IPolicyBook"
+            },
+            "functionSelector": "217c1552",
+            "id": 525,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "policyBookFor",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 521,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 520,
+                  "mutability": "mutable",
+                  "name": "_contract",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 525,
+                  "src": "1428:17:4",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1116,10 +1082,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 489,
+                    "id": 519,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1470:7:3",
+                    "src": "1428:7:4",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1129,40 +1095,74 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1469:9:3"
+              "src": "1427:19:4"
             },
-            "scope": 513,
-            "src": "1405:74:3",
+            "returnParameters": {
+              "id": 524,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 523,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 525,
+                  "src": "1470:7:4",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 522,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1470:7:4",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1469:9:4"
+            },
+            "scope": 546,
+            "src": "1405:74:4",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           },
           {
             "documentation": {
-              "id": 493,
+              "id": 526,
               "nodeType": "StructuredDocumentation",
-              "src": "1483:115:3",
+              "src": "1483:115:4",
               "text": "@notice Getting stats from policy books, access: ANY\n @param _policyBooks is list of PolicyBooks addresses"
             },
             "functionSelector": "f10ed7a3",
-            "id": 502,
+            "id": 535,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "stats",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 497,
+              "id": 530,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 496,
+                  "id": 529,
                   "mutability": "mutable",
                   "name": "_policyBooks",
                   "nodeType": "VariableDeclaration",
-                  "scope": 502,
-                  "src": "1616:31:3",
+                  "scope": 535,
+                  "src": "1616:31:4",
                   "stateVariable": false,
                   "storageLocation": "calldata",
                   "typeDescriptions": {
@@ -1171,19 +1171,19 @@
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 494,
+                      "id": 527,
                       "name": "address",
                       "nodeType": "ElementaryTypeName",
-                      "src": "1616:7:3",
+                      "src": "1616:7:4",
                       "stateMutability": "nonpayable",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
                       }
                     },
-                    "id": 495,
+                    "id": 528,
                     "nodeType": "ArrayTypeName",
-                    "src": "1616:9:3",
+                    "src": "1616:9:4",
                     "typeDescriptions": {
                       "typeIdentifier": "t_array$_t_address_$dyn_storage_ptr",
                       "typeString": "address[]"
@@ -1192,83 +1192,83 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1615:33:3"
+              "src": "1615:33:4"
             },
             "returnParameters": {
-              "id": 501,
+              "id": 534,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 500,
+                  "id": 533,
                   "mutability": "mutable",
                   "name": "_stats",
                   "nodeType": "VariableDeclaration",
-                  "scope": 502,
-                  "src": "1691:31:3",
+                  "scope": 535,
+                  "src": "1691:31:4",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_array$_t_struct$_PolicyBookStats_$437_memory_ptr_$dyn_memory_ptr",
+                    "typeIdentifier": "t_array$_t_struct$_PolicyBookStats_$470_memory_ptr_$dyn_memory_ptr",
                     "typeString": "struct IPolicyBookRegistry.PolicyBookStats[]"
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 498,
+                      "id": 531,
                       "name": "PolicyBookStats",
                       "nodeType": "UserDefinedTypeName",
-                      "referencedDeclaration": 437,
-                      "src": "1691:15:3",
+                      "referencedDeclaration": 470,
+                      "src": "1691:15:4",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_PolicyBookStats_$437_storage_ptr",
+                        "typeIdentifier": "t_struct$_PolicyBookStats_$470_storage_ptr",
                         "typeString": "struct IPolicyBookRegistry.PolicyBookStats"
                       }
                     },
-                    "id": 499,
+                    "id": 532,
                     "nodeType": "ArrayTypeName",
-                    "src": "1691:17:3",
+                    "src": "1691:17:4",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_array$_t_struct$_PolicyBookStats_$437_storage_$dyn_storage_ptr",
+                      "typeIdentifier": "t_array$_t_struct$_PolicyBookStats_$470_storage_$dyn_storage_ptr",
                       "typeString": "struct IPolicyBookRegistry.PolicyBookStats[]"
                     }
                   },
                   "visibility": "internal"
                 }
               ],
-              "src": "1683:45:3"
+              "src": "1683:45:4"
             },
-            "scope": 513,
-            "src": "1601:128:3",
+            "scope": 546,
+            "src": "1601:128:4",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           },
           {
             "documentation": {
-              "id": 503,
+              "id": 536,
               "nodeType": "StructuredDocumentation",
-              "src": "1733:127:3",
+              "src": "1733:127:4",
               "text": "@notice Getting stats from policy books, access: ANY\n @param _insuredContracts is list of insuredContracts in registry"
             },
             "functionSelector": "da82de5c",
-            "id": 512,
+            "id": 545,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "statsByInsuredContracts",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 507,
+              "id": 540,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 506,
+                  "id": 539,
                   "mutability": "mutable",
                   "name": "_insuredContracts",
                   "nodeType": "VariableDeclaration",
-                  "scope": 512,
-                  "src": "1896:36:3",
+                  "scope": 545,
+                  "src": "1896:36:4",
                   "stateVariable": false,
                   "storageLocation": "calldata",
                   "typeDescriptions": {
@@ -1277,19 +1277,19 @@
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 504,
+                      "id": 537,
                       "name": "address",
                       "nodeType": "ElementaryTypeName",
-                      "src": "1896:7:3",
+                      "src": "1896:7:4",
                       "stateMutability": "nonpayable",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
                       }
                     },
-                    "id": 505,
+                    "id": 538,
                     "nodeType": "ArrayTypeName",
-                    "src": "1896:9:3",
+                    "src": "1896:9:4",
                     "typeDescriptions": {
                       "typeIdentifier": "t_array$_t_address_$dyn_storage_ptr",
                       "typeString": "address[]"
@@ -1298,73 +1298,73 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1895:38:3"
+              "src": "1895:38:4"
             },
             "returnParameters": {
-              "id": 511,
+              "id": 544,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 510,
+                  "id": 543,
                   "mutability": "mutable",
                   "name": "_stats",
                   "nodeType": "VariableDeclaration",
-                  "scope": 512,
-                  "src": "1976:31:3",
+                  "scope": 545,
+                  "src": "1976:31:4",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_array$_t_struct$_PolicyBookStats_$437_memory_ptr_$dyn_memory_ptr",
+                    "typeIdentifier": "t_array$_t_struct$_PolicyBookStats_$470_memory_ptr_$dyn_memory_ptr",
                     "typeString": "struct IPolicyBookRegistry.PolicyBookStats[]"
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 508,
+                      "id": 541,
                       "name": "PolicyBookStats",
                       "nodeType": "UserDefinedTypeName",
-                      "referencedDeclaration": 437,
-                      "src": "1976:15:3",
+                      "referencedDeclaration": 470,
+                      "src": "1976:15:4",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_PolicyBookStats_$437_storage_ptr",
+                        "typeIdentifier": "t_struct$_PolicyBookStats_$470_storage_ptr",
                         "typeString": "struct IPolicyBookRegistry.PolicyBookStats"
                       }
                     },
-                    "id": 509,
+                    "id": 542,
                     "nodeType": "ArrayTypeName",
-                    "src": "1976:17:3",
+                    "src": "1976:17:4",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_array$_t_struct$_PolicyBookStats_$437_storage_$dyn_storage_ptr",
+                      "typeIdentifier": "t_array$_t_struct$_PolicyBookStats_$470_storage_$dyn_storage_ptr",
                       "typeString": "struct IPolicyBookRegistry.PolicyBookStats[]"
                     }
                   },
                   "visibility": "internal"
                 }
               ],
-              "src": "1968:45:3"
+              "src": "1968:45:4"
             },
-            "scope": 513,
-            "src": "1863:151:3",
+            "scope": 546,
+            "src": "1863:151:4",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 514,
-        "src": "126:1890:3"
+        "scope": 547,
+        "src": "126:1890:4"
       }
     ],
-    "src": "32:1985:3"
+    "src": "32:1985:4"
   },
   "legacyAST": {
     "attributes": {
-      "absolutePath": "/Users/kirilivanov/DEV/BrightUnion/distributors/contracts/bridge/interfaces/IPolicyBookRegistry.sol",
+      "absolutePath": "/Users/ricardopinto/work/brightunion/distributors/contracts/bridge/interfaces/IPolicyBookRegistry.sol",
       "exportedSymbols": {
         "IPolicyBookFabric": [
-          418
+          451
         ],
         "IPolicyBookRegistry": [
-          513
+          546
         ]
       },
       "license": "MIT"
@@ -1379,24 +1379,24 @@
             ".4"
           ]
         },
-        "id": 420,
+        "id": 453,
         "name": "PragmaDirective",
-        "src": "32:23:3"
+        "src": "32:23:4"
       },
       {
         "attributes": {
-          "SourceUnit": 419,
-          "absolutePath": "/Users/kirilivanov/DEV/BrightUnion/distributors/contracts/bridge/interfaces/IPolicyBookFabric.sol",
+          "SourceUnit": 452,
+          "absolutePath": "/Users/ricardopinto/work/brightunion/distributors/contracts/bridge/interfaces/IPolicyBookFabric.sol",
           "file": "./IPolicyBookFabric.sol",
-          "scope": 514,
+          "scope": 547,
           "symbolAliases": [
             null
           ],
           "unitAlias": ""
         },
-        "id": 421,
+        "id": 454,
         "name": "ImportDirective",
-        "src": "57:33:3"
+        "src": "57:33:4"
       },
       {
         "attributes": {
@@ -1405,9 +1405,9 @@
             "ABIEncoderV2"
           ]
         },
-        "id": 422,
+        "id": 455,
         "name": "PragmaDirective",
-        "src": "91:33:3"
+        "src": "91:33:4"
       },
       {
         "attributes": {
@@ -1421,17 +1421,17 @@
           "contractKind": "interface",
           "fullyImplemented": false,
           "linearizedBaseContracts": [
-            513
+            546
           ],
           "name": "IPolicyBookRegistry",
-          "scope": 514
+          "scope": 547
         },
         "children": [
           {
             "attributes": {
               "canonicalName": "IPolicyBookRegistry.PolicyBookStats",
               "name": "PolicyBookStats",
-              "scope": 513,
+              "scope": 546,
               "visibility": "public"
             },
             "children": [
@@ -1440,7 +1440,7 @@
                   "constant": false,
                   "mutability": "mutable",
                   "name": "name",
-                  "scope": 437,
+                  "scope": 470,
                   "stateVariable": false,
                   "storageLocation": "default",
                   "type": "string",
@@ -1452,21 +1452,21 @@
                       "name": "string",
                       "type": "string"
                     },
-                    "id": 423,
+                    "id": 456,
                     "name": "ElementaryTypeName",
-                    "src": "189:6:3"
+                    "src": "189:6:4"
                   }
                 ],
-                "id": 424,
+                "id": 457,
                 "name": "VariableDeclaration",
-                "src": "189:11:3"
+                "src": "189:11:4"
               },
               {
                 "attributes": {
                   "constant": false,
                   "mutability": "mutable",
                   "name": "insuredContract",
-                  "scope": 437,
+                  "scope": 470,
                   "stateVariable": false,
                   "storageLocation": "default",
                   "type": "address",
@@ -1479,21 +1479,21 @@
                       "stateMutability": "nonpayable",
                       "type": "address"
                     },
-                    "id": 425,
+                    "id": 458,
                     "name": "ElementaryTypeName",
-                    "src": "206:7:3"
+                    "src": "206:7:4"
                   }
                 ],
-                "id": 426,
+                "id": 459,
                 "name": "VariableDeclaration",
-                "src": "206:23:3"
+                "src": "206:23:4"
               },
               {
                 "attributes": {
                   "constant": false,
                   "mutability": "mutable",
                   "name": "contractType",
-                  "scope": 437,
+                  "scope": 470,
                   "stateVariable": false,
                   "storageLocation": "default",
                   "type": "enum IPolicyBookFabric.ContractType",
@@ -1503,24 +1503,24 @@
                   {
                     "attributes": {
                       "name": "IPolicyBookFabric.ContractType",
-                      "referencedDeclaration": 403,
+                      "referencedDeclaration": 436,
                       "type": "enum IPolicyBookFabric.ContractType"
                     },
-                    "id": 427,
+                    "id": 460,
                     "name": "UserDefinedTypeName",
-                    "src": "235:30:3"
+                    "src": "235:30:4"
                   }
                 ],
-                "id": 428,
+                "id": 461,
                 "name": "VariableDeclaration",
-                "src": "235:43:3"
+                "src": "235:43:4"
               },
               {
                 "attributes": {
                   "constant": false,
                   "mutability": "mutable",
                   "name": "maxCapacity",
-                  "scope": 437,
+                  "scope": 470,
                   "stateVariable": false,
                   "storageLocation": "default",
                   "type": "uint256",
@@ -1532,21 +1532,21 @@
                       "name": "uint256",
                       "type": "uint256"
                     },
-                    "id": 429,
+                    "id": 462,
                     "name": "ElementaryTypeName",
-                    "src": "284:7:3"
+                    "src": "284:7:4"
                   }
                 ],
-                "id": 430,
+                "id": 463,
                 "name": "VariableDeclaration",
-                "src": "284:19:3"
+                "src": "284:19:4"
               },
               {
                 "attributes": {
                   "constant": false,
                   "mutability": "mutable",
                   "name": "totalDaiLiquidity",
-                  "scope": 437,
+                  "scope": 470,
                   "stateVariable": false,
                   "storageLocation": "default",
                   "type": "uint256",
@@ -1558,21 +1558,21 @@
                       "name": "uint256",
                       "type": "uint256"
                     },
-                    "id": 431,
+                    "id": 464,
                     "name": "ElementaryTypeName",
-                    "src": "309:7:3"
+                    "src": "309:7:4"
                   }
                 ],
-                "id": 432,
+                "id": 465,
                 "name": "VariableDeclaration",
-                "src": "309:25:3"
+                "src": "309:25:4"
               },
               {
                 "attributes": {
                   "constant": false,
                   "mutability": "mutable",
                   "name": "APY",
-                  "scope": 437,
+                  "scope": 470,
                   "stateVariable": false,
                   "storageLocation": "default",
                   "type": "uint256",
@@ -1584,21 +1584,21 @@
                       "name": "uint256",
                       "type": "uint256"
                     },
-                    "id": 433,
+                    "id": 466,
                     "name": "ElementaryTypeName",
-                    "src": "340:7:3"
+                    "src": "340:7:4"
                   }
                 ],
-                "id": 434,
+                "id": 467,
                 "name": "VariableDeclaration",
-                "src": "340:11:3"
+                "src": "340:11:4"
               },
               {
                 "attributes": {
                   "constant": false,
                   "mutability": "mutable",
                   "name": "whitelisted",
-                  "scope": 437,
+                  "scope": 470,
                   "stateVariable": false,
                   "storageLocation": "default",
                   "type": "bool",
@@ -1610,19 +1610,19 @@
                       "name": "bool",
                       "type": "bool"
                     },
-                    "id": 435,
+                    "id": 468,
                     "name": "ElementaryTypeName",
-                    "src": "357:4:3"
+                    "src": "357:4:4"
                   }
                 ],
-                "id": 436,
+                "id": 469,
                 "name": "VariableDeclaration",
-                "src": "357:16:3"
+                "src": "357:16:4"
               }
             ],
-            "id": 437,
+            "id": 470,
             "name": "StructDefinition",
-            "src": "160:218:3"
+            "src": "160:218:4"
           },
           {
             "attributes": {
@@ -1634,7 +1634,7 @@
                 null
               ],
               "name": "add",
-              "scope": 513,
+              "scope": 546,
               "stateMutability": "nonpayable",
               "virtual": false,
               "visibility": "external"
@@ -1644,9 +1644,9 @@
                 "attributes": {
                   "text": "@notice Adds PolicyBook to registry, access: PolicyFabric"
                 },
-                "id": 438,
+                "id": 471,
                 "name": "StructuredDocumentation",
-                "src": "382:61:3"
+                "src": "382:61:4"
               },
               {
                 "children": [
@@ -1655,7 +1655,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "_insuredContract",
-                      "scope": 445,
+                      "scope": 478,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -1668,21 +1668,21 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 439,
+                        "id": 472,
                         "name": "ElementaryTypeName",
-                        "src": "459:7:3"
+                        "src": "459:7:4"
                       }
                     ],
-                    "id": 440,
+                    "id": 473,
                     "name": "VariableDeclaration",
-                    "src": "459:24:3"
+                    "src": "459:24:4"
                   },
                   {
                     "attributes": {
                       "constant": false,
                       "mutability": "mutable",
                       "name": "_policyBook",
-                      "scope": 445,
+                      "scope": 478,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -1695,19 +1695,19 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 441,
+                        "id": 474,
                         "name": "ElementaryTypeName",
-                        "src": "485:7:3"
+                        "src": "485:7:4"
                       }
                     ],
-                    "id": 442,
+                    "id": 475,
                     "name": "VariableDeclaration",
-                    "src": "485:19:3"
+                    "src": "485:19:4"
                   }
                 ],
-                "id": 443,
+                "id": 476,
                 "name": "ParameterList",
-                "src": "458:47:3"
+                "src": "458:47:4"
               },
               {
                 "attributes": {
@@ -1716,14 +1716,14 @@
                   ]
                 },
                 "children": [],
-                "id": 444,
+                "id": 477,
                 "name": "ParameterList",
-                "src": "514:0:3"
+                "src": "514:0:4"
               }
             ],
-            "id": 445,
+            "id": 478,
             "name": "FunctionDefinition",
-            "src": "446:69:3"
+            "src": "446:69:4"
           },
           {
             "attributes": {
@@ -1735,7 +1735,7 @@
                 null
               ],
               "name": "isPolicyBook",
-              "scope": 513,
+              "scope": 546,
               "stateMutability": "view",
               "virtual": false,
               "visibility": "external"
@@ -1745,9 +1745,9 @@
                 "attributes": {
                   "text": "@notice Checks if provided address is a PolicyBook"
                 },
-                "id": 446,
+                "id": 479,
                 "name": "StructuredDocumentation",
-                "src": "519:54:3"
+                "src": "519:54:4"
               },
               {
                 "children": [
@@ -1756,7 +1756,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "_contract",
-                      "scope": 453,
+                      "scope": 486,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -1769,19 +1769,19 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 447,
+                        "id": 480,
                         "name": "ElementaryTypeName",
-                        "src": "598:7:3"
+                        "src": "598:7:4"
                       }
                     ],
-                    "id": 448,
+                    "id": 481,
                     "name": "VariableDeclaration",
-                    "src": "598:17:3"
+                    "src": "598:17:4"
                   }
                 ],
-                "id": 449,
+                "id": 482,
                 "name": "ParameterList",
-                "src": "597:19:3"
+                "src": "597:19:4"
               },
               {
                 "children": [
@@ -1790,7 +1790,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "",
-                      "scope": 453,
+                      "scope": 486,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bool",
@@ -1802,24 +1802,24 @@
                           "name": "bool",
                           "type": "bool"
                         },
-                        "id": 450,
+                        "id": 483,
                         "name": "ElementaryTypeName",
-                        "src": "640:4:3"
+                        "src": "640:4:4"
                       }
                     ],
-                    "id": 451,
+                    "id": 484,
                     "name": "VariableDeclaration",
-                    "src": "640:4:3"
+                    "src": "640:4:4"
                   }
                 ],
-                "id": 452,
+                "id": 485,
                 "name": "ParameterList",
-                "src": "639:6:3"
+                "src": "639:6:4"
               }
             ],
-            "id": 453,
+            "id": 486,
             "name": "FunctionDefinition",
-            "src": "576:70:3"
+            "src": "576:70:4"
           },
           {
             "attributes": {
@@ -1831,7 +1831,7 @@
                 null
               ],
               "name": "count",
-              "scope": 513,
+              "scope": 546,
               "stateMutability": "view",
               "virtual": false,
               "visibility": "external"
@@ -1841,9 +1841,9 @@
                 "attributes": {
                   "text": "@notice Returns number of registered PolicyBooks, access: ANY"
                 },
-                "id": 454,
+                "id": 487,
                 "name": "StructuredDocumentation",
-                "src": "650:65:3"
+                "src": "650:65:4"
               },
               {
                 "attributes": {
@@ -1852,9 +1852,9 @@
                   ]
                 },
                 "children": [],
-                "id": 455,
+                "id": 488,
                 "name": "ParameterList",
-                "src": "732:2:3"
+                "src": "732:2:4"
               },
               {
                 "children": [
@@ -1863,7 +1863,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "",
-                      "scope": 459,
+                      "scope": 492,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -1875,24 +1875,24 @@
                           "name": "uint256",
                           "type": "uint256"
                         },
-                        "id": 456,
+                        "id": 489,
                         "name": "ElementaryTypeName",
-                        "src": "758:7:3"
+                        "src": "758:7:4"
                       }
                     ],
-                    "id": 457,
+                    "id": 490,
                     "name": "VariableDeclaration",
-                    "src": "758:7:3"
+                    "src": "758:7:4"
                   }
                 ],
-                "id": 458,
+                "id": 491,
                 "name": "ParameterList",
-                "src": "757:9:3"
+                "src": "757:9:4"
               }
             ],
-            "id": 459,
+            "id": 492,
             "name": "FunctionDefinition",
-            "src": "718:49:3"
+            "src": "718:49:4"
           },
           {
             "attributes": {
@@ -1904,7 +1904,7 @@
                 null
               ],
               "name": "list",
-              "scope": 513,
+              "scope": 546,
               "stateMutability": "view",
               "virtual": false,
               "visibility": "external"
@@ -1914,9 +1914,9 @@
                 "attributes": {
                   "text": "@notice Listing registered PolicyBooks, access: ANY\n @return _policyBooks is array of registered PolicyBook addresses"
                 },
-                "id": 460,
+                "id": 493,
                 "name": "StructuredDocumentation",
-                "src": "771:126:3"
+                "src": "771:126:4"
               },
               {
                 "children": [
@@ -1925,7 +1925,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "_offset",
-                      "scope": 470,
+                      "scope": 503,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -1937,21 +1937,21 @@
                           "name": "uint256",
                           "type": "uint256"
                         },
-                        "id": 461,
+                        "id": 494,
                         "name": "ElementaryTypeName",
-                        "src": "914:7:3"
+                        "src": "914:7:4"
                       }
                     ],
-                    "id": 462,
+                    "id": 495,
                     "name": "VariableDeclaration",
-                    "src": "914:15:3"
+                    "src": "914:15:4"
                   },
                   {
                     "attributes": {
                       "constant": false,
                       "mutability": "mutable",
                       "name": "_limit",
-                      "scope": 470,
+                      "scope": 503,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -1963,19 +1963,19 @@
                           "name": "uint256",
                           "type": "uint256"
                         },
-                        "id": 463,
+                        "id": 496,
                         "name": "ElementaryTypeName",
-                        "src": "931:7:3"
+                        "src": "931:7:4"
                       }
                     ],
-                    "id": 464,
+                    "id": 497,
                     "name": "VariableDeclaration",
-                    "src": "931:14:3"
+                    "src": "931:14:4"
                   }
                 ],
-                "id": 465,
+                "id": 498,
                 "name": "ParameterList",
-                "src": "913:33:3"
+                "src": "913:33:4"
               },
               {
                 "children": [
@@ -1984,7 +1984,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "_policyBooks",
-                      "scope": 470,
+                      "scope": 503,
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "type": "address[]",
@@ -2002,29 +2002,29 @@
                               "stateMutability": "nonpayable",
                               "type": "address"
                             },
-                            "id": 466,
+                            "id": 499,
                             "name": "ElementaryTypeName",
-                            "src": "989:7:3"
+                            "src": "989:7:4"
                           }
                         ],
-                        "id": 467,
+                        "id": 500,
                         "name": "ArrayTypeName",
-                        "src": "989:9:3"
+                        "src": "989:9:4"
                       }
                     ],
-                    "id": 468,
+                    "id": 501,
                     "name": "VariableDeclaration",
-                    "src": "989:29:3"
+                    "src": "989:29:4"
                   }
                 ],
-                "id": 469,
+                "id": 502,
                 "name": "ParameterList",
-                "src": "981:43:3"
+                "src": "981:43:4"
               }
             ],
-            "id": 470,
+            "id": 503,
             "name": "FunctionDefinition",
-            "src": "900:125:3"
+            "src": "900:125:4"
           },
           {
             "attributes": {
@@ -2036,7 +2036,7 @@
                 null
               ],
               "name": "listWithStats",
-              "scope": 513,
+              "scope": 546,
               "stateMutability": "view",
               "virtual": false,
               "visibility": "external"
@@ -2046,9 +2046,9 @@
                 "attributes": {
                   "text": "@notice Listing registered PolicyBooks, access: ANY"
                 },
-                "id": 471,
+                "id": 504,
                 "name": "StructuredDocumentation",
-                "src": "1029:55:3"
+                "src": "1029:55:4"
               },
               {
                 "children": [
@@ -2057,7 +2057,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "_offset",
-                      "scope": 484,
+                      "scope": 517,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -2069,21 +2069,21 @@
                           "name": "uint256",
                           "type": "uint256"
                         },
-                        "id": 472,
+                        "id": 505,
                         "name": "ElementaryTypeName",
-                        "src": "1110:7:3"
+                        "src": "1110:7:4"
                       }
                     ],
-                    "id": 473,
+                    "id": 506,
                     "name": "VariableDeclaration",
-                    "src": "1110:15:3"
+                    "src": "1110:15:4"
                   },
                   {
                     "attributes": {
                       "constant": false,
                       "mutability": "mutable",
                       "name": "_limit",
-                      "scope": 484,
+                      "scope": 517,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -2095,19 +2095,19 @@
                           "name": "uint256",
                           "type": "uint256"
                         },
-                        "id": 474,
+                        "id": 507,
                         "name": "ElementaryTypeName",
-                        "src": "1127:7:3"
+                        "src": "1127:7:4"
                       }
                     ],
-                    "id": 475,
+                    "id": 508,
                     "name": "VariableDeclaration",
-                    "src": "1127:14:3"
+                    "src": "1127:14:4"
                   }
                 ],
-                "id": 476,
+                "id": 509,
                 "name": "ParameterList",
-                "src": "1109:33:3"
+                "src": "1109:33:4"
               },
               {
                 "children": [
@@ -2116,7 +2116,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "_policyBooks",
-                      "scope": 484,
+                      "scope": 517,
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "type": "address[]",
@@ -2134,26 +2134,26 @@
                               "stateMutability": "nonpayable",
                               "type": "address"
                             },
-                            "id": 477,
+                            "id": 510,
                             "name": "ElementaryTypeName",
-                            "src": "1185:7:3"
+                            "src": "1185:7:4"
                           }
                         ],
-                        "id": 478,
+                        "id": 511,
                         "name": "ArrayTypeName",
-                        "src": "1185:9:3"
+                        "src": "1185:9:4"
                       }
                     ],
-                    "id": 479,
+                    "id": 512,
                     "name": "VariableDeclaration",
-                    "src": "1185:29:3"
+                    "src": "1185:29:4"
                   },
                   {
                     "attributes": {
                       "constant": false,
                       "mutability": "mutable",
                       "name": "_stats",
-                      "scope": 484,
+                      "scope": 517,
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "type": "struct IPolicyBookRegistry.PolicyBookStats[]",
@@ -2168,32 +2168,32 @@
                           {
                             "attributes": {
                               "name": "PolicyBookStats",
-                              "referencedDeclaration": 437,
+                              "referencedDeclaration": 470,
                               "type": "struct IPolicyBookRegistry.PolicyBookStats"
                             },
-                            "id": 480,
+                            "id": 513,
                             "name": "UserDefinedTypeName",
-                            "src": "1222:15:3"
+                            "src": "1222:15:4"
                           }
                         ],
-                        "id": 481,
+                        "id": 514,
                         "name": "ArrayTypeName",
-                        "src": "1222:17:3"
+                        "src": "1222:17:4"
                       }
                     ],
-                    "id": 482,
+                    "id": 515,
                     "name": "VariableDeclaration",
-                    "src": "1222:31:3"
+                    "src": "1222:31:4"
                   }
                 ],
-                "id": 483,
+                "id": 516,
                 "name": "ParameterList",
-                "src": "1177:82:3"
+                "src": "1177:82:4"
               }
             ],
-            "id": 484,
+            "id": 517,
             "name": "FunctionDefinition",
-            "src": "1087:173:3"
+            "src": "1087:173:4"
           },
           {
             "attributes": {
@@ -2205,7 +2205,7 @@
                 null
               ],
               "name": "policyBookFor",
-              "scope": 513,
+              "scope": 546,
               "stateMutability": "view",
               "virtual": false,
               "visibility": "external"
@@ -2215,9 +2215,9 @@
                 "attributes": {
                   "text": "@notice Return existing Policy Book contract, access: ANY\n @param _contract is contract address to lookup for created IPolicyBook"
                 },
-                "id": 485,
+                "id": 518,
                 "name": "StructuredDocumentation",
-                "src": "1264:138:3"
+                "src": "1264:138:4"
               },
               {
                 "children": [
@@ -2226,7 +2226,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "_contract",
-                      "scope": 492,
+                      "scope": 525,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -2239,19 +2239,19 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 486,
+                        "id": 519,
                         "name": "ElementaryTypeName",
-                        "src": "1428:7:3"
+                        "src": "1428:7:4"
                       }
                     ],
-                    "id": 487,
+                    "id": 520,
                     "name": "VariableDeclaration",
-                    "src": "1428:17:3"
+                    "src": "1428:17:4"
                   }
                 ],
-                "id": 488,
+                "id": 521,
                 "name": "ParameterList",
-                "src": "1427:19:3"
+                "src": "1427:19:4"
               },
               {
                 "children": [
@@ -2260,7 +2260,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "",
-                      "scope": 492,
+                      "scope": 525,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -2273,24 +2273,24 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 489,
+                        "id": 522,
                         "name": "ElementaryTypeName",
-                        "src": "1470:7:3"
+                        "src": "1470:7:4"
                       }
                     ],
-                    "id": 490,
+                    "id": 523,
                     "name": "VariableDeclaration",
-                    "src": "1470:7:3"
+                    "src": "1470:7:4"
                   }
                 ],
-                "id": 491,
+                "id": 524,
                 "name": "ParameterList",
-                "src": "1469:9:3"
+                "src": "1469:9:4"
               }
             ],
-            "id": 492,
+            "id": 525,
             "name": "FunctionDefinition",
-            "src": "1405:74:3"
+            "src": "1405:74:4"
           },
           {
             "attributes": {
@@ -2302,7 +2302,7 @@
                 null
               ],
               "name": "stats",
-              "scope": 513,
+              "scope": 546,
               "stateMutability": "view",
               "virtual": false,
               "visibility": "external"
@@ -2312,9 +2312,9 @@
                 "attributes": {
                   "text": "@notice Getting stats from policy books, access: ANY\n @param _policyBooks is list of PolicyBooks addresses"
                 },
-                "id": 493,
+                "id": 526,
                 "name": "StructuredDocumentation",
-                "src": "1483:115:3"
+                "src": "1483:115:4"
               },
               {
                 "children": [
@@ -2323,7 +2323,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "_policyBooks",
-                      "scope": 502,
+                      "scope": 535,
                       "stateVariable": false,
                       "storageLocation": "calldata",
                       "type": "address[]",
@@ -2341,24 +2341,24 @@
                               "stateMutability": "nonpayable",
                               "type": "address"
                             },
-                            "id": 494,
+                            "id": 527,
                             "name": "ElementaryTypeName",
-                            "src": "1616:7:3"
+                            "src": "1616:7:4"
                           }
                         ],
-                        "id": 495,
+                        "id": 528,
                         "name": "ArrayTypeName",
-                        "src": "1616:9:3"
+                        "src": "1616:9:4"
                       }
                     ],
-                    "id": 496,
+                    "id": 529,
                     "name": "VariableDeclaration",
-                    "src": "1616:31:3"
+                    "src": "1616:31:4"
                   }
                 ],
-                "id": 497,
+                "id": 530,
                 "name": "ParameterList",
-                "src": "1615:33:3"
+                "src": "1615:33:4"
               },
               {
                 "children": [
@@ -2367,7 +2367,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "_stats",
-                      "scope": 502,
+                      "scope": 535,
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "type": "struct IPolicyBookRegistry.PolicyBookStats[]",
@@ -2382,32 +2382,32 @@
                           {
                             "attributes": {
                               "name": "PolicyBookStats",
-                              "referencedDeclaration": 437,
+                              "referencedDeclaration": 470,
                               "type": "struct IPolicyBookRegistry.PolicyBookStats"
                             },
-                            "id": 498,
+                            "id": 531,
                             "name": "UserDefinedTypeName",
-                            "src": "1691:15:3"
+                            "src": "1691:15:4"
                           }
                         ],
-                        "id": 499,
+                        "id": 532,
                         "name": "ArrayTypeName",
-                        "src": "1691:17:3"
+                        "src": "1691:17:4"
                       }
                     ],
-                    "id": 500,
+                    "id": 533,
                     "name": "VariableDeclaration",
-                    "src": "1691:31:3"
+                    "src": "1691:31:4"
                   }
                 ],
-                "id": 501,
+                "id": 534,
                 "name": "ParameterList",
-                "src": "1683:45:3"
+                "src": "1683:45:4"
               }
             ],
-            "id": 502,
+            "id": 535,
             "name": "FunctionDefinition",
-            "src": "1601:128:3"
+            "src": "1601:128:4"
           },
           {
             "attributes": {
@@ -2419,7 +2419,7 @@
                 null
               ],
               "name": "statsByInsuredContracts",
-              "scope": 513,
+              "scope": 546,
               "stateMutability": "view",
               "virtual": false,
               "visibility": "external"
@@ -2429,9 +2429,9 @@
                 "attributes": {
                   "text": "@notice Getting stats from policy books, access: ANY\n @param _insuredContracts is list of insuredContracts in registry"
                 },
-                "id": 503,
+                "id": 536,
                 "name": "StructuredDocumentation",
-                "src": "1733:127:3"
+                "src": "1733:127:4"
               },
               {
                 "children": [
@@ -2440,7 +2440,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "_insuredContracts",
-                      "scope": 512,
+                      "scope": 545,
                       "stateVariable": false,
                       "storageLocation": "calldata",
                       "type": "address[]",
@@ -2458,24 +2458,24 @@
                               "stateMutability": "nonpayable",
                               "type": "address"
                             },
-                            "id": 504,
+                            "id": 537,
                             "name": "ElementaryTypeName",
-                            "src": "1896:7:3"
+                            "src": "1896:7:4"
                           }
                         ],
-                        "id": 505,
+                        "id": 538,
                         "name": "ArrayTypeName",
-                        "src": "1896:9:3"
+                        "src": "1896:9:4"
                       }
                     ],
-                    "id": 506,
+                    "id": 539,
                     "name": "VariableDeclaration",
-                    "src": "1896:36:3"
+                    "src": "1896:36:4"
                   }
                 ],
-                "id": 507,
+                "id": 540,
                 "name": "ParameterList",
-                "src": "1895:38:3"
+                "src": "1895:38:4"
               },
               {
                 "children": [
@@ -2484,7 +2484,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "_stats",
-                      "scope": 512,
+                      "scope": 545,
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "type": "struct IPolicyBookRegistry.PolicyBookStats[]",
@@ -2499,50 +2499,50 @@
                           {
                             "attributes": {
                               "name": "PolicyBookStats",
-                              "referencedDeclaration": 437,
+                              "referencedDeclaration": 470,
                               "type": "struct IPolicyBookRegistry.PolicyBookStats"
                             },
-                            "id": 508,
+                            "id": 541,
                             "name": "UserDefinedTypeName",
-                            "src": "1976:15:3"
+                            "src": "1976:15:4"
                           }
                         ],
-                        "id": 509,
+                        "id": 542,
                         "name": "ArrayTypeName",
-                        "src": "1976:17:3"
+                        "src": "1976:17:4"
                       }
                     ],
-                    "id": 510,
+                    "id": 543,
                     "name": "VariableDeclaration",
-                    "src": "1976:31:3"
+                    "src": "1976:31:4"
                   }
                 ],
-                "id": 511,
+                "id": 544,
                 "name": "ParameterList",
-                "src": "1968:45:3"
+                "src": "1968:45:4"
               }
             ],
-            "id": 512,
+            "id": 545,
             "name": "FunctionDefinition",
-            "src": "1863:151:3"
+            "src": "1863:151:4"
           }
         ],
-        "id": 513,
+        "id": 546,
         "name": "ContractDefinition",
-        "src": "126:1890:3"
+        "src": "126:1890:4"
       }
     ],
-    "id": 514,
+    "id": 547,
     "name": "SourceUnit",
-    "src": "32:1985:3"
+    "src": "32:1985:4"
   },
   "compiler": {
     "name": "solc",
     "version": "0.7.4+commit.3f05b770.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.3.4",
-  "updatedAt": "2021-04-22T13:31:41.916Z",
+  "schemaVersion": "3.4.0",
+  "updatedAt": "2021-05-03T08:53:06.235Z",
   "devdoc": {
     "kind": "dev",
     "methods": {

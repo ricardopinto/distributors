@@ -46,7 +46,7 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.7.4+commit.3f05b770\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address payable\",\"name\":\"_userAddress\",\"type\":\"address\"},{\"internalType\":\"bool\",\"name\":\"verdict\",\"type\":\"bool\"}],\"name\":\"kycVerdict\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_userAddress\",\"type\":\"address\"}],\"name\":\"payJoiningFee\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_newAddress\",\"type\":\"address\"}],\"name\":\"switchMembership\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/kirilivanov/DEV/BrightUnion/distributors/contracts/nexus/interfaces/IMemberRoles.sol\":\"IMemberRoles\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":10000},\"remappings\":[]},\"sources\":{\"/Users/kirilivanov/DEV/BrightUnion/distributors/contracts/nexus/interfaces/IMemberRoles.sol\":{\"keccak256\":\"0x73b2d2d719ccc2778320483758f092184594c8d2d092f8ab4cdb4d33beaf6654\",\"urls\":[\"bzz-raw://eff951fefc3f8df83c2932734300fec03f0517e5aaffa8cc04f24ebc2d0a98a1\",\"dweb:/ipfs/QmUAcvn7q42w7kjuFCDWAVchw7Yz46ZKuX8gx4uqtV1x2b\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.7.4+commit.3f05b770\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address payable\",\"name\":\"_userAddress\",\"type\":\"address\"},{\"internalType\":\"bool\",\"name\":\"verdict\",\"type\":\"bool\"}],\"name\":\"kycVerdict\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_userAddress\",\"type\":\"address\"}],\"name\":\"payJoiningFee\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_newAddress\",\"type\":\"address\"}],\"name\":\"switchMembership\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/ricardopinto/work/brightunion/distributors/contracts/nexus/interfaces/IMemberRoles.sol\":\"IMemberRoles\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":10000},\"remappings\":[]},\"sources\":{\"/Users/ricardopinto/work/brightunion/distributors/contracts/nexus/interfaces/IMemberRoles.sol\":{\"keccak256\":\"0x73b2d2d719ccc2778320483758f092184594c8d2d092f8ab4cdb4d33beaf6654\",\"urls\":[\"bzz-raw://eff951fefc3f8df83c2932734300fec03f0517e5aaffa8cc04f24ebc2d0a98a1\",\"dweb:/ipfs/QmUAcvn7q42w7kjuFCDWAVchw7Yz46ZKuX8gx4uqtV1x2b\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "immutableReferences": {},
@@ -55,19 +55,19 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "/* Copyright (C) 2021 NexusMutual.io\n\n  This program is free software: you can redistribute it and/or modify\n    it under the terms of the GNU General Public License as published by\n    the Free Software Foundation, either version 3 of the License, or\n    (at your option) any later version.\n\n  This program is distributed in the hope that it will be useful,\n    but WITHOUT ANY WARRANTY; without even the implied warranty of\n    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n    GNU General Public License for more details.\n\n  You should have received a copy of the GNU General Public License\n    along with this program.  If not, see http://www.gnu.org/licenses/ */\n\npragma solidity ^0.7.4;\n\ninterface IMemberRoles {\n    function payJoiningFee(address _userAddress) external payable;\n\n    function switchMembership(address _newAddress) external payable;\n\n    function kycVerdict(address payable _userAddress, bool verdict) external;\n}\n",
-  "sourcePath": "/Users/kirilivanov/DEV/BrightUnion/distributors/contracts/nexus/interfaces/IMemberRoles.sol",
+  "sourcePath": "/Users/ricardopinto/work/brightunion/distributors/contracts/nexus/interfaces/IMemberRoles.sol",
   "ast": {
-    "absolutePath": "/Users/kirilivanov/DEV/BrightUnion/distributors/contracts/nexus/interfaces/IMemberRoles.sol",
+    "absolutePath": "/Users/ricardopinto/work/brightunion/distributors/contracts/nexus/interfaces/IMemberRoles.sol",
     "exportedSymbols": {
       "IMemberRoles": [
-        1172
+        1718
       ]
     },
-    "id": 1173,
+    "id": 1719,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1154,
+        "id": 1700,
         "literals": [
           "solidity",
           "^",
@@ -75,7 +75,7 @@
           ".4"
         ],
         "nodeType": "PragmaDirective",
-        "src": "685:23:5"
+        "src": "685:23:10"
       },
       {
         "abstract": false,
@@ -83,33 +83,33 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "fullyImplemented": false,
-        "id": 1172,
+        "id": 1718,
         "linearizedBaseContracts": [
-          1172
+          1718
         ],
         "name": "IMemberRoles",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "functionSelector": "0ead3e72",
-            "id": 1159,
+            "id": 1705,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "payJoiningFee",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1157,
+              "id": 1703,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1156,
+                  "id": 1702,
                   "mutability": "mutable",
                   "name": "_userAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1159,
-                  "src": "762:20:5",
+                  "scope": 1705,
+                  "src": "762:20:10",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -117,10 +117,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1155,
+                    "id": 1701,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "762:7:5",
+                    "src": "762:7:10",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -130,40 +130,40 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "761:22:5"
+              "src": "761:22:10"
             },
             "returnParameters": {
-              "id": 1158,
+              "id": 1704,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "800:0:5"
+              "src": "800:0:10"
             },
-            "scope": 1172,
-            "src": "739:62:5",
+            "scope": 1718,
+            "src": "739:62:10",
             "stateMutability": "payable",
             "virtual": false,
             "visibility": "external"
           },
           {
             "functionSelector": "4ed75d47",
-            "id": 1164,
+            "id": 1710,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "switchMembership",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1162,
+              "id": 1708,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1161,
+                  "id": 1707,
                   "mutability": "mutable",
                   "name": "_newAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1164,
-                  "src": "833:19:5",
+                  "scope": 1710,
+                  "src": "833:19:10",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -171,10 +171,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1160,
+                    "id": 1706,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "833:7:5",
+                    "src": "833:7:10",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -184,40 +184,40 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "832:21:5"
+              "src": "832:21:10"
             },
             "returnParameters": {
-              "id": 1163,
+              "id": 1709,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "870:0:5"
+              "src": "870:0:10"
             },
-            "scope": 1172,
-            "src": "807:64:5",
+            "scope": 1718,
+            "src": "807:64:10",
             "stateMutability": "payable",
             "virtual": false,
             "visibility": "external"
           },
           {
             "functionSelector": "d8b2114e",
-            "id": 1171,
+            "id": 1717,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "kycVerdict",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1169,
+              "id": 1715,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1166,
+                  "id": 1712,
                   "mutability": "mutable",
                   "name": "_userAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1171,
-                  "src": "897:28:5",
+                  "scope": 1717,
+                  "src": "897:28:10",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -225,10 +225,10 @@
                     "typeString": "address payable"
                   },
                   "typeName": {
-                    "id": 1165,
+                    "id": 1711,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "897:15:5",
+                    "src": "897:15:10",
                     "stateMutability": "payable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address_payable",
@@ -239,12 +239,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 1168,
+                  "id": 1714,
                   "mutability": "mutable",
                   "name": "verdict",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1171,
-                  "src": "927:12:5",
+                  "scope": 1717,
+                  "src": "927:12:10",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -252,10 +252,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 1167,
+                    "id": 1713,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "927:4:5",
+                    "src": "927:4:10",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -264,263 +264,309 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "896:44:5"
+              "src": "896:44:10"
             },
             "returnParameters": {
-              "id": 1170,
+              "id": 1716,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "949:0:5"
+              "src": "949:0:10"
             },
-            "scope": 1172,
-            "src": "877:73:5",
+            "scope": 1718,
+            "src": "877:73:10",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 1173,
-        "src": "710:242:5"
+        "scope": 1719,
+        "src": "710:242:10"
       }
     ],
-    "src": "685:268:5"
+    "src": "685:268:10"
   },
   "legacyAST": {
-    "absolutePath": "/Users/kirilivanov/DEV/BrightUnion/distributors/contracts/nexus/interfaces/IMemberRoles.sol",
-    "exportedSymbols": {
-      "IMemberRoles": [
-        1172
-      ]
+    "attributes": {
+      "absolutePath": "/Users/ricardopinto/work/brightunion/distributors/contracts/nexus/interfaces/IMemberRoles.sol",
+      "exportedSymbols": {
+        "IMemberRoles": [
+          1718
+        ]
+      }
     },
-    "id": 1173,
-    "nodeType": "SourceUnit",
-    "nodes": [
+    "children": [
       {
-        "id": 1154,
-        "literals": [
-          "solidity",
-          "^",
-          "0.7",
-          ".4"
-        ],
-        "nodeType": "PragmaDirective",
-        "src": "685:23:5"
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.7",
+            ".4"
+          ]
+        },
+        "id": 1700,
+        "name": "PragmaDirective",
+        "src": "685:23:10"
       },
       {
-        "abstract": false,
-        "baseContracts": [],
-        "contractDependencies": [],
-        "contractKind": "interface",
-        "fullyImplemented": false,
-        "id": 1172,
-        "linearizedBaseContracts": [
-          1172
-        ],
-        "name": "IMemberRoles",
-        "nodeType": "ContractDefinition",
-        "nodes": [
+        "attributes": {
+          "abstract": false,
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "interface",
+          "fullyImplemented": false,
+          "linearizedBaseContracts": [
+            1718
+          ],
+          "name": "IMemberRoles",
+          "scope": 1719
+        },
+        "children": [
           {
-            "functionSelector": "0ead3e72",
-            "id": 1159,
-            "implemented": false,
-            "kind": "function",
-            "modifiers": [],
-            "name": "payJoiningFee",
-            "nodeType": "FunctionDefinition",
-            "parameters": {
-              "id": 1157,
-              "nodeType": "ParameterList",
-              "parameters": [
-                {
-                  "constant": false,
-                  "id": 1156,
-                  "mutability": "mutable",
-                  "name": "_userAddress",
-                  "nodeType": "VariableDeclaration",
-                  "scope": 1159,
-                  "src": "762:20:5",
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_address",
-                    "typeString": "address"
-                  },
-                  "typeName": {
-                    "id": 1155,
-                    "name": "address",
-                    "nodeType": "ElementaryTypeName",
-                    "src": "762:7:5",
-                    "stateMutability": "nonpayable",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_address",
-                      "typeString": "address"
-                    }
-                  },
-                  "visibility": "internal"
-                }
+            "attributes": {
+              "functionSelector": "0ead3e72",
+              "implemented": false,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
               ],
-              "src": "761:22:5"
+              "name": "payJoiningFee",
+              "scope": 1718,
+              "stateMutability": "payable",
+              "virtual": false,
+              "visibility": "external"
             },
-            "returnParameters": {
-              "id": 1158,
-              "nodeType": "ParameterList",
-              "parameters": [],
-              "src": "800:0:5"
-            },
-            "scope": 1172,
-            "src": "739:62:5",
-            "stateMutability": "payable",
-            "virtual": false,
-            "visibility": "external"
-          },
-          {
-            "functionSelector": "4ed75d47",
-            "id": 1164,
-            "implemented": false,
-            "kind": "function",
-            "modifiers": [],
-            "name": "switchMembership",
-            "nodeType": "FunctionDefinition",
-            "parameters": {
-              "id": 1162,
-              "nodeType": "ParameterList",
-              "parameters": [
-                {
-                  "constant": false,
-                  "id": 1161,
-                  "mutability": "mutable",
-                  "name": "_newAddress",
-                  "nodeType": "VariableDeclaration",
-                  "scope": 1164,
-                  "src": "833:19:5",
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_address",
-                    "typeString": "address"
-                  },
-                  "typeName": {
-                    "id": 1160,
-                    "name": "address",
-                    "nodeType": "ElementaryTypeName",
-                    "src": "833:7:5",
-                    "stateMutability": "nonpayable",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_address",
-                      "typeString": "address"
-                    }
-                  },
-                  "visibility": "internal"
-                }
-              ],
-              "src": "832:21:5"
-            },
-            "returnParameters": {
-              "id": 1163,
-              "nodeType": "ParameterList",
-              "parameters": [],
-              "src": "870:0:5"
-            },
-            "scope": 1172,
-            "src": "807:64:5",
-            "stateMutability": "payable",
-            "virtual": false,
-            "visibility": "external"
-          },
-          {
-            "functionSelector": "d8b2114e",
-            "id": 1171,
-            "implemented": false,
-            "kind": "function",
-            "modifiers": [],
-            "name": "kycVerdict",
-            "nodeType": "FunctionDefinition",
-            "parameters": {
-              "id": 1169,
-              "nodeType": "ParameterList",
-              "parameters": [
-                {
-                  "constant": false,
-                  "id": 1166,
-                  "mutability": "mutable",
-                  "name": "_userAddress",
-                  "nodeType": "VariableDeclaration",
-                  "scope": 1171,
-                  "src": "897:28:5",
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_address_payable",
-                    "typeString": "address payable"
-                  },
-                  "typeName": {
-                    "id": 1165,
-                    "name": "address",
-                    "nodeType": "ElementaryTypeName",
-                    "src": "897:15:5",
-                    "stateMutability": "payable",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_address_payable",
-                      "typeString": "address payable"
-                    }
-                  },
-                  "visibility": "internal"
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "mutability": "mutable",
+                      "name": "_userAddress",
+                      "scope": 1705,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "address",
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "address",
+                          "stateMutability": "nonpayable",
+                          "type": "address"
+                        },
+                        "id": 1701,
+                        "name": "ElementaryTypeName",
+                        "src": "762:7:10"
+                      }
+                    ],
+                    "id": 1702,
+                    "name": "VariableDeclaration",
+                    "src": "762:20:10"
+                  }
+                ],
+                "id": 1703,
+                "name": "ParameterList",
+                "src": "761:22:10"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
                 },
-                {
-                  "constant": false,
-                  "id": 1168,
-                  "mutability": "mutable",
-                  "name": "verdict",
-                  "nodeType": "VariableDeclaration",
-                  "scope": 1171,
-                  "src": "927:12:5",
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_bool",
-                    "typeString": "bool"
-                  },
-                  "typeName": {
-                    "id": 1167,
-                    "name": "bool",
-                    "nodeType": "ElementaryTypeName",
-                    "src": "927:4:5",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_bool",
-                      "typeString": "bool"
-                    }
-                  },
-                  "visibility": "internal"
-                }
+                "children": [],
+                "id": 1704,
+                "name": "ParameterList",
+                "src": "800:0:10"
+              }
+            ],
+            "id": 1705,
+            "name": "FunctionDefinition",
+            "src": "739:62:10"
+          },
+          {
+            "attributes": {
+              "functionSelector": "4ed75d47",
+              "implemented": false,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
               ],
-              "src": "896:44:5"
+              "name": "switchMembership",
+              "scope": 1718,
+              "stateMutability": "payable",
+              "virtual": false,
+              "visibility": "external"
             },
-            "returnParameters": {
-              "id": 1170,
-              "nodeType": "ParameterList",
-              "parameters": [],
-              "src": "949:0:5"
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "mutability": "mutable",
+                      "name": "_newAddress",
+                      "scope": 1710,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "address",
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "address",
+                          "stateMutability": "nonpayable",
+                          "type": "address"
+                        },
+                        "id": 1706,
+                        "name": "ElementaryTypeName",
+                        "src": "833:7:10"
+                      }
+                    ],
+                    "id": 1707,
+                    "name": "VariableDeclaration",
+                    "src": "833:19:10"
+                  }
+                ],
+                "id": 1708,
+                "name": "ParameterList",
+                "src": "832:21:10"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 1709,
+                "name": "ParameterList",
+                "src": "870:0:10"
+              }
+            ],
+            "id": 1710,
+            "name": "FunctionDefinition",
+            "src": "807:64:10"
+          },
+          {
+            "attributes": {
+              "functionSelector": "d8b2114e",
+              "implemented": false,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "kycVerdict",
+              "scope": 1718,
+              "stateMutability": "nonpayable",
+              "virtual": false,
+              "visibility": "external"
             },
-            "scope": 1172,
-            "src": "877:73:5",
-            "stateMutability": "nonpayable",
-            "virtual": false,
-            "visibility": "external"
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "mutability": "mutable",
+                      "name": "_userAddress",
+                      "scope": 1717,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "address payable",
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "address",
+                          "stateMutability": "payable",
+                          "type": "address payable"
+                        },
+                        "id": 1711,
+                        "name": "ElementaryTypeName",
+                        "src": "897:15:10"
+                      }
+                    ],
+                    "id": 1712,
+                    "name": "VariableDeclaration",
+                    "src": "897:28:10"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "mutability": "mutable",
+                      "name": "verdict",
+                      "scope": 1717,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "bool",
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "bool",
+                          "type": "bool"
+                        },
+                        "id": 1713,
+                        "name": "ElementaryTypeName",
+                        "src": "927:4:10"
+                      }
+                    ],
+                    "id": 1714,
+                    "name": "VariableDeclaration",
+                    "src": "927:12:10"
+                  }
+                ],
+                "id": 1715,
+                "name": "ParameterList",
+                "src": "896:44:10"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 1716,
+                "name": "ParameterList",
+                "src": "949:0:10"
+              }
+            ],
+            "id": 1717,
+            "name": "FunctionDefinition",
+            "src": "877:73:10"
           }
         ],
-        "scope": 1173,
-        "src": "710:242:5"
+        "id": 1718,
+        "name": "ContractDefinition",
+        "src": "710:242:10"
       }
     ],
-    "src": "685:268:5"
+    "id": 1719,
+    "name": "SourceUnit",
+    "src": "685:268:10"
   },
   "compiler": {
     "name": "solc",
     "version": "0.7.4+commit.3f05b770.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.3.1",
-  "updatedAt": "2021-04-08T07:49:04.700Z",
+  "schemaVersion": "3.4.0",
+  "updatedAt": "2021-05-03T08:53:06.259Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
