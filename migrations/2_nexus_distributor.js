@@ -35,6 +35,7 @@ module.exports = async (deployer, network, accounts) => {
     console.log(`Successfully deployed at ${distributorAddress}`);
 
     const distributor = await Distributor.at(distributorAddress);
+
     //approving TokenController to move the distributor's NXM
     await distributor.approveNXM(await master.getLatestAddress(hex('TC')), '0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff');
 
