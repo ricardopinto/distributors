@@ -16,8 +16,8 @@
 pragma solidity ^0.7.4;
 
 import "@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol";
-import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
-import "@openzeppelin/contracts/token/ERC20/SafeERC20.sol";
+import "@openzeppelin/contracts-upgradeable/token/ERC20/IERC20Upgradeable.sol";
+import "@openzeppelin/contracts-upgradeable/token/ERC20/SafeERC20Upgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/utils/ReentrancyGuardUpgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/math/SafeMathUpgradeable.sol";
@@ -27,7 +27,7 @@ import "./interfaces/INXMaster.sol";
 
 contract Distributor is ERC721Upgradeable, OwnableUpgradeable, ReentrancyGuardUpgradeable {
   using SafeMathUpgradeable for uint;
-  using SafeERC20 for IERC20;
+  using SafeERC20Upgradeable for IERC20Upgradeable;
 
   address public constant ETH = 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE;
   string public constant DEFAULT_BASE_URI = "https://app.brightunion.io/img/nfts/nexus/cover.png";
@@ -68,7 +68,7 @@ contract Distributor is ERC721Upgradeable, OwnableUpgradeable, ReentrancyGuardUp
     NexusMutual contracts
   */
   ICover public cover;
-  IERC20 public nxmToken;
+  IERC20Upgradeable public nxmToken;
   INXMaster public master;
 
   modifier onlyTokenApprovedOrOwner(uint256 tokenId) {
@@ -124,7 +124,7 @@ contract Distributor is ERC721Upgradeable, OwnableUpgradeable, ReentrancyGuardUp
     feePercentage = _feePercentage;
     treasury = _treasury;
     cover = ICover(coverAddress);
-    nxmToken = IERC20(nxmTokenAddress);
+    nxmToken = IERC20Upgradeable(nxmTokenAddress);
     master = INXMaster(masterAddress);
   }
 
@@ -171,7 +171,7 @@ contract Distributor is ERC721Upgradeable, OwnableUpgradeable, ReentrancyGuardUp
 
       buyCoverValue = coverPrice;
     } else {
-      IERC20 token = IERC20(coverAsset);
+      IERC20Upgradeable token = IERC20Upgradeable(coverAsset);
       token.safeTransferFrom(msg.sender, address(this), coverPriceWithFee);
       token.approve(address(cover), coverPrice);
     }
@@ -238,7 +238,7 @@ contract Distributor is ERC721Upgradeable, OwnableUpgradeable, ReentrancyGuardUp
       (bool ok, /* data */) = msg.sender.call{value: amountPaid}("");
       require(ok, "Distributor: Transfer to NFT owner failed");
     } else {
-      IERC20 erc20 = IERC20(coverAsset);
+      IERC20Upgradeable erc20 = IERC20Upgradeable(coverAsset);
       erc20.safeTransfer(msg.sender, amountPaid);
     }
 
@@ -276,7 +276,7 @@ contract Distributor is ERC721Upgradeable, OwnableUpgradeable, ReentrancyGuardUp
       return (response, withheldAmount);
     }
 
-    IERC20 token = IERC20(asset);
+    IERC20Upgradeable token = IERC20Upgradeable(asset);
     token.safeTransferFrom(msg.sender, address(this), assetAmount);
     token.approve(address(cover), assetAmount);
     (response, withheldAmount) = cover.executeCoverAction(tokenId, action, data);
@@ -387,7 +387,7 @@ contract Distributor is ERC721Upgradeable, OwnableUpgradeable, ReentrancyGuardUp
       (bool ok, /* data */) = treasury.call{value: amount}("");
       require(ok, "Distributor: Transfer to treasury failed");
     } else {
-      IERC20 erc20 = IERC20(asset);
+      IERC20Upgradeable erc20 = IERC20Upgradeable(asset);
       erc20.safeTransfer(treasury, amount);
     }
   }
