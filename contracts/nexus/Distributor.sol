@@ -21,11 +21,12 @@ import "@openzeppelin/contracts-upgradeable/token/ERC20/SafeERC20Upgradeable.sol
 import "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/utils/ReentrancyGuardUpgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/math/SafeMathUpgradeable.sol";
+import "@openzeppelin/contracts-upgradeable/proxy/Initializable.sol";
 import "./interfaces/ICover.sol";
 import "./interfaces/IPool.sol";
 import "./interfaces/INXMaster.sol";
 
-contract Distributor is ERC721Upgradeable, OwnableUpgradeable, ReentrancyGuardUpgradeable {
+contract Distributor is Initializable, ERC721Upgradeable, OwnableUpgradeable, ReentrancyGuardUpgradeable {
   using SafeMathUpgradeable for uint;
   using SafeERC20Upgradeable for IERC20Upgradeable;
 
