@@ -1,8 +1,8 @@
-const {FACTORY} = require('./nexus_addresses');
+const {MASTER} = require('./nexus_addresses');
 const {ether} = require('@openzeppelin/test-helpers');
 const {hex} = require('../test/utils/helpers');
+const { deployProxy } = require('@openzeppelin/truffle-upgrades');
 
-const DistributorFactory = artifacts.require('DistributorFactory');
 const Distributor = artifacts.require('Distributor');
 const INXMaster = artifacts.require('INXMaster');
 const SelfKyc = artifacts.require('SelfKyc');
@@ -16,31 +16,32 @@ const params = {
 }
 
 module.exports = async (deployer, network, accounts) => {
-    const factoryAddress = FACTORY[network];
     params.treasury = accounts[0];
     const {feePercentage, tokenName, tokenSymbol, treasury} = params;
 
-    const factory = await DistributorFactory.at(factoryAddress);
-    const master = await INXMaster.at(await factory.master());
-    console.log(`Using a Distributor Factory at ${factoryAddress}`);
+    const masterAddress = MASTER[network];
+    const master = await INXMaster.at(masterAddress);
 
-    const tx = await factory.newDistributor(
+    const coverAddress = await master.getLatestAddress("CO");
+    const nxmTokenAddress = await master.tokenAddress();
+    const distributor = await deployProxy(Distributor, [
+        coverAddress,
+        nxmTokenAddress,
+        masterAddress,
         feePercentage,
         treasury,
         tokenName,
-        tokenSymbol,
-        {value: ether('0.002')}
-    );
-    const distributorAddress = tx.logs[0].args.contractAddress;
+        tokenSymbol
+    ], { deployer });
+
+    const distributorAddress = distributor.address;
     console.log(`Successfully deployed at ${distributorAddress}`);
 
-    const distributor = await Distributor.at(distributorAddress);
     //approving TokenController to move the distributor's NXM
     await distributor.approveNXM(await master.getLatestAddress(hex('TC')), '0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff');
 
     if (network.name !== 'mainnet') {
         console.log('Using test network. Self-approving kyc..');
-        const master = await INXMaster.at(await factory.master());
         const {val: selfKycAddress} = await master.getOwnerParameters(hex('KYCAUTH'));
         console.log({selfKycAddress});
         const selfKyc = await SelfKyc.at(selfKycAddress);

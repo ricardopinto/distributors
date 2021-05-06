@@ -35,14 +35,14 @@
     "absolutePath": "/Users/ricardopinto/work/brightunion/distributors/contracts/nexus/interfaces/IClaimsData.sol",
     "exportedSymbols": {
       "IClaimsData": [
-        1508
+        1479
       ]
     },
-    "id": 1509,
+    "id": 1480,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1499,
+        "id": 1470,
         "literals": [
           "solidity",
           "^",
@@ -58,32 +58,32 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "fullyImplemented": false,
-        "id": 1508,
+        "id": 1479,
         "linearizedBaseContracts": [
-          1508
+          1479
         ],
         "name": "IClaimsData",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "functionSelector": "9e4d73ca",
-            "id": 1507,
+            "id": 1478,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "getAllClaimsByAddress",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1502,
+              "id": 1473,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1501,
+                  "id": 1472,
                   "mutability": "mutable",
                   "name": "_member",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1507,
+                  "scope": 1478,
                   "src": "85:15:7",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -92,7 +92,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1500,
+                    "id": 1471,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "85:7:7",
@@ -108,16 +108,16 @@
               "src": "84:17:7"
             },
             "returnParameters": {
-              "id": 1506,
+              "id": 1477,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1505,
+                  "id": 1476,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1507,
+                  "scope": 1478,
                   "src": "125:13:7",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -127,7 +127,7 @@
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 1503,
+                      "id": 1474,
                       "name": "uint",
                       "nodeType": "ElementaryTypeName",
                       "src": "125:4:7",
@@ -136,7 +136,7 @@
                         "typeString": "uint256"
                       }
                     },
-                    "id": 1504,
+                    "id": 1475,
                     "nodeType": "ArrayTypeName",
                     "src": "125:6:7",
                     "typeDescriptions": {
@@ -149,14 +149,14 @@
               ],
               "src": "124:15:7"
             },
-            "scope": 1508,
+            "scope": 1479,
             "src": "54:86:7",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 1509,
+        "scope": 1480,
         "src": "25:117:7"
       }
     ],
@@ -167,7 +167,7 @@
       "absolutePath": "/Users/ricardopinto/work/brightunion/distributors/contracts/nexus/interfaces/IClaimsData.sol",
       "exportedSymbols": {
         "IClaimsData": [
-          1508
+          1479
         ]
       }
     },
@@ -181,7 +181,7 @@
             ".4"
           ]
         },
-        "id": 1499,
+        "id": 1470,
         "name": "PragmaDirective",
         "src": "0:23:7"
       },
@@ -197,10 +197,10 @@
           "contractKind": "interface",
           "fullyImplemented": false,
           "linearizedBaseContracts": [
-            1508
+            1479
           ],
           "name": "IClaimsData",
-          "scope": 1509
+          "scope": 1480
         },
         "children": [
           {
@@ -213,7 +213,7 @@
                 null
               ],
               "name": "getAllClaimsByAddress",
-              "scope": 1508,
+              "scope": 1479,
               "stateMutability": "view",
               "virtual": false,
               "visibility": "external"
@@ -226,7 +226,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "_member",
-                      "scope": 1507,
+                      "scope": 1478,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -239,17 +239,17 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 1500,
+                        "id": 1471,
                         "name": "ElementaryTypeName",
                         "src": "85:7:7"
                       }
                     ],
-                    "id": 1501,
+                    "id": 1472,
                     "name": "VariableDeclaration",
                     "src": "85:15:7"
                   }
                 ],
-                "id": 1502,
+                "id": 1473,
                 "name": "ParameterList",
                 "src": "84:17:7"
               },
@@ -260,7 +260,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "",
-                      "scope": 1507,
+                      "scope": 1478,
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "type": "uint256[]",
@@ -277,37 +277,37 @@
                               "name": "uint",
                               "type": "uint256"
                             },
-                            "id": 1503,
+                            "id": 1474,
                             "name": "ElementaryTypeName",
                             "src": "125:4:7"
                           }
                         ],
-                        "id": 1504,
+                        "id": 1475,
                         "name": "ArrayTypeName",
                         "src": "125:6:7"
                       }
                     ],
-                    "id": 1505,
+                    "id": 1476,
                     "name": "VariableDeclaration",
                     "src": "125:13:7"
                   }
                 ],
-                "id": 1506,
+                "id": 1477,
                 "name": "ParameterList",
                 "src": "124:15:7"
               }
             ],
-            "id": 1507,
+            "id": 1478,
             "name": "FunctionDefinition",
             "src": "54:86:7"
           }
         ],
-        "id": 1508,
+        "id": 1479,
         "name": "ContractDefinition",
         "src": "25:117:7"
       }
     ],
-    "id": 1509,
+    "id": 1480,
     "name": "SourceUnit",
     "src": "0:143:7"
   },
@@ -317,7 +317,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.0",
-  "updatedAt": "2021-05-06T08:48:50.247Z",
+  "updatedAt": "2021-05-06T08:49:24.273Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
