@@ -77,31 +77,6 @@ contract Distributor is Initializable, ERC721Upgradeable, OwnableUpgradeable, Re
   }
 
   /**
-   * @dev DistributorFactory expects a constructor with this signature.
-   */
-  constructor(
-    address coverAddress,
-    address nxmTokenAddress,
-    address masterAddress,
-    uint _feePercentage,
-    address payable _treasury,
-    string memory tokenName,
-    string memory tokenSymbol
-  )
-  public
-  {
-    initialize(
-      coverAddress,
-      nxmTokenAddress,
-      masterAddress,
-      _feePercentage,
-      _treasury,
-      tokenName,
-      tokenSymbol
-    );
-  }
-
-  /**
    * @dev Standard pattern of constructing proxy contracts with the same signature as the constructor.
    */
   function initialize(
