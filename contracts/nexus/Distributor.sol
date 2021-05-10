@@ -15,19 +15,20 @@
 
 pragma solidity ^0.7.4;
 
-import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
-import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
-import "@openzeppelin/contracts/token/ERC20/SafeERC20.sol";
-import "@openzeppelin/contracts/access/Ownable.sol";
-import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
-import "@openzeppelin/contracts/math/SafeMath.sol";
+import "@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol";
+import "@openzeppelin/contracts-upgradeable/token/ERC20/IERC20Upgradeable.sol";
+import "@openzeppelin/contracts-upgradeable/token/ERC20/SafeERC20Upgradeable.sol";
+import "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
+import "@openzeppelin/contracts-upgradeable/utils/ReentrancyGuardUpgradeable.sol";
+import "@openzeppelin/contracts-upgradeable/math/SafeMathUpgradeable.sol";
+import "@openzeppelin/contracts-upgradeable/proxy/Initializable.sol";
 import "./interfaces/ICover.sol";
 import "./interfaces/IPool.sol";
 import "./interfaces/INXMaster.sol";
 
-contract Distributor is ERC721, Ownable, ReentrancyGuard {
-  using SafeMath for uint;
-  using SafeERC20 for IERC20;
+contract Distributor is Initializable, ERC721Upgradeable, OwnableUpgradeable, ReentrancyGuardUpgradeable {
+  using SafeMathUpgradeable for uint;
+  using SafeERC20Upgradeable for IERC20Upgradeable;
 
   address public constant ETH = 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE;
   string public constant DEFAULT_BASE_URI = "https://app.brightunion.io/img/nfts/nexus/cover.png";
@@ -67,16 +68,19 @@ contract Distributor is ERC721, Ownable, ReentrancyGuard {
   /*
     NexusMutual contracts
   */
-  ICover immutable public cover;
-  IERC20 immutable public nxmToken;
-  INXMaster immutable public master;
+  ICover public cover;
+  IERC20Upgradeable public nxmToken;
+  INXMaster public master;
 
   modifier onlyTokenApprovedOrOwner(uint256 tokenId) {
     require(_isApprovedOrOwner(msg.sender, tokenId), "Distributor: Not approved or owner");
     _;
   }
 
-  constructor(
+  /**
+   * @dev Standard pattern of constructing proxy contracts with the same signature as the constructor.
+   */
+  function initialize(
     address coverAddress,
     address nxmTokenAddress,
     address masterAddress,
@@ -85,14 +89,18 @@ contract Distributor is ERC721, Ownable, ReentrancyGuard {
     string memory tokenName,
     string memory tokenSymbol
   )
-  ERC721(tokenName, tokenSymbol)
+  initializer
   public
   {
+    __Ownable_init();
+    __ReentrancyGuard_init();
+    __ERC721_init(tokenName, tokenSymbol);
+
     _setBaseURI(DEFAULT_BASE_URI);
     feePercentage = _feePercentage;
     treasury = _treasury;
     cover = ICover(coverAddress);
-    nxmToken = IERC20(nxmTokenAddress);
+    nxmToken = IERC20Upgradeable(nxmTokenAddress);
     master = INXMaster(masterAddress);
   }
 
@@ -139,7 +147,7 @@ contract Distributor is ERC721, Ownable, ReentrancyGuard {
 
       buyCoverValue = coverPrice;
     } else {
-      IERC20 token = IERC20(coverAsset);
+      IERC20Upgradeable token = IERC20Upgradeable(coverAsset);
       token.safeTransferFrom(msg.sender, address(this), coverPriceWithFee);
       token.approve(address(cover), coverPrice);
     }
@@ -206,7 +214,7 @@ contract Distributor is ERC721, Ownable, ReentrancyGuard {
       (bool ok, /* data */) = msg.sender.call{value: amountPaid}("");
       require(ok, "Distributor: Transfer to NFT owner failed");
     } else {
-      IERC20 erc20 = IERC20(coverAsset);
+      IERC20Upgradeable erc20 = IERC20Upgradeable(coverAsset);
       erc20.safeTransfer(msg.sender, amountPaid);
     }
 
@@ -244,7 +252,7 @@ contract Distributor is ERC721, Ownable, ReentrancyGuard {
       return (response, withheldAmount);
     }
 
-    IERC20 token = IERC20(asset);
+    IERC20Upgradeable token = IERC20Upgradeable(asset);
     token.safeTransferFrom(msg.sender, address(this), assetAmount);
     token.approve(address(cover), assetAmount);
     (response, withheldAmount) = cover.executeCoverAction(tokenId, action, data);
@@ -355,7 +363,7 @@ contract Distributor is ERC721, Ownable, ReentrancyGuard {
       (bool ok, /* data */) = treasury.call{value: amount}("");
       require(ok, "Distributor: Transfer to treasury failed");
     } else {
-      IERC20 erc20 = IERC20(asset);
+      IERC20Upgradeable erc20 = IERC20Upgradeable(asset);
       erc20.safeTransfer(treasury, amount);
     }
   }
