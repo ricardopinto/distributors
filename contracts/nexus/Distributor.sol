@@ -59,7 +59,7 @@ contract Distributor is Initializable, ERC721Upgradeable, OwnableUpgradeable, Re
    feePercentage applied to every cover premium. has 2 decimals. eg.: 10.00% stored as 1000
   */
   uint public feePercentage;
-  bool public buysAllowed = true;
+  bool public buysAllowed;
   /*
     address where `buyCover` distributor fees and `ethOut` from `sellNXM` are sent. Controlled by Owner.
   */
@@ -97,6 +97,7 @@ contract Distributor is Initializable, ERC721Upgradeable, OwnableUpgradeable, Re
     __ERC721_init(tokenName, tokenSymbol);
 
     _setBaseURI(DEFAULT_BASE_URI);
+    buysAllowed = true;
     feePercentage = _feePercentage;
     treasury = _treasury;
     cover = ICover(coverAddress);
