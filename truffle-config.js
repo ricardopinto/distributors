@@ -46,7 +46,11 @@ module.exports = {
       network_id: "*",       // Any network (default: none)
     },
     kovan: {
-      provider: () => new HDWalletProvider([process.env.PRIVATE_KEY], `wss://kovan.infura.io/ws/v3/${process.env.PROJECT_ID}`),
+      provider: () => new HDWalletProvider({
+        privateKeys: [process.env.PRIVATE_KEY],
+        providerOrUrl: `wss://kovan.infura.io/ws/v3/${process.env.PROJECT_ID}`,
+        chainId: 42,
+      }),
       network_id: 42, // Kovan's id
       gas: 6721975, // Kovan has a lower block limit than mainnet
       skipDryRun: true, // Skip dry run before migrations? (default: false for public nets )
